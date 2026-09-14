@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
+import vm from 'node:vm';
 import { editorBasePlugin } from './cloud-editor.mjs';
 
 const plugin = editorBasePlugin('/kontturit-testi-2');
@@ -19,4 +20,18 @@ const regexText = result.match(/pathname\.replace\((\/.*?\/), ""\)/)[1];
 const routerRegex = new Function('return '+regexText)();
 assert.equal('/kontturit-testi-2/keystatic/branch/main/collection/news'.replace(routerRegex,''),'branch/main/collection/news');
 assert.ok(result.includes('https://keystatic.cloud/'));
+const editorPage = fs.readFileSync('src/editor/EditorPage.astro', 'utf8');
+const bootstrap = editorPage.match(/<script is:inline>([\s\S]*?)<\/script>/)[1];
+function restoredPath(path) {
+  const location = new URL(path, 'https://saimajope.github.io');
+  vm.runInNewContext(bootstrap, {
+    URL, URLSearchParams, location,
+    document: {body: {dataset: {editorBase: '/kontturit-testi-2/keystatic'}}},
+    history: {replaceState(_state, _title, path) { location.href = new URL(path, location.origin).href; }},
+  });
+  return location.pathname + location.search + location.hash;
+}
+assert.equal(restoredPath('/kontturit-testi-2/keystatic/cloud/oauth/callback/?code=test&state=test'), '/kontturit-testi-2/keystatic/cloud/oauth/callback?code=test&state=test');
+assert.equal(restoredPath('/kontturit-testi-2/keystatic/?editorPath='+encodeURIComponent('/kontturit-testi-2/keystatic/branch/main/collection/news/')), '/kontturit-testi-2/keystatic/branch/main/collection/news');
+assert.equal(restoredPath('/kontturit-testi-2/keystatic/?editorPath='+encodeURIComponent('https://example.com/steal')), '/kontturit-testi-2/keystatic?editorPath='+encodeURIComponent('https://example.com/steal'));
 console.log('Keystatic project-path and OAuth callback compatibility checks passed.');

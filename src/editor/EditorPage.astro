@@ -23,6 +23,11 @@ const editorBase = import.meta.env.BASE_URL.replace(/\/$/,'')+'/keystatic';
           history.replaceState(null, '', destination.pathname + destination.search + destination.hash);
         }
       }
+      // GitHub Pages redirects directory URLs to a trailing slash, while
+      // Keystatic matches the OAuth callback and item routes exactly.
+      if (location.pathname.startsWith(document.body.dataset.editorBase + '/') && location.pathname.endsWith('/')) {
+        history.replaceState(null, '', location.pathname.replace(/\/+$/, '') + location.search + location.hash);
+      }
     </script>
     <CloudEditor client:only="react" />
     <noscript>Sisällönhallinta tarvitsee JavaScriptin. Ota JavaScript käyttöön selaimen asetuksista.</noscript>
