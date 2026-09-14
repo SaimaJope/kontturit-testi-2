@@ -1,0 +1,71 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import Icon from '../components/Icon.astro';
+import ContactBand from '../components/ContactBand.astro';
+import ContactForm from '../components/ContactForm.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import PersonCard from '../components/PersonCard.astro';
+import NewsCard from '../components/NewsCard.astro';
+import {services,people,news,offices,phoneHref,dateLabel} from '../lib/site';
+import brand from '../data/brand.json';
+
+export async function getStaticPaths(){
+ const entries=(await Promise.all((['services','people','news','pages','offices'] as const).map(type=>getCollection(type)))).flat();
+ const routes=entries.filter(e=>e.data.route!=='/').map(entry=>({params:{path:entry.data.route.slice(1)},props:{entry,page:1}}));
+ const newsIndex=entries.find(e=>e.data.route==='/uutiset');
+ const total=entries.filter(e=>e.data.type==='news').length;
+ for(let page=2;page<=Math.ceil(total/9);page++)routes.push({params:{path:`uutiset/sivu/${page}`},props:{entry:newsIndex!,page}});
+ return routes;
+}
+const {entry,page=1}=Astro.props;const p=entry.data;const route=p.route;
+const {Content}=await render(entry);
+const [allServices,allPeople,allNews,locations,allPages]=await Promise.all([services(),people(),news(),offices(),getCollection('pages')]);
+const type=p.type;
+const children=allPages.filter(e=>e.data.route.startsWith(route+'/')&&e.data.route.slice(route.length+1).split('/').length===1);
+const parentRoute=route.slice(0,route.lastIndexOf('/'));
+const parent=allPages.find(e=>e.data.route===parentRoute);
+const crumbs=type==='services'?[{title:'Lakipalvelut',href:'/lakipalvelut'},{title:p.title}]:type==='people'?[{title:'Asiantuntijat',href:'/asiantuntijat'},{title:p.title}]:type==='news'?[{title:'Uutiset',href:'/uutiset'},{title:p.title}]:type==='offices'?[{title:'Meistä',href:'/meista'},{title:p.title}]:parent?[{title:parent.data.title,href:parentRoute},{title:p.title}]:[{title:route==='/ota-yhteytta'?'Ota yhteyttä':p.title}];
+const heroDescription=page>1?`Uutisten arkisto, sivu ${page}. ${p.description}`:type==='news'&&p.date?`${dateLabel(p.date)} – ${p.description}`:p.description;
+const schema:Record<string,unknown>|undefined=type==='services'?{'@context':'https://schema.org','@type':'Service',name:p.title,description:heroDescription,provider:{'@type':'LegalService',name:'Asianajotoimisto Kontturi & Co Oy'},areaServed:locations.map(o=>({'@type':'City',name:o.data.title}))}:type==='people'?{'@context':'https://schema.org','@type':'Person',name:p.title,jobTitle:p.role,telephone:p.phone,email:p.email}:type==='news'?{'@context':'https://schema.org','@type':'NewsArticle',headline:p.title,datePublished:p.date,author:{'@type':'Organization',name:'Asianajotoimisto Kontturi & Co Oy'}}:type==='offices'?{'@context':'https://schema.org','@type':'LegalService',name:`Kontturi & Co – ${p.title}`,telephone:p.phone,email:p.email,address:{'@type':'PostalAddress',streetAddress:p.address,postalCode:p.postalCode,addressLocality:p.title,addressCountry:'FI'}}:undefined;
+const related=allPeople.filter(e=>p.relatedPeople.includes(e.id));
+const hasPrevious=page>1; const hasNext=page<Math.ceil(allNews.length/9);
+const pageTitle=route==='/ota-yhteytta'?'Ota yhteyttä':route==='/asiantuntijat'?'Asiantuntijat':page>1?`Uutiset – sivu ${page}`:route.includes('asiakasomistajakirjasto')?`${p.title} – Asiakasomistajakirjasto`:p.title;
+---
+<Layout title={pageTitle} description={heroDescription} schema={schema}>
+ <Breadcrumbs items={crumbs}/>
+ {route==='/lakipalvelut'?<>
+  <section class="page-heading center"><div class="container"><span class="eyebrow">LAKIPALVELUT</span><h1>Miten voimme auttaa?</h1><p class="lead">Oikeudellista apua elämäsi ja yrityksesi tärkeisiin tilanteisiin. Löydetään yhdessä oikea asiantuntija.</p></div></section>
+  <section class="content-section"><div class="container service-grid">{allServices.map(entry=><ServiceCard entry={entry}/>)}</div></section><ContactBand/>
+ </>:route==='/asiantuntijat'?<>
+  <section class="page-heading"><div class="container"><span class="eyebrow">IHMISET ASIOIDEN TAKANA</span><h1>Asiantuntijat tukenasi.</h1><p class="lead">Meillä on kasvot, nimi ja aikaa sinun asiallesi. Tutustu asiantuntijoihimme ja löydä oikea yhteyshenkilö.</p></div></section>
+  <section class="content-section"><div class="container people-grid">{allPeople.map(entry=><PersonCard entry={entry}/>)}</div></section><ContactBand/>
+ </>:route==='/uutiset'?<>
+  <section class="page-heading"><div class="container"><span class="eyebrow">AJANKOHTAISTA</span><h1>Uutisia Kontturilta.</h1><p class="lead">Toimistomme kuulumisia, uusia ihmisiä ja ajankohtaisia tapahtumia.</p></div></section>
+  <section class="content-section"><div class="container"><div class="news-grid">{allNews.slice((page-1)*9,page*9).map(entry=><NewsCard entry={entry}/>)}</div><nav class="pagination" aria-label="Uutisten sivut">{hasPrevious&&<a href={page===2?'/uutiset':`/uutiset/sivu/${page-1}`} aria-label="Edellinen uutissivu">←</a>}{Array.from({length:Math.ceil(allNews.length/9)},(_,i)=>i+1).map(n=>n===page?<span aria-current="page" aria-label={`Sivu ${n}`}>{n}</span>:<a href={n===1?'/uutiset':`/uutiset/sivu/${n}`} aria-label={`Sivu ${n}`}>{n}</a>)}{hasNext&&<a href={`/uutiset/sivu/${page+1}`} aria-label="Seuraava uutissivu">→</a>}</nav></div></section>
+ </>:route==='/ota-yhteytta'?<>
+  <section class="page-heading"><div class="container"><span class="eyebrow">OTA YHTEYTTÄ</span><h1>Aloitetaan keskustelusta.</h1><p class="lead">Sinun ei tarvitse tietää kaikkea etukäteen. Kerro tilanteestasi, niin selvitämme yhdessä seuraavan askeleen.</p></div></section>
+  <section class="content-section"><div class="container contact-layout"><ContactForm/><aside class="contact-aside"><h2>Ollaan yhteydessä</h2><p>Voit ottaa yhteyttä lomakkeella, sähköpostitse tai puhelimitse. Ensimmäinen yhteydenotto ei sido mihinkään.</p><a class="direct-contact" href="mailto:asianajotoimisto@kontturi.fi"><Icon name="mail"/>asianajotoimisto@kontturi.fi</a><a class="direct-contact" href={phoneHref(locations[0].data.phone)}><Icon name="phone"/>Puhelinvaihde {locations[0].data.phone}</a><div class="duty-box"><span class="eyebrow">KIIREELLINEN ASIA?</span><h3>Päivystävä juristi</h3><p>Iltaisin ja viikonloppuisin.</p><a class="direct-contact" href="tel:+358400208030">0400 20 80 30 <Icon name="phone"/></a></div><div class="contact-locations">{locations.map(({data:o})=><div><h3><a href={o.route}>{o.title}</a></h3><p>{o.address}, {o.postalCode} {o.title}</p><p>{o.hours}</p><a href={phoneHref(o.phone)}>{o.phone}</a></div>)}</div></aside></div></section>
+ </>:type==='services'?<>
+  <section class="service-detail-heading"><div class="container service-detail-grid"><div><span class="eyebrow">LAKIPALVELUT</span><h1>{p.title}</h1><p class="lead">{heroDescription}</p><a class="button primary" href="/ota-yhteytta">Keskustellaan tilanteestasi <Icon/></a></div>{p.image&&<img class="service-detail-photo" src={p.image} alt={p.imageAlt} width="650" height="440"/>}</div></section>
+  <section class="content-section"><div class="container detail-grid"><div><div class="prose"><Content/></div><div class="process"><h2>Näin pääsemme alkuun</h2><ol>{[['Ota yhteyttä','Kerro lyhyesti, mistä asiassa on kyse.'],['Selvitetään tilanne','Käymme läpi tilanteesi ja avun tarpeen.'],['Arvioidaan vaihtoehdot','Keskustelemme etenemisestä ja kustannuksista.'],['Päätät jatkamisesta','Sovimme yhdessä mahdollisesta toimeksiannosta.']].map(([a,b])=><li><h3>{a}</h3><p>{b}</p></li>)}</ol></div>{related.length>0&&<section class="related-people"><h2>Asiantuntijat tukenasi</h2>{related.map(({data:r})=><a class="related-person" href={r.route}>{r.image&&<img src={r.image} alt={r.title} width="72" height="80" loading="lazy"/>}<div><h3>{r.title}</h3><p>{r.role}</p></div><Icon/></a>)}</section>}</div><aside class="sidebar-card"><span class="eyebrow">SINUN ASIASI ON TÄRKEÄ</span><h2>Kysy meiltä.</h2><p>Et tarvitse valmiita vastauksia ottaaksesi yhteyttä. Aloitetaan sinun tilanteestasi.</p><a class="button primary" href="/ota-yhteytta">Ota yhteyttä <Icon/></a><a href={phoneHref(locations[0].data.phone)}>Puhelinvaihde {locations[0].data.phone}</a><div class="sidebar-offices">{locations.map(({data:o})=><a href={o.route}>{o.title} <span aria-hidden="true">→</span></a>)}</div></aside></div></section><ContactBand/>
+ </>:type==='people'?<>
+  <section class="container person-profile"><div><span class="eyebrow">ASIANTUNTIJAT</span><h1>{p.title}</h1><p class="role">{p.role}</p><div class="profile-contact">{p.phone&&<a href={phoneHref(p.phone)}><Icon name="phone"/>{p.phone}</a>}{p.email&&<a href={`mailto:${p.email}`}><Icon name="mail"/>{p.email}</a>}</div></div><div class="profile-photo">{p.image?<img src={p.image} alt={p.title} width="440" height="400"/>:<Icon name="phone"/>}</div></section>
+  <section class="content-section"><div class="container detail-grid"><div class="prose"><Content/></div><aside class="sidebar-card"><h2>Otetaan selvää yhdessä.</h2><p>Voit olla yhteydessä suoraan tai jättää yhteydenottopyynnön toimistollemme.</p><a class="button primary" href="/ota-yhteytta">Ota yhteyttä <Icon/></a><a href="/asiantuntijat">Kaikki asiantuntijat →</a></aside></div></section>
+ </>:type==='news'?<>
+  <div class="container"><header class="article-header"><span class="eyebrow">UUTISET</span><h1>{p.title}</h1>{p.date&&<time datetime={p.date}>{dateLabel(p.date)}</time>}</header></div><article class="container content-section"><div class="article-body">{p.image&&<img class="article-photo" src={p.image} alt={p.imageAlt} width="800" height="490"/>}<div class="prose"><Content/></div><div class="article-footer"><a href="/uutiset" class="text-link">Kaikki uutiset <Icon/></a></div></div></article><section class="section pale"><div class="container"><div class="section-heading"><span class="eyebrow">LUE MYÖS</span><h2>Lisää kuulumisia.</h2></div><div class="news-grid">{allNews.filter(e=>e.data.route!==route).slice(0,3).map(entry=><NewsCard entry={entry}/>)}</div></div></section>
+ </>:type==='offices'?<>
+  <section class="page-heading"><div class="container"><span class="eyebrow">KONTTURI & CO · {p.title.toLocaleUpperCase('fi')}</span><h1>Asianajotoimisto<br/><span class="blue-text">{p.title}.</span></h1><p class="lead">{p.description}</p><div class="office-hero-actions"><a class="button primary" href={`/ota-yhteytta?toimisto=${encodeURIComponent(p.title)}`}>Ota yhteyttä <Icon/></a><a class="text-link" href={phoneHref(p.phone)}><Icon name="phone"/>{p.phone}</a></div></div></section>
+  <section class="content-section"><div class="container detail-grid"><div><div class="prose"><Content/></div><div class="about-links"><a href="/lakipalvelut">Tutustu palveluihimme <Icon/></a><a href="/asiantuntijat">Tutustu asiantuntijoihin <Icon/></a></div></div><aside class="office-facts"><span class="office-banner"><Icon name="location"/>{p.title}</span><h2>Tervetuloa toimistollemme</h2><p>{p.address}<br/>{p.postalCode} {p.title}</p><p>{p.hours}</p><p><a href={phoneHref(p.phone)}>{p.phone}</a></p><p><a href={`mailto:${p.email}`}>{p.email}</a></p><a class="button primary" href={`/ota-yhteytta?toimisto=${encodeURIComponent(p.title)}`}>Ota yhteyttä <Icon/></a></aside></div></section><ContactBand/>
+ </>:route==='/meista'?<>
+  <section class="page-heading"><div class="container"><span class="eyebrow">KONTTURI & CO</span><h1>Asiantuntemusta.<br/><span class="blue-text">Ihmisiä varten.</span></h1></div></section><section class="content-section"><div class="container"><div class="about-grid"><div class="prose"><Content/></div><img src={brand.hero} alt="Kontturin asiantuntijoita yhteisen pöydän äärellä" width="700" height="400"/></div><div class="about-links"><a href="/asiantuntijat">Tutustu asiantuntijoihin <Icon/></a><a href="/trainee-ohjelma">Kontturin Trainee-ohjelma <Icon/></a><a href="/yhteistyossa">Yhteistyökumppanimme <Icon/></a><a href="/yhteistyossa/osuuskaupan-asiakasomistaja">Asiakasomistajaedut <Icon/></a></div></div></section><section class="section pale"><div class="container"><div class="section-heading"><span class="eyebrow">LÄHELLÄ SINUA</span><h2>Kolme toimistoa. Yhteinen osaaminen.</h2></div><div class="office-grid">{locations.map(({data:o})=><div class="office-card"><h3>{o.title}</h3><p>{o.address}<br/>{o.postalCode} {o.title}</p><p>{o.hours}</p><a href={phoneHref(o.phone)}>{o.phone}</a><br/><a class="text-link" href={o.route}>Tutustu toimistoon <Icon/></a></div>)}</div></div></section><ContactBand/>
+ </>:<>
+  <section class="page-heading"><div class="container"><span class="eyebrow">{route.includes('asiakasomistajakirjasto')?'ASIAKASOMISTAJAKIRJASTO':route==='/trainee-ohjelma'?'URA KONTTURILLA':'KONTTURI & CO'}</span><h1>{p.title}</h1></div></section>
+  <section class:list={['content-section',{'partners':route==='/yhteistyossa'}]}><div class="container detail-grid"><div><div class="prose"><Content/></div>{children.length>0&&<div class="library-links">{children.map(({data:c})=><a class="library-link" href={c.route}><span>{c.title}</span><Icon/></a>)}</div>}</div><aside class="sidebar-card"><h2>Apua oikeudellisiin kysymyksiin</h2><p>Kerro tilanteestasi. Autamme sinua löytämään oikean asiantuntijan.</p><a href="/ota-yhteytta" class="button primary">Ota yhteyttä <Icon/></a><a href="/lakipalvelut">Kaikki lakipalvelut →</a>{route.includes('asiakasomistajakirjasto')&&<a href="/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto">Asiakasomistajakirjasto →</a>}</aside></div></section>
+ </>}
+</Layout>
+<script>
+ const legacyPage=new URLSearchParams(location.search).get('ccm_paging_p');
+ if(location.pathname.replace(/\/$/,'')==='/uutiset'&&legacyPage&&/^[2-4]$/.test(legacyPage))location.replace(`/uutiset/sivu/${legacyPage}`);
+</script>

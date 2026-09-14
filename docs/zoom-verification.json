@@ -1,0 +1,70 @@
+{
+  "method": "200% magnification of a 720px responsive iframe in a 1440px viewport",
+  "results": [
+    {
+      "name": "etusivu",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "palvelut",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "palvelu",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "henkilosto",
+      "scrollWidth": 720,
+      "width": 720
+    },
+    {
+      "name": "henkilo",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "uutiset",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "artikkeli",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "toimisto",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "meista",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "yhteys",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "sisaltosivu",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "kirjasto",
+      "scrollWidth": 712,
+      "width": 712
+    },
+    {
+      "name": "404",
+      "scrollWidth": 712,
+      "width": 712
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+---
+import brand from '../data/brand.json';
+import Icon from './Icon.astro';
+const current = Astro.url.pathname;
+const links=[['Lakipalvelut','/lakipalvelut'],['Asiantuntijat','/asiantuntijat'],['Meistä','/meista'],['Uutiset','/uutiset'],['Ota yhteyttä','/ota-yhteytta']];
+---
+<header class="site-header" id="alku">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="Kontturi & Co – etusivu"><img src={brand.logo} alt="Asianajotoimisto Kontturi & Co Oy" width="310" height="58" fetchpriority="high" /></a>
+    <nav class="desktop-nav" aria-label="Päävalikko">{links.map(([label,href])=><a href={href} aria-current={current.startsWith(href)?'page':undefined}>{label}</a>)}</nav>
+    <a class="duty" href="tel:+358400208030"><Icon name="phone"/><span><small>Päivystys</small><span>0400 20 80 30</span></span></a>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Avaa valikko"><span></span><span></span><span></span></button>
+  </div>
+  <nav id="mobile-menu" class="mobile-menu" aria-label="Mobiilivalikko" hidden>{links.map(([label,href])=><a href={href}>{label}<Icon/></a>)}<a href="tel:+358400208030">Päivystys 0400 20 80 30<Icon name="phone"/></a></nav>
+</header>
+<script>
+  const button=document.querySelector<HTMLButtonElement>('.menu-toggle');
+  const menu=document.querySelector<HTMLElement>('#mobile-menu');
+  function toggle(open:boolean){if(!button||!menu)return;button.setAttribute('aria-expanded',String(open));button.setAttribute('aria-label',open?'Sulje valikko':'Avaa valikko');menu.hidden=!open;}
+  button?.addEventListener('click',()=>toggle(button.getAttribute('aria-expanded')!=='true'));
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&button?.getAttribute('aria-expanded')==='true'){toggle(false);button.focus();}});
+  menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>toggle(false)));
+  matchMedia('(min-width: 1180px)').addEventListener('change',e=>{if(e.matches)toggle(false);});
+</script>

@@ -1,0 +1,13 @@
+import assert from 'node:assert/strict';
+import {contactAdapter,validateContact} from '../src/lib/contact.ts';
+const valid={name:'Testi Käyttäjä',email:'test@example.test',phone:'',office:'Jyväskylä',subject:'Muu asia',message:'Paikallinen toimintatesti.',privacyAccepted:true};
+assert.deepEqual(validateContact(valid),{});
+assert.ok(validateContact({...valid,email:'virheellinen'}).email);
+assert.ok(validateContact({...valid,message:'   lyhyt '}).message);
+assert.ok(validateContact({...valid,name:' '}).name);
+assert.ok(validateContact({...valid,office:''}).office);
+assert.ok(validateContact({...valid,privacyAccepted:false}).privacyAccepted);
+const result=await contactAdapter.submit(valid);
+assert.equal(result.kind,'local');
+assert.match(result.message,/viestiä ei lähetetty/);
+console.log('Contact validation and explicit local no-send adapter: passed.');

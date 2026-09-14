@@ -1,0 +1,905 @@
+{
+  "checkedAt": "2026-09-14T17:42:23.916Z",
+  "pages": 123,
+  "migrated": 115,
+  "failures": [],
+  "warnings": [],
+  "records": [
+    {
+      "route": "/404.html",
+      "title": "Sivua ei löytynyt | Kontturi & Co",
+      "description": "Hakemaasi sivua ei löytynyt. Palaa Kontturin etusivulle, tutustu lakipalveluihin tai ota yhteyttä.",
+      "mainCharacters": 173,
+      "images": 0
+    },
+    {
+      "route": "/asiantuntijat/anniina-korjus",
+      "title": "Anniina Korjus | Kontturi & Co",
+      "description": "Asianajaja, oikeustieteen maisteri Anniina Korjus on keskittynyt hoitamaan erityisesti laajoja ja vaativia sopimusoikeudellisia toimeksiantoja.",
+      "mainCharacters": 1355,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/harri-kontturi",
+      "title": "Harri Kontturi | Kontturi & Co",
+      "description": "Asianajaja, varatuomari Harri Kontturi on toiminut asianajotehtävissä viidellä eri vuosikymmenellä.",
+      "mainCharacters": 2643,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/heidi-hamalainen",
+      "title": "Heidi Hämäläinen | Kontturi & Co",
+      "description": "Asianajosihteeri Heidi Hämäläinen on toiminut palveluksessamme vuodesta 2016 alkaen.",
+      "mainCharacters": 605,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/helmi-helotie",
+      "title": "Helmi Helotie | Kontturi & Co",
+      "description": "Lakimies, oikeustieteen maisteri Helmi Helotie on erikoistunut jäämistöoikeuteen sekä yhtiö- ja sopimusasioihin.",
+      "mainCharacters": 703,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/hillevi-kontturi",
+      "title": "Hillevi Kontturi | Kontturi & Co",
+      "description": "Asianajaja Hillevi Kontturi on erikoistunut työoikeuteen sekä erityisesti työsuhteen irtisanomis- ja päättämistilanteisiin.",
+      "mainCharacters": 1559,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat",
+      "title": "Asiantuntijat | Kontturi & Co",
+      "description": "Asianajaja, laamanni, varatuomari",
+      "mainCharacters": 2140,
+      "images": 19
+    },
+    {
+      "route": "/asiantuntijat/janika-pelkonen",
+      "title": "Janika Pelkonen | Kontturi & Co",
+      "description": "Lakimies Janika Pelkonen on aloittanut toimistomme palveluksessa syksyllä 2022.",
+      "mainCharacters": 1491,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/janika-raty",
+      "title": "Janika Räty | Kontturi & Co",
+      "description": "Asianajaja Janika Räty on erikoistunut rikos- ja prosessioikeuteen.",
+      "mainCharacters": 1136,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/jyrki-piiparinen",
+      "title": "Jyrki Piiparinen | Kontturi & Co",
+      "description": "Asianajaja Piiparisella on kohta 30 vuoden kokemus asianajotehtävistä.",
+      "mainCharacters": 2329,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/matti-tolvanen",
+      "title": "Matti Tolvanen | Kontturi & Co",
+      "description": "Varatuomari, OTT, professori (emeritus) Matti Tolvanen on toiminut eri lakimiestehtävissä (syyttäjänä, hallintolakimiehenä ja rikos- ja prosessioikeuden professorina) vuodesta 1978 lähtien.",
+      "mainCharacters": 2458,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/niina-kukkonen",
+      "title": "Niina Kukkonen | Kontturi & Co",
+      "description": "Asianajaja, oikeustieteen ja hallintotieteiden maisteri Niina Kukkonen on erikoistunut asunto- ja kiinteistökauppariitoihin.",
+      "mainCharacters": 1397,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/nina-huikuri",
+      "title": "Nina Huikuri | Kontturi & Co",
+      "description": "Nina on aloittanut sihteerinämme syyskuussa 2022. Ninalla on takanaan pitkä kokemus esimiestehtävistä kaupan alalta. Vapaa-ajan Nina viettää urheilun ja perheen parissa.",
+      "mainCharacters": 434,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/paivystava-lakimies",
+      "title": "Päivystävä lakimies | Kontturi & Co",
+      "description": "Kiireellisessä tilanteessa tavoitat toimistomme päivystävän lakimiehen numerosta 0400 208 030 myös iltaisin ja viikonloppuisin.",
+      "mainCharacters": 370,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/pirjo-makela",
+      "title": "Pirjo Mäkelä | Kontturi & Co",
+      "description": "Asianajaja Pirjo Mäkelällä on yli kymmenen vuoden monipuolinen kokemus asianajajan työstä.",
+      "mainCharacters": 1303,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/rasmus-ruokonen",
+      "title": "Rasmus Ruokonen | Kontturi & Co",
+      "description": "Oikeustieteen maisteri Rasmus Ruokonen on aloittanut toimistomme lakimiehenä syksyllä 2025.",
+      "mainCharacters": 887,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/samuli-myller",
+      "title": "Samuli Myller | Kontturi & Co",
+      "description": "Asianajaja Samuli Myller on työskennellyt toimistomme palveluksessa syksystä 2020 lähtien.",
+      "mainCharacters": 900,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/sanni-hiltunen",
+      "title": "Sanni Hiltunen | Kontturi & Co",
+      "description": "Sanni Hiltunen on aloittanut sihteerinämme keväällä 2025.",
+      "mainCharacters": 443,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/siiri-klubb",
+      "title": "Siiri Klubb | Kontturi & Co",
+      "description": "Oikeustieteen maisteri Siiri Klubb on aloittanut toimistomme lakimiehenä elokuussa 2026.",
+      "mainCharacters": 737,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/tatu-hirvonen",
+      "title": "Tatu Hirvonen | Kontturi & Co",
+      "description": "Asianajaja, toimistomme toimitusjohtaja Tatu Hirvonen on erikoistunut liikejuridiikkaan ja hän hoitaa pääasiassa eri kokoisten yritysten kokonaisvaltaista oikeudellista…",
+      "mainCharacters": 1623,
+      "images": 1
+    },
+    {
+      "route": "/asiantuntijat/veikko-haimila",
+      "title": "Veikko Haimila | Kontturi & Co",
+      "description": "Luumäkeläislähtöinen oikeustieteen maisteri Veikko Haimila on aloittanut toimistomme lakimiehenä keväällä 2024.",
+      "mainCharacters": 1634,
+      "images": 1
+    },
+    {
+      "route": "/",
+      "title": "Oikeudellista apua. Ihmiseltä ihmiselle. | Kontturi & Co",
+      "description": "Asianajotoimisto Kontturi & Co. Oikeudellista apua ihmiseltä ihmiselle Joensuussa, Jyväskylässä ja Lappeenrannassa.",
+      "mainCharacters": 1296,
+      "images": 4
+    },
+    {
+      "route": "/lakipalvelut/asuntokauppariidat",
+      "title": "Asuntokauppariidat | Kontturi & Co",
+      "description": "Autamme asunto- ja kiinteistökaupan sekä rakentamisen erimielisyyksissä. Selvitämme tilanteesi ja etenemisvaihtoehdot.",
+      "mainCharacters": 1566,
+      "images": 3
+    },
+    {
+      "route": "/lakipalvelut/immateriaalioikeus",
+      "title": "Immateriaalioikeus | Kontturi & Co",
+      "description": "Pidä huolta yrityksesi osaamisesta ja oikeuksista. Autamme aineettoman omaisuuden suojaamisessa ja siihen liittyvissä sopimuksissa.",
+      "mainCharacters": 1397,
+      "images": 2
+    },
+    {
+      "route": "/lakipalvelut",
+      "title": "Lakipalvelut | Kontturi & Co",
+      "description": "Olemme erikoistuneet riitojen ratkaisuun. Toimeksiannon alussa sovimme kanssasi siitä, että sinun asiaasi hoitaa juuri kyseiseen juttutyyppiin erikoistunut juristi.",
+      "mainCharacters": 2179,
+      "images": 14
+    },
+    {
+      "route": "/lakipalvelut/insolvenssioikeus",
+      "title": "Insolvenssioikeus | Kontturi & Co",
+      "description": "Kun maksuvaikeudet koskettavat yritystä, autamme selvittämään vaihtoehdot ja seuraavat askeleet.",
+      "mainCharacters": 1316,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/julkiset-hankinnat",
+      "title": "Julkiset hankinnat | Kontturi & Co",
+      "description": "Autamme hankintayksiköitä ja tarjoajia julkisten hankintojen suunnittelussa, kilpailutuksissa ja erimielisyyksissä.",
+      "mainCharacters": 1152,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/kuntajuristi",
+      "title": "Kuntaoikeus | Kontturi & Co",
+      "description": "Oikeudellista tukea kuntien ja muiden julkisyhteisöjen päätöksentekoon ja arkeen.",
+      "mainCharacters": 1050,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/perhe-ja-perintooikeus",
+      "title": "Perhe- ja perintöoikeus | Kontturi & Co",
+      "description": "Olemme tukenasi perintöön, jäämistösuunnitteluun ja perheen oikeudellisiin asioihin liittyvissä kysymyksissä.",
+      "mainCharacters": 2485,
+      "images": 2
+    },
+    {
+      "route": "/lakipalvelut/riidanratkaisu",
+      "title": "Riidanratkaisu | Kontturi & Co",
+      "description": "Kun näkemykset eroavat, autamme löytämään tien eteenpäin. Selvitämme vaihtoehdot ja pidämme puoliasi neuvotteluissa ja oikeudessa.",
+      "mainCharacters": 1766,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/rikosoikeus",
+      "title": "Rikosoikeus | Kontturi & Co",
+      "description": "Asiantuntevaa apua rikosasian eri vaiheisiin. Autamme sinua ymmärtämään oikeutesi ja asian etenemisen.",
+      "mainCharacters": 1168,
+      "images": 2
+    },
+    {
+      "route": "/lakipalvelut/sopimusoikeus",
+      "title": "Sopimusoikeus | Kontturi & Co",
+      "description": "Hyvä sopimus tuo varmuutta. Autamme sopimusten laatimisessa, arvioinnissa ja sopimuserimielisyyksissä.",
+      "mainCharacters": 1329,
+      "images": 2
+    },
+    {
+      "route": "/lakipalvelut/tietosuoja-asiat",
+      "title": "Tietosuoja-asiat | Kontturi & Co",
+      "description": "Käytännönläheistä neuvontaa tietosuojaan. Autamme organisaatiotasi käsittelemään henkilötietoja asianmukaisesti.",
+      "mainCharacters": 1130,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/tyo-ja-virkamiesoikeus",
+      "title": "Työ- ja virkamiesoikeus | Kontturi & Co",
+      "description": "Selkeää tukea työelämän kysymyksiin. Autamme työntekijöitä, työnantajia ja virkasuhteessa toimivia.",
+      "mainCharacters": 1245,
+      "images": 2
+    },
+    {
+      "route": "/lakipalvelut/yhdistys-ja-saatiooikeus",
+      "title": "Yhdistys- ja säätiöoikeus | Kontturi & Co",
+      "description": "Oikeudellista tukea yhdistysten ja säätiöiden toimintaan, hallintoon ja päätöksentekoon.",
+      "mainCharacters": 1199,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/ymparistooikeus",
+      "title": "Ympäristöoikeus | Kontturi & Co",
+      "description": "Autamme ympäristöön, rakentamiseen ja maankäyttöön liittyvissä oikeudellisissa kysymyksissä.",
+      "mainCharacters": 1289,
+      "images": 1
+    },
+    {
+      "route": "/lakipalvelut/yritysjuridiikka",
+      "title": "Yritysjuridiikka | Kontturi & Co",
+      "description": "Autamme yritystäsi perustamisesta kasvuun ja muutoksiin. Saat tukea sopimuksiin ja arjen oikeudellisiin kysymyksiin.",
+      "mainCharacters": 1851,
+      "images": 2
+    },
+    {
+      "route": "/meista",
+      "title": "Meistä | Kontturi & Co",
+      "description": "Kontturi & Co palvelee yksityisasiakkaita, yrityksiä ja yhteisöjä Joensuussa, Jyväskylässä ja Lappeenrannassa.",
+      "mainCharacters": 1129,
+      "images": 1
+    },
+    {
+      "route": "/ota-yhteytta",
+      "title": "Ota yhteyttä | Kontturi & Co",
+      "description": "Kauppakatu 17 B 80100 Joensuu",
+      "mainCharacters": 3150,
+      "images": 0
+    },
+    {
+      "route": "/tietosuojaseloste",
+      "title": "Asianajotoimisto Kontturi & Co Oy:n Tietosuojaseloste | Kontturi & Co",
+      "description": "Päivitetty 22.1.2025",
+      "mainCharacters": 19842,
+      "images": 0
+    },
+    {
+      "route": "/toimistot/joensuu",
+      "title": "Joensuu | Kontturi & Co",
+      "description": "Joensuun toimistomme palvelee Pohjois-Karjalan yksityisasiakkaita, yrityksiä ja yhteisöjä. Löydät meidät Kauppakadulta kaupungin keskustasta.",
+      "mainCharacters": 896,
+      "images": 0
+    },
+    {
+      "route": "/toimistot/jyvaskyla",
+      "title": "Jyväskylä | Kontturi & Co",
+      "description": "Jyväskylän toimistomme palvelee Keski-Suomen yksityisasiakkaita ja yrityksiä. Olemme tukenasi elämän ja yritystoiminnan oikeudellisissa kysymyksissä.",
+      "mainCharacters": 919,
+      "images": 0
+    },
+    {
+      "route": "/toimistot/lappeenranta",
+      "title": "Lappeenranta | Kontturi & Co",
+      "description": "Lappeenrannan toimistomme palvelee Etelä-Karjalan asiakkaita Karjalankulmassa. Toimisto sijaitsee Oksasenkatu 8 B:n kolmannessa kerroksessa.",
+      "mainCharacters": 922,
+      "images": 0
+    },
+    {
+      "route": "/trainee-ohjelma",
+      "title": "Kontturin Trainee-ohjelma | Kontturi & Co",
+      "description": "Asianajotoimistomme on työllistänyt oikeustieteen opiskelijoita jo yli 10 vuoden ajan, ja trainee-ohjelmassamme on mukana jatkuvasti kahdesta neljään opiskelijaa.",
+      "mainCharacters": 1294,
+      "images": 1
+    },
+    {
+      "route": "/uutiset/aloitamme-yhteistyon-koillismaan-osuuskaupan-kanssa",
+      "title": "Aloitamme yhteistyön Koillismaan Osuuskaupan kanssa | Kontturi & Co",
+      "description": "1.3.2023 – Olemme solmineet yhteistyösopimuksen Koillismaan Osuuskaupan kanssa!",
+      "date": "2023-03-01",
+      "mainCharacters": 1524,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/aloitamme-yhteistyon-osuuskauppa-keskimaan-kanssa",
+      "title": "Aloitamme yhteistyön Osuuskauppa Keskimaan kanssa | Kontturi & Co",
+      "description": "17.6.2025 – Asianajotoimistomme on solminut yhteistyösopimuksen Osuuskauppa Keskimaan kanssa ja toimistomme tulee avaamaan oman toimipisteen Jyväskylään, Kauppakeskus Sokkarille 1.10.2025 alkaen.",
+      "date": "2025-06-17",
+      "mainCharacters": 1941,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/anniina-korjuksesta-asianajaja",
+      "title": "Anniina Korjuksesta asianajaja | Kontturi & Co",
+      "description": "13.9.2024 – Suomen Asianajajaliiton hallitus on kokouksessaan myöntänyt toimistomme juristi Anniina Korjukselle asianajajan nimikkeen.",
+      "date": "2024-09-13",
+      "mainCharacters": 1293,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajaja-janika-raty-kutsuttu-toimistomme-osakkaaksi",
+      "title": "Asianajaja Janika Räty on kutsuttu toimistomme osakkaaksi! | Kontturi & Co",
+      "description": "2.4.2026 – Toimistomme rikosoikeuden vastuujuristi, asianajaja Janika Räty on kutsuttu Asianajotoimisto Kontturi & Co Oy:n osakkaaksi.",
+      "date": "2026-04-02",
+      "mainCharacters": 2793,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajaja-niina-kukkonen-kutsuttu-toimistomme-osakkaaksi",
+      "title": "Asianajaja Niina Kukkonen on kutsuttu toimistomme osakkaaksi | Kontturi & Co",
+      "description": "10.9.2021 – Asianajaja Niina Kukkonen on kutsuttu Asianajotoimisto Kontturi & Co Oy:n osakkaaksi.",
+      "date": "2021-09-10",
+      "mainCharacters": 1317,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajaja-piiparinen-valittiin-pohjois-karjalan-yrittajien-varapuheenjohtajaksi",
+      "title": "Asianajaja Piiparinen valittiin Pohjois-Karjalan Yrittäjien varapuheenjohtajaksi | Kontturi & Co",
+      "description": "14.12.2021 – Toimistomme osakas, asianajaja Jyrki Piiparinen valittiin eilen Pohjois-Karjalan Yrittäjät ry:n varapuheenjohtajaksi.",
+      "date": "2021-12-14",
+      "mainCharacters": 1433,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajaja-pirjo-makela-kutsuttu-toimistomme-osakkaaksi",
+      "title": "Asianajaja Pirjo Mäkelä on kutsuttu toimistomme osakkaaksi! | Kontturi & Co",
+      "description": "13.10.2023 – Toimistomme perhe- ja perintöoikeuden vastuujuristi, asianajaja Pirjo Mäkelä on kutsuttu Asianajotoimisto Kontturi & Co Oy:n osakkaaksi.",
+      "date": "2023-10-13",
+      "mainCharacters": 2914,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajaja-pirjo-makela-palannut-vanhempainvapaalta",
+      "title": "Asianajaja Pirjo Mäkelä on palannut vanhempainvapaalta | Kontturi & Co",
+      "description": "1.8.2023 – Asianajaja Pirjo Mäkelä on palannut takaisin toimistomme vahvuuteen vanhempainvapaalta!",
+      "date": "2023-08-01",
+      "mainCharacters": 1223,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajotoimisto-kontturi-co-laajentaa-lappeenrantaan",
+      "title": "Asianajotoimisto Kontturi & Co laajentaa Lappeenrantaan | Kontturi & Co",
+      "description": "20.5.2024 – Asianajotoimistomme laajentaa toimintaa Lappeenrantaan vuonna 2024!",
+      "date": "2024-05-20",
+      "mainCharacters": 3184,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajotoimistomme-ja-etela-karjalan-osuuskauppa-ovat-solmineet-yhteistyosopimuksen",
+      "title": "Asianajotoimistomme ja Etelä-Karjalan Osuuskauppa ovat solmineet yhteistyösopimuksen! | Kontturi & Co",
+      "description": "16.9.2024 – Asianajotoimistomme palvelukenttä Lappeenrannassa ja sen lähialueilla laajenee entisestään, kun olemme solmineet laajan yhteistyösopimuksen Etelä-Karjalan Osuuskauppa Eekoon kanssa!",
+      "date": "2024-09-16",
+      "mainCharacters": 3263,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/asianajotoimistomme-ja-lentopalloseura-joen-juju-ovat-solmineet-yhteistyosopimuksen",
+      "title": "Asianajotoimistomme ja lentopalloseura Joen Juju ovat solmineet yhteistyösopimuksen | Kontturi & Co",
+      "description": "22.9.2023 – Meillä on ilo julkistaa yhteistyökumppanuus Joen Jujun naisten edustusjoukkueen kanssa kaudelle 2023-2024.",
+      "date": "2023-09-22",
+      "mainCharacters": 1735,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/hillevi-kontturi-karviselle-asianajajan-titteli",
+      "title": "Hillevi Kontturi-Karviselle asianajajan titteli | Kontturi & Co",
+      "description": "25.9.2023 – Suomen Asianajajaliiton hallitus on kokouksessaan myöntänyt toimistomme juristi Hillevi Kontturi-Karviselle asianajajan nimikkeen.",
+      "date": "2023-09-25",
+      "mainCharacters": 1203,
+      "images": 4
+    },
+    {
+      "route": "/uutiset",
+      "title": "Uutiset | Kontturi & Co",
+      "description": "03.08.2026",
+      "date": "2026-08-03",
+      "mainCharacters": 1930,
+      "images": 9
+    },
+    {
+      "route": "/uutiset/janika-pelkonen-aloittanut-toimistomme-lakimiehena",
+      "title": "Janika Pelkonen on aloittanut toimistomme lakimiehenä | Kontturi & Co",
+      "description": "2.5.2024 – Toimistollamme työskentelee tällä hetkellä 12 juristia, kun harjoittelijana syksystä 2022 työskennellyt Janika Pelkonen on valmistunut oikeustieteen maisteriksi ja aloittanut…",
+      "date": "2024-05-02",
+      "mainCharacters": 1434,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/janika-raty-nimitetty-toimistomme-lakimieheksi",
+      "title": "Janika Räty on nimitetty toimistomme lakimieheksi | Kontturi & Co",
+      "description": "1.11.2021 – Asianajotoimistollamme työskentelee nyt kymmenen juristia: yli kolme vuotta toimistomme harjoittelijana toiminut Janika Räty valmistui oikeustieteen maisteriksi ja hänet on nimitetty…",
+      "date": "2021-11-01",
+      "mainCharacters": 1348,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/janika-ratylle-asianajajan-titteli",
+      "title": "Janika Rätylle asianajajan titteli | Kontturi & Co",
+      "description": "16.10.2025 – Suomen Asianajajien hallitus on myöntänyt toimistomme juristi Janika Rädylle asianajajan nimikkeen.",
+      "date": "2025-10-16",
+      "mainCharacters": 1271,
+      "images": 5
+    },
+    {
+      "route": "/uutiset/juristimme-hillevi-kontturi-karvinen-neuvoo-asiakkaitamme-taas-tyosuhdeasioissa",
+      "title": "Juristimme Hillevi Kontturi-Karvinen neuvoo asiakkaitamme taas työsuhdeasioissa | Kontturi & Co",
+      "description": "14.9.2023 – Lakimiehemme Hillevi Kontturi-Karvinen on takaisin toimistomme vahvuudessa syyskuun alusta lukien.",
+      "date": "2023-09-14",
+      "mainCharacters": 1186,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/keskimaan-neuvontapaivien-ajanvaraus-avautuu",
+      "title": "Keskimaan neuvontapäivien ajanvaraus avautuu! | Kontturi & Co",
+      "description": "7.9.2025 – Jyväskylän toimistomme avajaiset lähenevät ja etenemme kohti lokakuun alkua reippain harppauksin!",
+      "date": "2025-09-07",
+      "mainCharacters": 1266,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/kristiina-vola-aloitti-toimistollamme-asianajajana",
+      "title": "Kristiina Vola aloitti toimistollamme asianajajana! | Kontturi & Co",
+      "description": "9.1.2024 – Vuoden alkuun iloisia nimitysuutisia: asianajaja Kristiina Vola on aloittanut työskentelyn toimistollamme.",
+      "date": "2024-01-09",
+      "mainCharacters": 1514,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/lappeenrannan-toimisto-avattu",
+      "title": "Lappeenrannan toimisto on avattu | Kontturi & Co",
+      "description": "2.9.2024 – Kontturi & Co avasi toimiston Lappeenrantaan syyskuussa 2024. Toimistomme palvelee Karjalankulmassa osoitteessa Oksasenkatu 8 B.",
+      "date": "2024-09-02",
+      "mainCharacters": 1834,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/matti-tolvasesta-laaja-henkilokuva-advokaatissa",
+      "title": "Matti Tolvasesta laaja henkilökuva Advokaatissa | Kontturi & Co",
+      "description": "14.5.2024 – Matti Tolvasesta laaja henkilökuva Advokaatissa",
+      "date": "2024-05-14",
+      "mainCharacters": 1219,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/olemme-mukana-oikeusjaksaa-kampanjassa",
+      "title": "Olemme mukana #OikeusJaksaa -kampanjassa | Kontturi & Co",
+      "description": "12.5.2021 – Suomen Asianajajaliitto on lanseerannut #OikeusJaksaa -kampanjan työhyvinvoinnin ja paremman työkulttuurin puolesta.",
+      "date": "2021-05-12",
+      "mainCharacters": 1534,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/perintoviikot-tulevat-taas-huhtikuussa",
+      "title": "Perintöviikot tulevat taas huhtikuussa! | Kontturi & Co",
+      "description": "7.2.2023 – Asianajotoimistomme järjestää historian toiset perintöviikot huhtikuussa 2023. Perintöviikoilla tarjotaan kaikille maksuttomia neuvotteluita ja webinaareja seuraavasti:",
+      "date": "2023-02-07",
+      "mainCharacters": 2043,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/perintoviikot-tulevat-varaa-paikkasi",
+      "title": "Perintöviikot tulevat – varaa paikkasi! | Kontturi & Co",
+      "description": "7.2.2022 – Perintöviikot tulevat maaliskuussa!",
+      "date": "2022-02-07",
+      "mainCharacters": 1794,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/professori-matti-tolvanen-aloittanut-toimistomme-palveluksessa",
+      "title": "Professori Matti Tolvanen on aloittanut toimistomme palveluksessa | Kontturi & Co",
+      "description": "1.2.2024 – Rikos- ja prosessioikeuden professori (emeritus), oikeustieteen tohtori, varatuomari Matti Tolvanen on aloittanut asianajotoimistossamme neuvottelevana lakimiehenä!",
+      "date": "2024-02-01",
+      "mainCharacters": 3046,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/samuli-myller-asianajajaksi",
+      "title": "Samuli Myller asianajajaksi | Kontturi & Co",
+      "description": "28.10.2024 – Suomen Asianajajaliiton hallitus myöntänyt toimistomme juristi Samuli Myllerille asianajajan nimikkeen.",
+      "date": "2024-10-28",
+      "mainCharacters": 1064,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/siiri-klubb-aloittanut-toimistomme-uutena-juristina",
+      "title": "Siiri Klubb on aloittanut toimistomme uutena juristina | Kontturi & Co",
+      "description": "3.8.2026 – Toimistollamme juristien määrä on kasvanut viiteentoista, kun harjoittelijana vuodesta 2024 lukien toiminut Siiri Klubb on valmistunut oikeustieteen maisteriksi ja aloittanut…",
+      "date": "2026-08-03",
+      "mainCharacters": 1313,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/sivu/2",
+      "title": "Uutiset – sivu 2 | Kontturi & Co",
+      "description": "Uutisten arkisto, sivu 2. 03.08.2026",
+      "date": "2024-05-20",
+      "mainCharacters": 1852,
+      "images": 9
+    },
+    {
+      "route": "/uutiset/sivu/3",
+      "title": "Uutiset – sivu 3 | Kontturi & Co",
+      "description": "Uutisten arkisto, sivu 3. 03.08.2026",
+      "date": "2023-09-14",
+      "mainCharacters": 1721,
+      "images": 9
+    },
+    {
+      "route": "/uutiset/sivu/4",
+      "title": "Uutiset – sivu 4 | Kontturi & Co",
+      "description": "Uutisten arkisto, sivu 4. 03.08.2026",
+      "date": "2021-09-07",
+      "mainCharacters": 1064,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/toimistomme-avusti-cloudia-oyta-yli-100-miljoonan-euron-yritysjarjestelyssa",
+      "title": "Toimistomme avusti Cloudia Oy:tä yli 100 miljoonan euron yritysjärjestelyssä | Kontturi & Co",
+      "description": "2.6.2021 – Asianajotoimistomme toimi viiden lakialan ammattilaisen tiimillä Cloudia Oy:n oikeudellisena neuvonantajana kaupassa, jossa yhtiön osakekanta myytiin norjalaiselle Mercell ASA:lle.",
+      "date": "2021-06-02",
+      "mainCharacters": 1759,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/toimistomme-mukana-tarjoamassa-ilmaisen-sovittelun",
+      "title": "Toimistomme on mukana tarjoamassa ilmaisen sovittelun | Kontturi & Co",
+      "description": "7.9.2021 – Asianajotoimistomme on mukana Suomen Asianajajaliiton järjestämässä Sovittelun Supersyksyssä: asianajamme Jyrki Piiparinen ja Pirjo Mäkelä tarjoavat loppuvuoden aikana riidan…",
+      "date": "2021-09-07",
+      "mainCharacters": 1661,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/tyokuiskaajan-kuntakierros-kiertaa-maakuntaa",
+      "title": "Työkuiskaajan kuntakierros kiertää maakuntaa | Kontturi & Co",
+      "description": "24.8.2021 – Koronaepidemian alettua havaitsimme, että monilla yrityksillä ja julkisyhteisöillä on tarvetta entistä syvemmälle ja kokonaisvaltaiselle palvelulle, jossa juridiikkaan yhdistetään…",
+      "date": "2021-08-24",
+      "mainCharacters": 1877,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/uusi-sihteeri-nina-huikuri-aloitti-toimistollamme",
+      "title": "Uusi sihteeri Nina Huikuri aloitti toimistollamme | Kontturi & Co",
+      "description": "27.9.2022 – Asianajotoimistomme uutena sihteerinä aloitti syyskuun alussa Nina Huikuri.",
+      "date": "2022-09-27",
+      "mainCharacters": 1026,
+      "images": 4
+    },
+    {
+      "route": "/uutiset/veikko-haimila-toimistomme-uusin-vahvistus",
+      "title": "Veikko Haimila on toimistomme uusin vahvistus | Kontturi & Co",
+      "description": "6.5.2024 – Luumäkeläislähtöinen oikeustieteen maisteri Veikko Haimila on aloittanut toimistomme lakimiehenä keväällä 2024.",
+      "date": "2024-05-06",
+      "mainCharacters": 1419,
+      "images": 4
+    },
+    {
+      "route": "/yhteistyossa",
+      "title": "Yhteistyössä | Kontturi & Co",
+      "description": "Aloitimme yhteistyön Osuuskauppa Keskimaan kanssa syksyllä 2025, ja Keskimaa on uusin ja yksi suurimmista yhteistyökumppaneistamme.",
+      "mainCharacters": 8702,
+      "images": 18
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto",
+      "title": "Tietoa arjen lakiasioista – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Näiltä asiakasomistajasivuiltamme löydät asiakasomistajille tarkoitettuja tietopaketteja ja artikkeleja sinua ja perhettäsi koskevista oikeudellisissa asioissa.",
+      "mainCharacters": 523,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus",
+      "title": "Kauppa- ja sopimusoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Kauppa- ja sopimusoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 469,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/matkustajan-oikeus-peruuttaa-valmismatka",
+      "title": "Matkustajan oikeus peruuttaa valmismatka – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Matkapaketteihin ja yhdistettyihin matkajärjestelyihin sovelletaan vuonna 2018 voimaan tullutta matkapalveluyhdistelmistä annettua lakia.",
+      "mainCharacters": 5278,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/ohjeita-kiinteiston-kauppaa-varten",
+      "title": "Ohjeita kiinteistön kauppaa varten – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Myyjän ja ostajan välisestä vastuunjaosta kiinteistökaupassa säännellään maakaaressa.",
+      "mainCharacters": 5084,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/yksinkertainen-velkomusasia",
+      "title": "Yksinkertainen velkomusasia – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Yksinkertaisella velkomusasialla tarkoitetaan sellaisen velan perimistä, joka on riidaton.",
+      "mainCharacters": 2650,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/henkilotietojen-kasittely",
+      "title": "Henkilötietojen käsittely – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Tietosuojalain tarkoitus ja soveltamisala",
+      "mainCharacters": 9293,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus",
+      "title": "Perheoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Perheoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 548,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/isyyden-tunnustaminen",
+      "title": "Isyyden tunnustaminen – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Avoliittojen yleistyttyä on myös avioliiton ulkopuolella syntyneiden lasten määrä kasvanut.",
+      "mainCharacters": 4366,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/lainantakausvastuusta",
+      "title": "Lainantakausvastuusta – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Takausta käytetään luoton vakuutena. Takaussitoumuksessa takaaja ottaa vastatakseen velkojalle toisen henkilön velasta.",
+      "mainCharacters": 3043,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/menettelyohjeet-laheisen-kuolemantilanteessa",
+      "title": "Menettelyohjeet läheisen kuolemantilanteessa – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Ohjeita kuolinpesän veloista syntyvän yllättävän velkavastuun välttämiseen sekä menettelyohjeet läheisen kuolemantilanteissa siihen saakka, kunnes perunkirjoitus toimitetaan Läheisen…",
+      "mainCharacters": 4818,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ohjeita-avioehtosopimuksen-laatimista-varten",
+      "title": "Ohjeita avioehtosopimuksen laatimista varten – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Avioehtosopimuksella aviopuolisot tai avioliittoon keskenään aikovat henkilöt voivat sopia keskinäisistä aviovarallisuusoikeudellisista suhteistaan.",
+      "mainCharacters": 3766,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ohjeita-ylivelkaantuneelle-yksityishenkilolle",
+      "title": "Ohjeita ylivelkaantuneelle yksityishenkilölle – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Maksukyvytön yksityishenkilö voi taloudellisen tilanteensa korjaamiseksi hakeutua tuomioistuimen vahvistamaan yksityishenkilön velkajärjestelymenettelyyn.",
+      "mainCharacters": 4101,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ositus",
+      "title": "Ositus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Omaisuuden osituksessa puretaan aviopuolisoiden välillä avioliiton kestäessä vallitseva aviovarallisuussuhde.",
+      "mainCharacters": 3304,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/hallintaoikeuden-arvo",
+      "title": "Hallintaoikeuden arvo – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Lahjanantaja voi pidättää itsellään elinikäisen hallintaoikeuden lahjoitettuun omaisuuteen, jolloin lahjansaajalle määrättävän lahjaveron määrä pienenee.",
+      "mainCharacters": 3076,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/hallintaoikeuden-saajan-ja-omistajan-asema",
+      "title": "Hallintaoikeuden saajan ja omistajan asema – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Sillä, joka on testamentilla saanut käyttöoikeuden omaisuuteen, on oikeus hallita omaisuutta ja saada sen tuotto.",
+      "mainCharacters": 3200,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus",
+      "title": "Perintöoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Perintöoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 519,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/lahjoitussaannokset-ja-perintoverosuunnittelu",
+      "title": "Lahjoitussäännökset ja perintöverosuunnittelu – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Keskustellaan lahjoittamiseen ja perintösuunnitteluun liittyvistä kysymyksistä. Kontturin perhe- ja perintöoikeuden asiantuntijat auttavat eteenpäin.",
+      "mainCharacters": 726,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/perintoverotus-ja-ennakkoratkaisu",
+      "title": "Perintöverotus ja ennakkoratkaisu – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Perintöverotuksessa pesän varat arvostetaan käypään arvoon vainajan kuolinhetkellä. Käyvällä arvolla tarkoitetaan omaisuuden todennäköistä myyntihintaa.",
+      "mainCharacters": 2886,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/vastuu-kuolleen-henkilon-velasta",
+      "title": "Vastuu kuolleen henkilön velasta – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Henkilökohtaisen velkavastuun kuolleen henkilön velasta synnyttää ensinnäkin perunkirjoituksen toimittamisen laiminlyönti joko siten, ettei perunkirjoitusta toimiteta lainkaan tai sitä…",
+      "mainCharacters": 3033,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus",
+      "title": "Rikosoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Rikosoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 498,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/kunnian-ja-yksityiselaman-loukkaamisesta",
+      "title": "Kunnian ja yksityiselämän loukkaamisesta – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Voimassa olevat kunnian ja yksityiselämän loukkaamista koskevat säännökset löytyvät rikoslain 24 luvusta.",
+      "mainCharacters": 3269,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/lahestymiskielto",
+      "title": "Lähestymiskielto – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Lähestymiskiellon tarkoituksena on henkeen, terveyteen, vapauteen tai rauhaan kohdistuvan rikoksen tai tällaisen rikoksen uhan tai muun vakavan häirinnän estäminen.",
+      "mainCharacters": 3050,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/miten-vahingot-korvataan-liikennevahingossa",
+      "title": "Miten vahingot korvataan liikennevahingossa – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Kolarissa keskeinen kysymys sen ohella kuka on syyllinen kolariin, on se, että kuka korvaa vahingon.",
+      "mainCharacters": 4076,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/ohjeita-jos-joudut-rikoksen-uhriksi",
+      "title": "Ohjeita jos joudut rikoksen uhriksi – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Ilmoita rikoksesta poliisille. Poliisin tehtävänä on selvittää tapahtunut rikos.",
+      "mainCharacters": 3241,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/syyttamatta-jattaminen",
+      "title": "Syyttämättä jättäminen – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Vaikka rikos olisi tapahtunut, rikoksesta epäilty ei aina joudu rikoksesta syytteeseen.",
+      "mainCharacters": 3623,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus",
+      "title": "Työoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Työoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 467,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/kilpaileva-tyosopimus-ja-kilpailukieltosopimus",
+      "title": "Kilpaileva työsopimus ja kilpailukieltosopimus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Työntekijä ei saa työnantajan luvatta tehdä toiselle sellaista työtä tai harjoittaa muutoinkaan sellaista toimintaa, joka työsuhteessa noudatettavan hyvän tavan vastaisena…",
+      "mainCharacters": 3576,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/liikkeen-luovutus-ja-irtisanominen",
+      "title": "Liikkeen luovutus ja irtisanominen – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Liikkeen luovutus on toimivan yrityksen tai sen osan siirtämistä toiselle, joka ryhtyy jatkamaan liiketoimintaa.",
+      "mainCharacters": 4110,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/lomautetun-tyontekijan-asema",
+      "title": "Lomautetun työntekijän asema – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Lomauttaminen merkitsee tilannetta, jossa työnteko ja palkanmaksu keskeytetään toistaiseksi tai määräajaksi, mutta itse työsuhde pysyy voimassa.",
+      "mainCharacters": 2271,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/tyosopimus",
+      "title": "Työsopimus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Työsopimuksella työntekijä sitoutuu tekemään työnantajalle työtä tämän johdon ja valvonnan alaisena palkkaa tai muuta vastiketta vastaan.",
+      "mainCharacters": 2681,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/tyotodistus",
+      "title": "Työtodistus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Työtodistuksella on merkitystä työntekijän työmarkkina-aseman sekä hänen työttömyysturva- ja sosiaalietuuksiensa kannalta. Työtodistusta koskevat työsopimuslain säännökset ovat pakottavia.",
+      "mainCharacters": 2627,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus",
+      "title": "Vuokraoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Vuokraoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 479,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/ketka-voivat-asua-vuokraamassasi-asunnossa",
+      "title": "Ketkä voivat asua vuokraamassasi asunnossa? – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Vuokrasopimuksella vuokranantaja ja vuokralainen sopivat huoneiston vuokrasta määräajaksi tai toistaiseksi.",
+      "mainCharacters": 3374,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/liikehuoneiston-kayton-estyminen",
+      "title": "Liikehuoneiston käytön estyminen – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Liikehuoneiston käytön estyminen: vuokralaisen oikeus saada vapautus vuokran maksamisesta tai vuokran alennusta",
+      "mainCharacters": 2976,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/muuttopaivan-siirtaminen",
+      "title": "Muuttopäivän siirtäminen – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Muuttopäivä",
+      "mainCharacters": 4546,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/vuokralaisen-ilmoittamisvelvollisuus",
+      "title": "Vuokralaisen ilmoittamisvelvollisuus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "llmoitusvelvollisuus vahingosta tai puutteellisuudesta",
+      "mainCharacters": 2262,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus",
+      "title": "Yritysoikeus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Yritysoikeus: asiakasomistajakirjaston artikkelit ja tietopaketit. Tutustu aiheisiin tai kysy asiantuntijaltamme.",
+      "mainCharacters": 399,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/osakassopimus",
+      "title": "Osakassopimus – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Osakassopimus voidaan määritellä osakkeenomistajien keskinäiseksi sopimukseksi siitä, miten he toimivat yhtiön osakkeenomistajina ja/tai yhtiön elinten jäsenenä.",
+      "mainCharacters": 4189,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/oyn-hallituksen-jasenen-vastuu",
+      "title": "Oy:n hallituksen jäsenen vastuu – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Hallituksen jäsen voi joutua aiheuttamansa vahingon seurauksena korvausvastuuseen yhtiötä, osakkeenomistajaa ja/tai muuta henkilöä (lähinnä yhtiön velkojaa tai sopimuskumppania) kohtaan.",
+      "mainCharacters": 9580,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/paaomalaina",
+      "title": "Pääomalaina – Asiakasomistajakirjasto | Kontturi & Co",
+      "description": "Osakeyhtiölain 12 luvussa on säännökset pääomalainasta.",
+      "mainCharacters": 3899,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja",
+      "title": "Alueosuuskauppojen asiakasomistajat | Kontturi & Co",
+      "description": "Asianajotoimisto Kontturi & Co Oy:llä on yhteistoimintasopimukset Pohjois-Karjalan Osuuskaupan, Etelä-Karjalan Osuuskaupan, Koillismaan Osuuskaupan ja Osuuskauppa Keskimaan kanssa.",
+      "mainCharacters": 1927,
+      "images": 4
+    },
+    {
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/kayttoehdot",
+      "title": "Käyttöehdot | Kontturi & Co",
+      "description": "Asiakasomistaja-palvelun käyttöehdot:",
+      "mainCharacters": 1090,
+      "images": 0
+    },
+    {
+      "route": "/yhteistyossa/yritysjuristi",
+      "title": "Yritysjuristi | Kontturi & Co",
+      "description": "– Kuinka ratkaiset kiireellisen neuvon tarpeen – yritysjuristipalvelussa juristi on yhtä lähellä kuin lähin puhelin!",
+      "mainCharacters": 1928,
+      "images": 0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+import {phoneHref} from '../lib/site';
+const {entry}=Astro.props;const p=entry.data;
+---
+<article class="person-card"><a href={p.route} class="person-image" aria-label={`Tutustu: ${p.title}`}>{p.image?<img src={p.image} alt={p.title} loading="lazy" width="400" height="400"/>:<Icon name="phone"/>}</a><div class="person-info"><h2><a href={p.route}>{p.title}</a></h2><p class="person-role">{p.role}</p><div class="person-contact">{p.phone&&<a href={phoneHref(p.phone)}>{p.phone}</a>}{p.email&&<a href={`mailto:${p.email}`}>{p.email}</a>}</div><a href={p.route} class="text-link">Tutustu asiantuntijaan <Icon/></a></div></article>

@@ -1,0 +1,5 @@
+---
+interface Props { items: {title:string;href?:string}[]; }
+const {items}=Astro.props;
+---
+<nav class="breadcrumbs container" aria-label="Murupolku"><ol><li><a href="/">Etusivu</a></li>{items.map(item=><li>{item.href?<a href={item.href}>{item.title}</a>:<span aria-current="page">{item.title}</span>}</li>)}</ol></nav>

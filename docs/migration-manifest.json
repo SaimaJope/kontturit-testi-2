@@ -1,0 +1,1893 @@
+{
+  "generatedAt": "2026-09-14T17:35:54.865Z",
+  "sourceOrigin": "https://asianajotoimisto.com",
+  "sourcePageCount": 115,
+  "pages": [
+    {
+      "source": "https://asianajotoimisto.com/ota-yhteytta",
+      "route": "/ota-yhteytta",
+      "collection": "pages",
+      "id": "_indexes/ota-yhteytta",
+      "contentFile": "src/content/pages/_indexes/ota-yhteytta.mdoc",
+      "sourceTitle": "Ota yhteyttä täyttämällä alla oleva lomake",
+      "title": "Ota yhteyttä täyttämällä alla oleva lomake",
+      "image": "",
+      "sourceBodyCharacters": 599
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset",
+      "route": "/uutiset",
+      "collection": "pages",
+      "id": "_indexes/uutiset",
+      "contentFile": "src/content/pages/_indexes/uutiset.mdoc",
+      "sourceTitle": "Uutiset",
+      "title": "Uutiset",
+      "image": "",
+      "sourceBodyCharacters": 2884
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut",
+      "route": "/lakipalvelut",
+      "collection": "pages",
+      "id": "_indexes/lakipalvelut",
+      "contentFile": "src/content/pages/_indexes/lakipalvelut.mdoc",
+      "sourceTitle": "Lakipalvelut",
+      "title": "Lakipalvelut",
+      "image": "",
+      "sourceBodyCharacters": 3740
+    },
+    {
+      "source": "https://asianajotoimisto.com/",
+      "route": "/",
+      "collection": "pages",
+      "id": "_indexes/home",
+      "contentFile": "src/content/pages/_indexes/home.mdoc",
+      "sourceTitle": "Tervetuloa Itä-Suomen suurimpaan asianajotoimistoon",
+      "title": "Tervetuloa Itä-Suomen suurimpaan asianajotoimistoon",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5216/9563/7542/Kontturi-Valokuvat-WEB_3_of_10.jpg",
+      "image": "/images/home/4a9a28d7-Kontturi-Valokuvat-WEB_3_of_10.jpg",
+      "sourceBodyCharacters": 344
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat",
+      "route": "/asiantuntijat",
+      "collection": "pages",
+      "id": "_indexes/asiantuntijat",
+      "contentFile": "src/content/pages/_indexes/asiantuntijat.mdoc",
+      "sourceTitle": "Asiantuntijamme",
+      "title": "Asiantuntijamme",
+      "image": "",
+      "sourceBodyCharacters": 4363
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa",
+      "route": "/yhteistyossa",
+      "collection": "pages",
+      "id": "yhteistyossa",
+      "contentFile": "src/content/pages/yhteistyossa.mdoc",
+      "sourceTitle": "Yhteistyössä",
+      "title": "Yhteistyössä",
+      "sourceImage": "https://asianajotoimisto.com/application/files/3517/5724/6441/S_KESKIMAA.svg",
+      "image": "/images/yhteistyossa/50b36fbd-S_KESKIMAA.svg",
+      "sourceBodyCharacters": 10520
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/tatu-hirvonen",
+      "route": "/asiantuntijat/tatu-hirvonen",
+      "collection": "people",
+      "id": "asiantuntijat--tatu-hirvonen",
+      "contentFile": "src/content/people/asiantuntijat--tatu-hirvonen.mdoc",
+      "sourceTitle": "Tatu Hirvonen",
+      "title": "Tatu Hirvonen",
+      "sourcePhone": "0400 767 626",
+      "phone": "0400 767 626",
+      "sourceEmail": "tatu.hirvonen@kontturi.fi",
+      "email": "tatu.hirvonen@kontturi.fi",
+      "sourceRole": "Asianajaja, toimitusjohtaja, osakas",
+      "role": "Asianajaja, toimitusjohtaja, osakas",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9316/9599/5034/Kontturi_Henkilosto_2022_26.png",
+      "image": "/images/asiantuntijat--tatu-hirvonen/eee2867e-Kontturi_Henkilosto_2022_26.webp",
+      "sourceBodyCharacters": 1415
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/jyrki-piiparinen",
+      "route": "/asiantuntijat/jyrki-piiparinen",
+      "collection": "people",
+      "id": "asiantuntijat--jyrki-piiparinen",
+      "contentFile": "src/content/people/asiantuntijat--jyrki-piiparinen.mdoc",
+      "sourceTitle": "Jyrki Piiparinen",
+      "title": "Jyrki Piiparinen",
+      "sourcePhone": "040 520 0595",
+      "phone": "040 520 0595",
+      "sourceEmail": "jyrki.piiparinen@kontturi.fi",
+      "email": "jyrki.piiparinen@kontturi.fi",
+      "sourceRole": "Asianajaja, hallituksen puheenjohtaja, osakas",
+      "role": "Asianajaja, hallituksen puheenjohtaja, osakas",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/8216/9598/9236/Kontturi-Henkilostovalokuvat-UUSI-4.png",
+      "image": "/images/asiantuntijat--jyrki-piiparinen/c3e6fb19-Kontturi-Henkilostovalokuvat-UUSI-4.webp",
+      "sourceBodyCharacters": 2130
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/pirjo-makela",
+      "route": "/asiantuntijat/pirjo-makela",
+      "collection": "people",
+      "id": "asiantuntijat--pirjo-makela",
+      "contentFile": "src/content/people/asiantuntijat--pirjo-makela.mdoc",
+      "sourceTitle": "Pirjo Mäkelä",
+      "title": "Pirjo Mäkelä",
+      "sourcePhone": "0400 578 785",
+      "phone": "0400 578 785",
+      "sourceEmail": "pirjo.makela@kontturi.fi",
+      "email": "pirjo.makela@kontturi.fi",
+      "sourceRole": "Asianajaja, perintöasioiden vastuujuristi, osakas",
+      "role": "Asianajaja, perintöasioiden vastuujuristi, osakas",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/1316/9599/4916/Kontturi_Henkilosto_2022_4.png",
+      "image": "/images/asiantuntijat--pirjo-makela/c29a3666-Kontturi_Henkilosto_2022_4.webp",
+      "sourceBodyCharacters": 1060
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/harri-kontturi",
+      "route": "/asiantuntijat/harri-kontturi",
+      "collection": "people",
+      "id": "asiantuntijat--harri-kontturi",
+      "contentFile": "src/content/people/asiantuntijat--harri-kontturi.mdoc",
+      "sourceTitle": "Harri Kontturi",
+      "title": "Harri Kontturi",
+      "sourcePhone": "0400 374 650",
+      "phone": "0400 374 650",
+      "sourceEmail": "harri.kontturi@kontturi.fi",
+      "email": "harri.kontturi@kontturi.fi",
+      "sourceRole": "Asianajaja, laamanni, varatuomari",
+      "role": "Asianajaja, laamanni, varatuomari",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/6016/9598/9255/Kontturi-Henkilostovalokuvat-UUSI-7.png",
+      "image": "/images/asiantuntijat--harri-kontturi/16e79a28-Kontturi-Henkilostovalokuvat-UUSI-7.webp",
+      "sourceBodyCharacters": 2442
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/anniina-korjus",
+      "route": "/asiantuntijat/anniina-korjus",
+      "collection": "people",
+      "id": "asiantuntijat--anniina-korjus",
+      "contentFile": "src/content/people/asiantuntijat--anniina-korjus.mdoc",
+      "sourceTitle": "Anniina Korjus",
+      "title": "Anniina Korjus",
+      "sourcePhone": "0400 218 880",
+      "phone": "0400 218 880",
+      "sourceEmail": "anniina.korjus@kontturi.fi",
+      "email": "anniina.korjus@kontturi.fi",
+      "sourceRole": "Asianajaja",
+      "role": "Asianajaja",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9716/9599/5030/Kontturi_Henkilosto_2022_25.png",
+      "image": "/images/asiantuntijat--anniina-korjus/2c846373-Kontturi_Henkilosto_2022_25.webp",
+      "sourceBodyCharacters": 1149
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/samuli-myller",
+      "route": "/asiantuntijat/samuli-myller",
+      "collection": "people",
+      "id": "asiantuntijat--samuli-myller",
+      "contentFile": "src/content/people/asiantuntijat--samuli-myller.mdoc",
+      "sourceTitle": "Samuli Myller",
+      "title": "Samuli Myller",
+      "sourcePhone": "0400 164 746",
+      "phone": "0400 164 746",
+      "sourceEmail": "samuli.myller@kontturi.fi",
+      "email": "samuli.myller@kontturi.fi",
+      "sourceRole": "Asianajaja",
+      "role": "Asianajaja",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/4216/9599/5010/Kontturi_Henkilosto_2022_21.png",
+      "image": "/images/asiantuntijat--samuli-myller/6cba0234-Kontturi_Henkilosto_2022_21.webp",
+      "sourceBodyCharacters": 688
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/niina-kukkonen",
+      "route": "/asiantuntijat/niina-kukkonen",
+      "collection": "people",
+      "id": "asiantuntijat--niina-kukkonen",
+      "contentFile": "src/content/people/asiantuntijat--niina-kukkonen.mdoc",
+      "sourceTitle": "Niina Kukkonen",
+      "title": "Niina Kukkonen",
+      "sourcePhone": "0400 247 147",
+      "phone": "0400 247 147",
+      "sourceEmail": "niina.kukkonen@kontturi.fi",
+      "email": "niina.kukkonen@kontturi.fi",
+      "sourceRole": "Asianajaja, kiinteistöasioiden vastuujuristi, osakas",
+      "role": "Asianajaja, kiinteistöasioiden vastuujuristi, osakas",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9316/9599/4961/Kontturi_Henkilosto_2022_12.png",
+      "image": "/images/asiantuntijat--niina-kukkonen/68298035-Kontturi_Henkilosto_2022_12.webp",
+      "sourceBodyCharacters": 1152
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/janika-raty",
+      "route": "/asiantuntijat/janika-raty",
+      "collection": "people",
+      "id": "asiantuntijat--janika-raty",
+      "contentFile": "src/content/people/asiantuntijat--janika-raty.mdoc",
+      "sourceTitle": "Janika Räty",
+      "title": "Janika Räty",
+      "sourcePhone": "0400 363 130",
+      "phone": "0400 363 130",
+      "sourceEmail": "janika.raty@kontturi.fi",
+      "email": "janika.raty@kontturi.fi",
+      "sourceRole": "Asianajaja, rikosasioiden vastuujuristi, osakas",
+      "role": "Asianajaja, rikosasioiden vastuujuristi, osakas",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/1916/9598/9222/Kontturi-Henkilostovalokuvat-UUSI-2.png",
+      "image": "/images/asiantuntijat--janika-raty/f5df3685-Kontturi-Henkilostovalokuvat-UUSI-2.webp",
+      "sourceBodyCharacters": 915
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/hillevi-kontturi",
+      "route": "/asiantuntijat/hillevi-kontturi",
+      "collection": "people",
+      "id": "asiantuntijat--hillevi-kontturi",
+      "contentFile": "src/content/people/asiantuntijat--hillevi-kontturi.mdoc",
+      "sourceTitle": "Hillevi Kontturi",
+      "title": "Hillevi Kontturi",
+      "sourcePhone": "0400 377 232",
+      "phone": "0400 377 232",
+      "sourceEmail": "hillevi.kontturi@kontturi.fi",
+      "email": "hillevi.kontturi@kontturi.fi",
+      "sourceRole": "Asianajaja",
+      "role": "Asianajaja",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/4416/9599/4932/Kontturi_Henkilosto_2022_7.png",
+      "image": "/images/asiantuntijat--hillevi-kontturi/b602dbe4-Kontturi_Henkilosto_2022_7.webp",
+      "sourceBodyCharacters": 1354
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/yritysjuridiikka",
+      "route": "/lakipalvelut/yritysjuridiikka",
+      "collection": "services",
+      "id": "lakipalvelut--yritysjuridiikka",
+      "contentFile": "src/content/services/lakipalvelut--yritysjuridiikka.mdoc",
+      "sourceTitle": "Yritysjuridiikka",
+      "title": "Yritysjuridiikka",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1616/9563/7264/Kontturi-5.jpg",
+      "image": "/images/lakipalvelut--yritysjuridiikka/87c3bedb-Kontturi-5.jpg",
+      "sourceBodyCharacters": 1020
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/paivystava-lakimies",
+      "route": "/asiantuntijat/paivystava-lakimies",
+      "collection": "people",
+      "id": "asiantuntijat--paivystava-lakimies",
+      "contentFile": "src/content/people/asiantuntijat--paivystava-lakimies.mdoc",
+      "sourceTitle": "Päivystävä lakimies",
+      "title": "Päivystävä lakimies",
+      "sourcePhone": "0400 208 030",
+      "phone": "0400 208 030",
+      "sourceEmail": "",
+      "email": "",
+      "sourceRole": "Iltaisin ja viikonloppuisin",
+      "role": "Iltaisin ja viikonloppuisin",
+      "sourceImage": "https://asianajotoimisto.com/application/files/8116/3213/8159/palveluksessasi_yhteyslakimieheen-01.png",
+      "image": "/images/asiantuntijat--paivystava-lakimies/b29cd90f-palveluksessasi_yhteyslakimieheen-01.webp",
+      "sourceBodyCharacters": 151
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/heidi-hamalainen",
+      "route": "/asiantuntijat/heidi-hamalainen",
+      "collection": "people",
+      "id": "asiantuntijat--heidi-hamalainen",
+      "contentFile": "src/content/people/asiantuntijat--heidi-hamalainen.mdoc",
+      "sourceTitle": "Heidi Hämäläinen",
+      "title": "Heidi Hämäläinen",
+      "sourcePhone": "013 120 731",
+      "phone": "013 120 731",
+      "sourceEmail": "asianajotoimisto@kontturi.fi",
+      "email": "asianajotoimisto@kontturi.fi",
+      "sourceRole": "Asianajosihteeri",
+      "role": "Asianajosihteeri",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7916/9598/9216/Kontturi-Henkilostovalokuvat-UUSI-1.png",
+      "image": "/images/asiantuntijat--heidi-hamalainen/dee78600-Kontturi-Henkilostovalokuvat-UUSI-1.webp",
+      "sourceBodyCharacters": 366
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/riidanratkaisu",
+      "route": "/lakipalvelut/riidanratkaisu",
+      "collection": "services",
+      "id": "lakipalvelut--riidanratkaisu",
+      "contentFile": "src/content/services/lakipalvelut--riidanratkaisu.mdoc",
+      "sourceTitle": "Riidanratkaisu",
+      "title": "Riidanratkaisu",
+      "sourceImage": "https://asianajotoimisto.com/application/files/3316/3213/9034/oikeudenkaynnit.jpg",
+      "image": "/images/lakipalvelut--riidanratkaisu/8abe0345-oikeudenkaynnit.jpg",
+      "sourceBodyCharacters": 995
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/perhe-ja-perintooikeus",
+      "route": "/lakipalvelut/perhe-ja-perintooikeus",
+      "collection": "services",
+      "id": "lakipalvelut--perhe-ja-perintooikeus",
+      "contentFile": "src/content/services/lakipalvelut--perhe-ja-perintooikeus.mdoc",
+      "sourceTitle": "Perhe- ja perintöoikeus",
+      "title": "Perhe- ja perintöoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/2217/0655/7651/Kontturi-Valokuvat-WEB_5_of_10.jpg",
+      "image": "/images/lakipalvelut--perhe-ja-perintooikeus/87383562-Kontturi-Valokuvat-WEB_5_of_10.jpg",
+      "sourceBodyCharacters": 1650
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/asuntokauppariidat",
+      "route": "/lakipalvelut/asuntokauppariidat",
+      "collection": "services",
+      "id": "lakipalvelut--asuntokauppariidat",
+      "contentFile": "src/content/services/lakipalvelut--asuntokauppariidat.mdoc",
+      "sourceTitle": "Asuntokauppariidat",
+      "title": "Asuntokauppariidat",
+      "sourceImage": "https://asianajotoimisto.com/application/files/2716/3213/9688/asuntokauppariidat.jpg",
+      "image": "/images/lakipalvelut--asuntokauppariidat/a51ac7cc-asuntokauppariidat.jpg",
+      "sourceBodyCharacters": 665
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/sopimusoikeus",
+      "route": "/lakipalvelut/sopimusoikeus",
+      "collection": "services",
+      "id": "lakipalvelut--sopimusoikeus",
+      "contentFile": "src/content/services/lakipalvelut--sopimusoikeus.mdoc",
+      "sourceTitle": "Sopimusoikeus",
+      "title": "Sopimusoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/4916/3213/9876/sopimusoikeus.jpg",
+      "image": "/images/lakipalvelut--sopimusoikeus/70c7d7b8-sopimusoikeus.jpg",
+      "sourceBodyCharacters": 518
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/tyo-ja-virkamiesoikeus",
+      "route": "/lakipalvelut/tyo-ja-virkamiesoikeus",
+      "collection": "services",
+      "id": "lakipalvelut--tyo-ja-virkamiesoikeus",
+      "contentFile": "src/content/services/lakipalvelut--tyo-ja-virkamiesoikeus.mdoc",
+      "sourceTitle": "Työ- ja virkamiesoikeus",
+      "title": "Työ- ja virkamiesoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9716/3213/9792/tyojavirkamiesoikeus.jpg",
+      "image": "/images/lakipalvelut--tyo-ja-virkamiesoikeus/f555acad-tyojavirkamiesoikeus.jpg",
+      "sourceBodyCharacters": 441
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/ymparistooikeus",
+      "route": "/lakipalvelut/ymparistooikeus",
+      "collection": "services",
+      "id": "lakipalvelut--ymparistooikeus",
+      "contentFile": "src/content/services/lakipalvelut--ymparistooikeus.mdoc",
+      "sourceTitle": "Ympäristöoikeus",
+      "title": "Ympäristöoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/6316/3213/9980/ymparisto-oikeus.jpg",
+      "image": "/images/lakipalvelut--ymparistooikeus/affa0eed-ymparisto-oikeus.jpg",
+      "sourceBodyCharacters": 554
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/immateriaalioikeus",
+      "route": "/lakipalvelut/immateriaalioikeus",
+      "collection": "services",
+      "id": "lakipalvelut--immateriaalioikeus",
+      "contentFile": "src/content/services/lakipalvelut--immateriaalioikeus.mdoc",
+      "sourceTitle": "Immateriaalioikeus",
+      "title": "Immateriaalioikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5116/3214/0063/immateriaalioikeus.jpg",
+      "image": "/images/lakipalvelut--immateriaalioikeus/101c3e00-immateriaalioikeus.jpg",
+      "sourceBodyCharacters": 547
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/rikosoikeus",
+      "route": "/lakipalvelut/rikosoikeus",
+      "collection": "services",
+      "id": "lakipalvelut--rikosoikeus",
+      "contentFile": "src/content/services/lakipalvelut--rikosoikeus.mdoc",
+      "sourceTitle": "Rikosoikeus",
+      "title": "Rikosoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/7116/3214/0467/rikosoikeus.jpg",
+      "image": "/images/lakipalvelut--rikosoikeus/41712eb3-rikosoikeus.jpg",
+      "sourceBodyCharacters": 351
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajaja-niina-kukkonen-kutsuttu-toimistomme-osakkaaksi",
+      "route": "/uutiset/asianajaja-niina-kukkonen-kutsuttu-toimistomme-osakkaaksi",
+      "collection": "news",
+      "id": "uutiset--asianajaja-niina-kukkonen-kutsuttu-toimistomme-osakkaaksi",
+      "contentFile": "src/content/news/uutiset--asianajaja-niina-kukkonen-kutsuttu-toimistomme-osakkaaksi.mdoc",
+      "sourceTitle": "Asianajaja Niina Kukkonen on kutsuttu toimistomme osakkaaksi",
+      "title": "Asianajaja Niina Kukkonen on kutsuttu toimistomme osakkaaksi",
+      "sourceDate": "2021-09-10",
+      "date": "2021-09-10",
+      "sourceImage": "https://asianajotoimisto.com/application/files/3316/3221/3535/niina_kukkonen_1.jpg",
+      "image": "/images/uutiset--asianajaja-niina-kukkonen-kutsuttu-toimistomme-osakkaaksi/55fd2959-niina_kukkonen_1.jpg",
+      "sourceBodyCharacters": 529
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/julkiset-hankinnat",
+      "route": "/lakipalvelut/julkiset-hankinnat",
+      "collection": "services",
+      "id": "lakipalvelut--julkiset-hankinnat",
+      "contentFile": "src/content/services/lakipalvelut--julkiset-hankinnat.mdoc",
+      "sourceTitle": "Julkiset hankinnat",
+      "title": "Julkiset hankinnat",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1016/3214/0304/julkisethankinnat.jpg",
+      "image": "/images/lakipalvelut--julkiset-hankinnat/d7d4e3f7-julkisethankinnat.jpg",
+      "sourceBodyCharacters": 388
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/insolvenssioikeus",
+      "route": "/lakipalvelut/insolvenssioikeus",
+      "collection": "services",
+      "id": "lakipalvelut--insolvenssioikeus",
+      "contentFile": "src/content/services/lakipalvelut--insolvenssioikeus.mdoc",
+      "sourceTitle": "Insolvenssioikeus",
+      "title": "Insolvenssioikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9716/3214/0387/insolvenssioikeus.jpg",
+      "image": "/images/lakipalvelut--insolvenssioikeus/f46a0b7d-insolvenssioikeus.jpg",
+      "sourceBodyCharacters": 573
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/yhdistys-ja-saatiooikeus",
+      "route": "/lakipalvelut/yhdistys-ja-saatiooikeus",
+      "collection": "services",
+      "id": "lakipalvelut--yhdistys-ja-saatiooikeus",
+      "contentFile": "src/content/services/lakipalvelut--yhdistys-ja-saatiooikeus.mdoc",
+      "sourceTitle": "Yhdistys- ja säätiöoikeus",
+      "title": "Yhdistys- ja säätiöoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/3316/9563/9461/Kontturi-17.jpg",
+      "image": "/images/lakipalvelut--yhdistys-ja-saatiooikeus/f333e02b-Kontturi-17.jpg",
+      "sourceBodyCharacters": 448
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/toimistomme-mukana-tarjoamassa-ilmaisen-sovittelun",
+      "route": "/uutiset/toimistomme-mukana-tarjoamassa-ilmaisen-sovittelun",
+      "collection": "news",
+      "id": "uutiset--toimistomme-mukana-tarjoamassa-ilmaisen-sovittelun",
+      "contentFile": "src/content/news/uutiset--toimistomme-mukana-tarjoamassa-ilmaisen-sovittelun.mdoc",
+      "sourceTitle": "Toimistomme on mukana tarjoamassa ilmaisen sovittelun",
+      "title": "Toimistomme on mukana tarjoamassa ilmaisen sovittelun",
+      "sourceDate": "2021-09-07",
+      "date": "2021-09-07",
+      "sourceImage": "https://asianajotoimisto.com/application/files/4816/3221/3681/Sovittelun_supersyksy_MUKANA_TWITTER_1024x512px_Web.png",
+      "image": "/images/uutiset--toimistomme-mukana-tarjoamassa-ilmaisen-sovittelun/7a602556-Sovittelun_supersyksy_MUKANA_TWITTER_1024x512px_Web.webp",
+      "sourceBodyCharacters": 1059
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja.mdoc",
+      "sourceTitle": "Alueosuuskauppojen asiakasomistajat",
+      "title": "Alueosuuskauppojen asiakasomistajat",
+      "sourceImage": "https://asianajotoimisto.com/application/files/4516/7143/7729/Kontturi-18.jpg",
+      "image": "/images/yhteistyossa--osuuskaupan-asiakasomistaja/8df8fca1-Kontturi-18.jpg",
+      "sourceBodyCharacters": 1994
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/tyokuiskaajan-kuntakierros-kiertaa-maakuntaa",
+      "route": "/uutiset/tyokuiskaajan-kuntakierros-kiertaa-maakuntaa",
+      "collection": "news",
+      "id": "uutiset--tyokuiskaajan-kuntakierros-kiertaa-maakuntaa",
+      "contentFile": "src/content/news/uutiset--tyokuiskaajan-kuntakierros-kiertaa-maakuntaa.mdoc",
+      "sourceTitle": "Työkuiskaajan kuntakierros kiertää maakuntaa",
+      "title": "Työkuiskaajan kuntakierros kiertää maakuntaa",
+      "sourceDate": "2021-08-24",
+      "date": "2021-08-24",
+      "sourceImage": "https://asianajotoimisto.com/application/files/2516/3221/3864/Z2A4147.jpg",
+      "image": "/images/uutiset--tyokuiskaajan-kuntakierros-kiertaa-maakuntaa/d95b82f1-Z2A4147.jpg",
+      "sourceBodyCharacters": 1164
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/toimistomme-avusti-cloudia-oyta-yli-100-miljoonan-euron-yritysjarjestelyssa",
+      "route": "/uutiset/toimistomme-avusti-cloudia-oyta-yli-100-miljoonan-euron-yritysjarjestelyssa",
+      "collection": "news",
+      "id": "uutiset--toimistomme-avusti-cloudia-oyta-yli-100-miljoonan-euron-yritysjarjestelyssa",
+      "contentFile": "src/content/news/uutiset--toimistomme-avusti-cloudia-oyta-yli-100-miljoonan-euron-yritysjarjestelyssa.mdoc",
+      "sourceTitle": "Toimistomme avusti Cloudia Oy:tä yli 100 miljoonan euron yritysjärjestelyssä",
+      "title": "Toimistomme avusti Cloudia Oy:tä yli 100 miljoonan euron yritysjärjestelyssä",
+      "sourceDate": "2021-06-02",
+      "date": "2021-06-02",
+      "sourceImage": "https://asianajotoimisto.com/application/files/7516/3221/4444/news-def-thumbnail.png",
+      "image": "/images/uutiset--toimistomme-avusti-cloudia-oyta-yli-100-miljoonan-euron-yritysjarjestelyssa/2ebb6e4d-news-def-thumbnail.webp",
+      "sourceBodyCharacters": 1063
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/olemme-mukana-oikeusjaksaa-kampanjassa",
+      "route": "/uutiset/olemme-mukana-oikeusjaksaa-kampanjassa",
+      "collection": "news",
+      "id": "uutiset--olemme-mukana-oikeusjaksaa-kampanjassa",
+      "contentFile": "src/content/news/uutiset--olemme-mukana-oikeusjaksaa-kampanjassa.mdoc",
+      "sourceTitle": "Olemme mukana #OikeusJaksaa -kampanjassa",
+      "title": "Olemme mukana #OikeusJaksaa -kampanjassa",
+      "sourceDate": "2021-05-12",
+      "date": "2021-05-12",
+      "sourceImage": "https://asianajotoimisto.com/application/files/4216/3221/5041/Olemme_mukana_Oikeus_jaksaa_FACEBOOK_1280x1280px_Web.png",
+      "image": "/images/uutiset--olemme-mukana-oikeusjaksaa-kampanjassa/c1a94fe0-Olemme_mukana_Oikeus_jaksaa_FACEBOOK_1280x1280px_Web.webp",
+      "sourceBodyCharacters": 1035
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/kayttoehdot",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/kayttoehdot",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--kayttoehdot",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--kayttoehdot.mdoc",
+      "sourceTitle": "Käyttöehdot",
+      "title": "Käyttöehdot",
+      "image": "",
+      "sourceBodyCharacters": 896
+    },
+    {
+      "source": "https://asianajotoimisto.com/tietosuojaseloste",
+      "route": "/tietosuojaseloste",
+      "collection": "pages",
+      "id": "tietosuojaseloste",
+      "contentFile": "src/content/pages/tietosuojaseloste.mdoc",
+      "sourceTitle": "Asianajotoimisto Kontturi & Co Oy:n Tietosuojaseloste",
+      "title": "Asianajotoimisto Kontturi & Co Oy:n Tietosuojaseloste",
+      "image": "",
+      "sourceBodyCharacters": 20571
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus.mdoc",
+      "sourceTitle": "Kauppa- ja sopimusoikeus",
+      "title": "Kauppa- ja sopimusoikeus",
+      "image": "",
+      "sourceBodyCharacters": 528
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/yritysjuristi",
+      "route": "/yhteistyossa/yritysjuristi",
+      "collection": "pages",
+      "id": "yhteistyossa--yritysjuristi",
+      "contentFile": "src/content/pages/yhteistyossa--yritysjuristi.mdoc",
+      "sourceTitle": "Yritysjuristi",
+      "title": "Yritysjuristi",
+      "sourceImage": "https://asianajotoimisto.com/application/files/4516/7143/7729/Kontturi-18.jpg",
+      "image": "/images/yhteistyossa--yritysjuristi/8df8fca1-Kontturi-18.jpg",
+      "sourceBodyCharacters": 1765
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/nina-huikuri",
+      "route": "/asiantuntijat/nina-huikuri",
+      "collection": "people",
+      "id": "asiantuntijat--nina-huikuri",
+      "contentFile": "src/content/people/asiantuntijat--nina-huikuri.mdoc",
+      "sourceTitle": "Nina Huikuri",
+      "title": "Nina Huikuri",
+      "sourcePhone": "013 120 731",
+      "phone": "013 120 731",
+      "sourceEmail": "asianajotoimisto@kontturi.fi",
+      "email": "asianajotoimisto@kontturi.fi",
+      "sourceRole": "Asianajosihteeri",
+      "role": "Asianajosihteeri",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/5816/9599/4956/Kontturi_Henkilosto_2022_11.png",
+      "image": "/images/asiantuntijat--nina-huikuri/57968570-Kontturi_Henkilosto_2022_11.webp",
+      "sourceBodyCharacters": 196
+    },
+    {
+      "source": "https://asianajotoimisto.com/trainee-ohjelma",
+      "route": "/trainee-ohjelma",
+      "collection": "pages",
+      "id": "trainee-ohjelma",
+      "contentFile": "src/content/pages/trainee-ohjelma.mdoc",
+      "sourceTitle": "Kontturin Trainee-ohjelma",
+      "title": "Kontturin Trainee-ohjelma",
+      "sourceImage": "https://asianajotoimisto.com/application/files/cache/thumbnails/80532656ea0d81b2bb21a77b5b8b2d11.jpg",
+      "image": "/images/trainee-ohjelma/a67fcb58-80532656ea0d81b2bb21a77b5b8b2d11.jpg",
+      "sourceBodyCharacters": 1223
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajaja-piiparinen-valittiin-pohjois-karjalan-yrittajien-varapuheenjohtajaksi",
+      "route": "/uutiset/asianajaja-piiparinen-valittiin-pohjois-karjalan-yrittajien-varapuheenjohtajaksi",
+      "collection": "news",
+      "id": "uutiset--asianajaja-piiparinen-valittiin-pohjois-karjalan-yrittajien-varapuheenjohtajaksi",
+      "contentFile": "src/content/news/uutiset--asianajaja-piiparinen-valittiin-pohjois-karjalan-yrittajien-varapuheenjohtajaksi.mdoc",
+      "sourceTitle": "Asianajaja Piiparinen valittiin Pohjois-Karjalan Yrittäjien varapuheenjohtajaksi",
+      "title": "Asianajaja Piiparinen valittiin Pohjois-Karjalan Yrittäjien varapuheenjohtajaksi",
+      "sourceDate": "2021-12-14",
+      "date": "2021-12-14",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5016/9599/3777/009jpg.jpg",
+      "image": "/images/uutiset--asianajaja-piiparinen-valittiin-pohjois-karjalan-yrittajien-varapuheenjohtajaksi/94fb059f-009jpg.jpg",
+      "sourceBodyCharacters": 782
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/kuntajuristi",
+      "route": "/lakipalvelut/kuntajuristi",
+      "collection": "services",
+      "id": "lakipalvelut--kuntajuristi",
+      "contentFile": "src/content/services/lakipalvelut--kuntajuristi.mdoc",
+      "sourceTitle": "Kuntaoikeus",
+      "title": "Kuntaoikeus",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1716/9563/9104/Kontturi-Valokuvat-WEB_6_of_10.jpg",
+      "image": "/images/lakipalvelut--kuntajuristi/a6f48d19-Kontturi-Valokuvat-WEB_6_of_10.jpg",
+      "sourceBodyCharacters": 336
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/perintoviikot-tulevat-varaa-paikkasi",
+      "route": "/uutiset/perintoviikot-tulevat-varaa-paikkasi",
+      "collection": "news",
+      "id": "uutiset--perintoviikot-tulevat-varaa-paikkasi",
+      "contentFile": "src/content/news/uutiset--perintoviikot-tulevat-varaa-paikkasi.mdoc",
+      "sourceTitle": "Perintöviikot tulevat – varaa paikkasi!",
+      "title": "Perintöviikot tulevat – varaa paikkasi!",
+      "sourceDate": "2022-02-07",
+      "date": "2022-02-07",
+      "sourceImage": "https://asianajotoimisto.com/application/files/2716/9599/3857/logo-gb.png",
+      "image": "/images/uutiset--perintoviikot-tulevat-varaa-paikkasi/47e79943-logo-gb.webp",
+      "sourceBodyCharacters": 1177
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/janika-raty-nimitetty-toimistomme-lakimieheksi",
+      "route": "/uutiset/janika-raty-nimitetty-toimistomme-lakimieheksi",
+      "collection": "news",
+      "id": "uutiset--janika-raty-nimitetty-toimistomme-lakimieheksi",
+      "contentFile": "src/content/news/uutiset--janika-raty-nimitetty-toimistomme-lakimieheksi.mdoc",
+      "sourceTitle": "Janika Räty on nimitetty toimistomme lakimieheksi",
+      "title": "Janika Räty on nimitetty toimistomme lakimieheksi",
+      "sourceDate": "2021-11-01",
+      "date": "2021-11-01",
+      "sourceImage": "https://asianajotoimisto.com/application/files/7516/9599/3706/Kontturi_Janika-Raty_170820_003.jpg",
+      "image": "/images/uutiset--janika-raty-nimitetty-toimistomme-lakimieheksi/ddc16076-Kontturi_Janika-Raty_170820_003.jpg",
+      "sourceBodyCharacters": 616
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/aloitamme-yhteistyon-koillismaan-osuuskaupan-kanssa",
+      "route": "/uutiset/aloitamme-yhteistyon-koillismaan-osuuskaupan-kanssa",
+      "collection": "news",
+      "id": "uutiset--aloitamme-yhteistyon-koillismaan-osuuskaupan-kanssa",
+      "contentFile": "src/content/news/uutiset--aloitamme-yhteistyon-koillismaan-osuuskaupan-kanssa.mdoc",
+      "sourceTitle": "Aloitamme yhteistyön Koillismaan Osuuskaupan kanssa",
+      "title": "Aloitamme yhteistyön Koillismaan Osuuskaupan kanssa",
+      "sourceDate": "2023-03-01",
+      "date": "2023-03-01",
+      "sourceImage": "https://asianajotoimisto.com/application/files/6917/0636/6799/koillismaa.png",
+      "image": "/images/uutiset--aloitamme-yhteistyon-koillismaan-osuuskaupan-kanssa/bf3441c5-koillismaa.webp",
+      "sourceBodyCharacters": 753
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/juristimme-hillevi-kontturi-karvinen-neuvoo-asiakkaitamme-taas-tyosuhdeasioissa",
+      "route": "/uutiset/juristimme-hillevi-kontturi-karvinen-neuvoo-asiakkaitamme-taas-tyosuhdeasioissa",
+      "collection": "news",
+      "id": "uutiset--juristimme-hillevi-kontturi-karvinen-neuvoo-asiakkaitamme-taas-tyosuhdeasioissa",
+      "contentFile": "src/content/news/uutiset--juristimme-hillevi-kontturi-karvinen-neuvoo-asiakkaitamme-taas-tyosuhdeasioissa.mdoc",
+      "sourceTitle": "Juristimme Hillevi Kontturi-Karvinen neuvoo asiakkaitamme taas työsuhdeasioissa",
+      "title": "Juristimme Hillevi Kontturi-Karvinen neuvoo asiakkaitamme taas työsuhdeasioissa",
+      "sourceDate": "2023-09-14",
+      "date": "2023-09-14",
+      "sourceImage": "https://asianajotoimisto.com/application/files/8116/7143/7112/Nimeton_suunn.malli_2.jpg",
+      "image": "/images/uutiset--juristimme-hillevi-kontturi-karvinen-neuvoo-asiakkaitamme-taas-tyosuhdeasioissa/5f96e939-Nimeton_suunn.malli_2.jpg",
+      "sourceBodyCharacters": 354
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/perintoviikot-tulevat-taas-huhtikuussa",
+      "route": "/uutiset/perintoviikot-tulevat-taas-huhtikuussa",
+      "collection": "news",
+      "id": "uutiset--perintoviikot-tulevat-taas-huhtikuussa",
+      "contentFile": "src/content/news/uutiset--perintoviikot-tulevat-taas-huhtikuussa.mdoc",
+      "sourceTitle": "Perintöviikot tulevat taas huhtikuussa!",
+      "title": "Perintöviikot tulevat taas huhtikuussa!",
+      "sourceDate": "2023-02-07",
+      "date": "2023-02-07",
+      "sourceImage": "https://asianajotoimisto.com/application/files/2716/9599/3857/logo-gb.png",
+      "image": "/images/uutiset--perintoviikot-tulevat-taas-huhtikuussa/47e79943-logo-gb.webp",
+      "sourceBodyCharacters": 1322
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajaja-pirjo-makela-palannut-vanhempainvapaalta",
+      "route": "/uutiset/asianajaja-pirjo-makela-palannut-vanhempainvapaalta",
+      "collection": "news",
+      "id": "uutiset--asianajaja-pirjo-makela-palannut-vanhempainvapaalta",
+      "contentFile": "src/content/news/uutiset--asianajaja-pirjo-makela-palannut-vanhempainvapaalta.mdoc",
+      "sourceTitle": "Asianajaja Pirjo Mäkelä on palannut vanhempainvapaalta",
+      "title": "Asianajaja Pirjo Mäkelä on palannut vanhempainvapaalta",
+      "sourceDate": "2023-08-01",
+      "date": "2023-08-01",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5916/7109/3823/Nimeton_suunn.malli.png",
+      "image": "/images/uutiset--asianajaja-pirjo-makela-palannut-vanhempainvapaalta/5b4c9761-Nimeton_suunn.malli.webp",
+      "sourceBodyCharacters": 448
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/uusi-sihteeri-nina-huikuri-aloitti-toimistollamme",
+      "route": "/uutiset/uusi-sihteeri-nina-huikuri-aloitti-toimistollamme",
+      "collection": "news",
+      "id": "uutiset--uusi-sihteeri-nina-huikuri-aloitti-toimistollamme",
+      "contentFile": "src/content/news/uutiset--uusi-sihteeri-nina-huikuri-aloitti-toimistollamme.mdoc",
+      "sourceTitle": "Uusi sihteeri Nina Huikuri aloitti toimistollamme",
+      "title": "Uusi sihteeri Nina Huikuri aloitti toimistollamme",
+      "sourceDate": "2022-09-27",
+      "date": "2022-09-27",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1416/9599/4951/Kontturi_Henkilosto_2022_10.png",
+      "image": "/images/uutiset--uusi-sihteeri-nina-huikuri-aloitti-toimistollamme/5348d864-Kontturi_Henkilosto_2022_10.webp",
+      "sourceBodyCharacters": 254
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/matti-tolvanen",
+      "route": "/asiantuntijat/matti-tolvanen",
+      "collection": "people",
+      "id": "asiantuntijat--matti-tolvanen",
+      "contentFile": "src/content/people/asiantuntijat--matti-tolvanen.mdoc",
+      "sourceTitle": "Matti Tolvanen",
+      "title": "Matti Tolvanen",
+      "sourcePhone": "013 120 731",
+      "phone": "013 120 731",
+      "sourceEmail": "matti.tolvanen@kontturi.fi",
+      "email": "matti.tolvanen@kontturi.fi",
+      "sourceRole": "Neuvotteleva lakimies, professori (emeritus)",
+      "role": "Neuvotteleva lakimies, professori (emeritus)",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7317/0635/8214/Kontturi-Matti-WEB-NELIO.jpg",
+      "image": "/images/asiantuntijat--matti-tolvanen/6f99aaa9-Kontturi-Matti-WEB-NELIO.jpg",
+      "sourceBodyCharacters": 2215
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/hillevi-kontturi-karviselle-asianajajan-titteli",
+      "route": "/uutiset/hillevi-kontturi-karviselle-asianajajan-titteli",
+      "collection": "news",
+      "id": "uutiset--hillevi-kontturi-karviselle-asianajajan-titteli",
+      "contentFile": "src/content/news/uutiset--hillevi-kontturi-karviselle-asianajajan-titteli.mdoc",
+      "sourceTitle": "Hillevi Kontturi-Karviselle asianajajan titteli",
+      "title": "Hillevi Kontturi-Karviselle asianajajan titteli",
+      "sourceDate": "2023-09-25",
+      "date": "2023-09-25",
+      "sourceImage": "https://asianajotoimisto.com/application/files/2216/9599/4344/003-300x300.jpg",
+      "image": "/images/uutiset--hillevi-kontturi-karviselle-asianajajan-titteli/456d0e89-003-300x300.jpg",
+      "sourceBodyCharacters": 474
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajotoimistomme-ja-lentopalloseura-joen-juju-ovat-solmineet-yhteistyosopimuksen",
+      "route": "/uutiset/asianajotoimistomme-ja-lentopalloseura-joen-juju-ovat-solmineet-yhteistyosopimuksen",
+      "collection": "news",
+      "id": "uutiset--asianajotoimistomme-ja-lentopalloseura-joen-juju-ovat-solmineet-yhteistyosopimuksen",
+      "contentFile": "src/content/news/uutiset--asianajotoimistomme-ja-lentopalloseura-joen-juju-ovat-solmineet-yhteistyosopimuksen.mdoc",
+      "sourceTitle": "Asianajotoimistomme ja lentopalloseura Joen Juju ovat solmineet yhteistyösopimuksen",
+      "title": "Asianajotoimistomme ja lentopalloseura Joen Juju ovat solmineet yhteistyösopimuksen",
+      "sourceDate": "2023-09-22",
+      "date": "2023-09-22",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1916/9599/4261/Juju-yhteistyo.jpg",
+      "image": "/images/uutiset--asianajotoimistomme-ja-lentopalloseura-joen-juju-ovat-solmineet-yhteistyosopimuksen/4d4a5deb-Juju-yhteistyo.jpg",
+      "sourceBodyCharacters": 897
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajaja-pirjo-makela-kutsuttu-toimistomme-osakkaaksi",
+      "route": "/uutiset/asianajaja-pirjo-makela-kutsuttu-toimistomme-osakkaaksi",
+      "collection": "news",
+      "id": "uutiset--asianajaja-pirjo-makela-kutsuttu-toimistomme-osakkaaksi",
+      "contentFile": "src/content/news/uutiset--asianajaja-pirjo-makela-kutsuttu-toimistomme-osakkaaksi.mdoc",
+      "sourceTitle": "Asianajaja Pirjo Mäkelä on kutsuttu toimistomme osakkaaksi!",
+      "title": "Asianajaja Pirjo Mäkelä on kutsuttu toimistomme osakkaaksi!",
+      "sourceDate": "2023-10-13",
+      "date": "2023-10-13",
+      "sourceImage": "https://asianajotoimisto.com/application/files/7817/0653/0796/Kontturi_Henkilosto_2022-4.png",
+      "image": "/images/uutiset--asianajaja-pirjo-makela-kutsuttu-toimistomme-osakkaaksi/4a3c4ac9-Kontturi_Henkilosto_2022-4.webp",
+      "sourceBodyCharacters": 2164
+    },
+    {
+      "source": "https://asianajotoimisto.com/lakipalvelut/tietosuoja-asiat",
+      "route": "/lakipalvelut/tietosuoja-asiat",
+      "collection": "services",
+      "id": "lakipalvelut--tietosuoja-asiat",
+      "contentFile": "src/content/services/lakipalvelut--tietosuoja-asiat.mdoc",
+      "sourceTitle": "Tietosuoja-asiat",
+      "title": "Tietosuoja-asiat",
+      "sourceImage": "https://asianajotoimisto.com/application/files/7217/0636/0965/Kontturi-3.jpg",
+      "image": "/images/lakipalvelut--tietosuoja-asiat/e64e70cd-Kontturi-3.jpg",
+      "sourceBodyCharacters": 375
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/kristiina-vola-aloitti-toimistollamme-asianajajana",
+      "route": "/uutiset/kristiina-vola-aloitti-toimistollamme-asianajajana",
+      "collection": "news",
+      "id": "uutiset--kristiina-vola-aloitti-toimistollamme-asianajajana",
+      "contentFile": "src/content/news/uutiset--kristiina-vola-aloitti-toimistollamme-asianajajana.mdoc",
+      "sourceTitle": "Kristiina Vola aloitti toimistollamme asianajajana!",
+      "title": "Kristiina Vola aloitti toimistollamme asianajajana!",
+      "sourceDate": "2024-01-09",
+      "date": "2024-01-09",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1117/0653/0795/kristiina.jpg",
+      "image": "/images/uutiset--kristiina-vola-aloitti-toimistollamme-asianajajana/85ff2f08-kristiina.jpg",
+      "sourceBodyCharacters": 750
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/veikko-haimila",
+      "route": "/asiantuntijat/veikko-haimila",
+      "collection": "people",
+      "id": "asiantuntijat--veikko-haimila",
+      "contentFile": "src/content/people/asiantuntijat--veikko-haimila.mdoc",
+      "sourceTitle": "Veikko Haimila",
+      "title": "Veikko Haimila",
+      "sourcePhone": "0400 385 885",
+      "phone": "0400 385 885",
+      "sourceEmail": "veikko.haimila@kontturi.fi",
+      "email": "veikko.haimila@kontturi.fi",
+      "sourceRole": "Lakimies",
+      "role": "Lakimies",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/2417/1462/2095/Kontturi-Veikko-WEB-NELIO.jpg",
+      "image": "/images/asiantuntijat--veikko-haimila/310316e4-Kontturi-Veikko-WEB-NELIO.jpg",
+      "sourceBodyCharacters": 1428
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/janika-pelkonen",
+      "route": "/asiantuntijat/janika-pelkonen",
+      "collection": "people",
+      "id": "asiantuntijat--janika-pelkonen",
+      "contentFile": "src/content/people/asiantuntijat--janika-pelkonen.mdoc",
+      "sourceTitle": "Janika Pelkonen",
+      "title": "Janika Pelkonen",
+      "sourcePhone": "0400 149 310",
+      "phone": "0400 149 310",
+      "sourceEmail": "janika.pelkonen@kontturi.fi",
+      "email": "janika.pelkonen@kontturi.fi",
+      "sourceRole": "Lakimies",
+      "role": "Lakimies",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9117/0655/7811/Kontturi-Janika-WEB-NELIO.jpg",
+      "image": "/images/asiantuntijat--janika-pelkonen/e1f41f62-Kontturi-Janika-WEB-NELIO.jpg",
+      "sourceBodyCharacters": 1278
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/professori-matti-tolvanen-aloittanut-toimistomme-palveluksessa",
+      "route": "/uutiset/professori-matti-tolvanen-aloittanut-toimistomme-palveluksessa",
+      "collection": "news",
+      "id": "uutiset--professori-matti-tolvanen-aloittanut-toimistomme-palveluksessa",
+      "contentFile": "src/content/news/uutiset--professori-matti-tolvanen-aloittanut-toimistomme-palveluksessa.mdoc",
+      "sourceTitle": "Professori Matti Tolvanen on aloittanut toimistomme palveluksessa",
+      "title": "Professori Matti Tolvanen on aloittanut toimistomme palveluksessa",
+      "sourceDate": "2024-02-01",
+      "date": "2024-02-01",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5917/0674/1526/nimitys_matti_tolvanen.jpg",
+      "image": "/images/uutiset--professori-matti-tolvanen-aloittanut-toimistomme-palveluksessa/b8b9f7a8-nimitys_matti_tolvanen.jpg",
+      "sourceBodyCharacters": 2253
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/janika-pelkonen-aloittanut-toimistomme-lakimiehena",
+      "route": "/uutiset/janika-pelkonen-aloittanut-toimistomme-lakimiehena",
+      "collection": "news",
+      "id": "uutiset--janika-pelkonen-aloittanut-toimistomme-lakimiehena",
+      "contentFile": "src/content/news/uutiset--janika-pelkonen-aloittanut-toimistomme-lakimiehena.mdoc",
+      "sourceTitle": "Janika Pelkonen on aloittanut toimistomme lakimiehenä",
+      "title": "Janika Pelkonen on aloittanut toimistomme lakimiehenä",
+      "sourceDate": "2024-05-02",
+      "date": "2024-05-02",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9117/0655/7811/Kontturi-Janika-WEB-NELIO.jpg",
+      "image": "/images/uutiset--janika-pelkonen-aloittanut-toimistomme-lakimiehena/e1f41f62-Kontturi-Janika-WEB-NELIO.jpg",
+      "sourceBodyCharacters": 720
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/matti-tolvasesta-laaja-henkilokuva-advokaatissa",
+      "route": "/uutiset/matti-tolvasesta-laaja-henkilokuva-advokaatissa",
+      "collection": "news",
+      "id": "uutiset--matti-tolvasesta-laaja-henkilokuva-advokaatissa",
+      "contentFile": "src/content/news/uutiset--matti-tolvasesta-laaja-henkilokuva-advokaatissa.mdoc",
+      "sourceTitle": "Matti Tolvasesta laaja henkilökuva Advokaatissa",
+      "title": "Matti Tolvasesta laaja henkilökuva Advokaatissa",
+      "sourceDate": "2024-05-14",
+      "date": "2024-05-14",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5917/0674/1526/nimitys_matti_tolvanen.jpg",
+      "image": "/images/uutiset--matti-tolvasesta-laaja-henkilokuva-advokaatissa/b8b9f7a8-nimitys_matti_tolvanen.jpg",
+      "sourceBodyCharacters": 537
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajotoimistomme-ja-etela-karjalan-osuuskauppa-ovat-solmineet-yhteistyosopimuksen",
+      "route": "/uutiset/asianajotoimistomme-ja-etela-karjalan-osuuskauppa-ovat-solmineet-yhteistyosopimuksen",
+      "collection": "news",
+      "id": "uutiset--asianajotoimistomme-ja-etela-karjalan-osuuskauppa-ovat-solmineet-yhteistyosopimuksen",
+      "contentFile": "src/content/news/uutiset--asianajotoimistomme-ja-etela-karjalan-osuuskauppa-ovat-solmineet-yhteistyosopimuksen.mdoc",
+      "sourceTitle": "Asianajotoimistomme ja Etelä-Karjalan Osuuskauppa ovat solmineet yhteistyösopimuksen!",
+      "title": "Asianajotoimistomme ja Etelä-Karjalan Osuuskauppa ovat solmineet yhteistyösopimuksen!",
+      "sourceDate": "2024-09-16",
+      "date": "2024-09-16",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9817/2646/4639/eekoo_iso_logo_aok.svg",
+      "image": "/images/uutiset--asianajotoimistomme-ja-etela-karjalan-osuuskauppa-ovat-solmineet-yhteistyosopimuksen/0d36979e-eekoo_iso_logo_aok.svg",
+      "sourceBodyCharacters": 2569
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajotoimisto-kontturi-co-laajentaa-lappeenrantaan",
+      "route": "/uutiset/asianajotoimisto-kontturi-co-laajentaa-lappeenrantaan",
+      "collection": "news",
+      "id": "uutiset--asianajotoimisto-kontturi-co-laajentaa-lappeenrantaan",
+      "contentFile": "src/content/news/uutiset--asianajotoimisto-kontturi-co-laajentaa-lappeenrantaan.mdoc",
+      "sourceTitle": "Asianajotoimisto Kontturi & Co laajentaa Lappeenrantaan",
+      "title": "Asianajotoimisto Kontturi & Co laajentaa Lappeenrantaan",
+      "sourceDate": "2024-05-20",
+      "date": "2024-05-20",
+      "sourceImage": "https://asianajotoimisto.com/application/files/7117/1620/8014/ryhmakuva-banneri-UUSI-2024-Veikko.jpg",
+      "image": "/images/uutiset--asianajotoimisto-kontturi-co-laajentaa-lappeenrantaan/15f37c92-ryhmakuva-banneri-UUSI-2024-Veikko.jpg",
+      "sourceBodyCharacters": 2415
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/veikko-haimila-toimistomme-uusin-vahvistus",
+      "route": "/uutiset/veikko-haimila-toimistomme-uusin-vahvistus",
+      "collection": "news",
+      "id": "uutiset--veikko-haimila-toimistomme-uusin-vahvistus",
+      "contentFile": "src/content/news/uutiset--veikko-haimila-toimistomme-uusin-vahvistus.mdoc",
+      "sourceTitle": "Veikko Haimila on toimistomme uusin vahvistus",
+      "title": "Veikko Haimila on toimistomme uusin vahvistus",
+      "sourceDate": "2024-05-06",
+      "date": "2024-05-06",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/2417/1462/2095/Kontturi-Veikko-WEB-NELIO.jpg",
+      "image": "/images/uutiset--veikko-haimila-toimistomme-uusin-vahvistus/310316e4-Kontturi-Veikko-WEB-NELIO.jpg",
+      "sourceBodyCharacters": 660
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/lappeenrannan-toimisto-avattu",
+      "route": "/uutiset/lappeenrannan-toimisto-avattu",
+      "collection": "news",
+      "id": "uutiset--lappeenrannan-toimisto-avattu",
+      "contentFile": "src/content/news/uutiset--lappeenrannan-toimisto-avattu.mdoc",
+      "sourceTitle": "Lappeenrannan toimisto on avattu",
+      "title": "Lappeenrannan toimisto on avattu",
+      "sourceDate": "2024-09-02",
+      "date": "2024-09-02",
+      "sourceImage": "https://asianajotoimisto.com/application/files/4917/2525/2135/ryhmakuva-banneri-UUSI-2024-Veikko.jpg",
+      "image": "/images/uutiset--lappeenrannan-toimisto-avattu/image.jpg",
+      "sourceBodyCharacters": 1138
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/anniina-korjuksesta-asianajaja",
+      "route": "/uutiset/anniina-korjuksesta-asianajaja",
+      "collection": "news",
+      "id": "uutiset--anniina-korjuksesta-asianajaja",
+      "contentFile": "src/content/news/uutiset--anniina-korjuksesta-asianajaja.mdoc",
+      "sourceTitle": "Anniina Korjuksesta asianajaja",
+      "title": "Anniina Korjuksesta asianajaja",
+      "sourceDate": "2024-09-13",
+      "date": "2024-09-13",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9517/2621/9574/Nimeton_suunn.malli_12.jpg",
+      "image": "/images/uutiset--anniina-korjuksesta-asianajaja/9ce21006-Nimeton_suunn.malli_12.jpg",
+      "sourceBodyCharacters": 596
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/aloitamme-yhteistyon-osuuskauppa-keskimaan-kanssa",
+      "route": "/uutiset/aloitamme-yhteistyon-osuuskauppa-keskimaan-kanssa",
+      "collection": "news",
+      "id": "uutiset--aloitamme-yhteistyon-osuuskauppa-keskimaan-kanssa",
+      "contentFile": "src/content/news/uutiset--aloitamme-yhteistyon-osuuskauppa-keskimaan-kanssa.mdoc",
+      "sourceTitle": "Aloitamme yhteistyön Osuuskauppa Keskimaan kanssa",
+      "title": "Aloitamme yhteistyön Osuuskauppa Keskimaan kanssa",
+      "sourceDate": "2025-06-17",
+      "date": "2025-06-17",
+      "sourceImage": "https://asianajotoimisto.com/application/files/6817/5014/2135/s_keskimaa.svg",
+      "image": "/images/uutiset--aloitamme-yhteistyon-osuuskauppa-keskimaan-kanssa/7942640c-s_keskimaa.svg",
+      "sourceBodyCharacters": 1175
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/samuli-myller-asianajajaksi",
+      "route": "/uutiset/samuli-myller-asianajajaksi",
+      "collection": "news",
+      "id": "uutiset--samuli-myller-asianajajaksi",
+      "contentFile": "src/content/news/uutiset--samuli-myller-asianajajaksi.mdoc",
+      "sourceTitle": "Samuli Myller asianajajaksi",
+      "title": "Samuli Myller asianajajaksi",
+      "sourceDate": "2024-10-28",
+      "date": "2024-10-28",
+      "sourceImage": "https://asianajotoimisto.com/application/files/1316/7109/4099/Nimeton_suunn.malli_9.jpg",
+      "image": "/images/uutiset--samuli-myller-asianajajaksi/6898e13d-Nimeton_suunn.malli_9.jpg",
+      "sourceBodyCharacters": 372
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/sanni-hiltunen",
+      "route": "/asiantuntijat/sanni-hiltunen",
+      "collection": "people",
+      "id": "asiantuntijat--sanni-hiltunen",
+      "contentFile": "src/content/people/asiantuntijat--sanni-hiltunen.mdoc",
+      "sourceTitle": "Sanni Hiltunen",
+      "title": "Sanni Hiltunen",
+      "sourcePhone": "013 120 731",
+      "phone": "013 120 731",
+      "sourceEmail": "asianajotoimisto@kontturi.fi",
+      "email": "asianajotoimisto@kontturi.fi",
+      "sourceRole": "Toimistosihteeri",
+      "role": "Toimistosihteeri",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/5917/5096/1436/Nettisivu_Sanni.jpg",
+      "image": "/images/asiantuntijat--sanni-hiltunen/4b7f984d-Nettisivu_Sanni.jpg",
+      "sourceBodyCharacters": 194
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/helmi-helotie",
+      "route": "/asiantuntijat/helmi-helotie",
+      "collection": "people",
+      "id": "asiantuntijat--helmi-helotie",
+      "contentFile": "src/content/people/asiantuntijat--helmi-helotie.mdoc",
+      "sourceTitle": "Helmi Helotie",
+      "title": "Helmi Helotie",
+      "sourcePhone": "0400 148 824",
+      "phone": "0400 148 824",
+      "sourceEmail": "helmi.helotie@kontturi.fi",
+      "email": "helmi.helotie@kontturi.fi",
+      "sourceRole": "Lakimies (vanhempainvapaalla)",
+      "role": "Lakimies (vanhempainvapaalla)",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7817/2649/0094/Kontturi-Henkilostovalokuvat-UUSI-3.png",
+      "image": "/images/asiantuntijat--helmi-helotie/7dfd22e9-Kontturi-Henkilostovalokuvat-UUSI-3.webp",
+      "sourceBodyCharacters": 464
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/keskimaan-neuvontapaivien-ajanvaraus-avautuu",
+      "route": "/uutiset/keskimaan-neuvontapaivien-ajanvaraus-avautuu",
+      "collection": "news",
+      "id": "uutiset--keskimaan-neuvontapaivien-ajanvaraus-avautuu",
+      "contentFile": "src/content/news/uutiset--keskimaan-neuvontapaivien-ajanvaraus-avautuu.mdoc",
+      "sourceTitle": "Keskimaan neuvontapäivien ajanvaraus avautuu!",
+      "title": "Keskimaan neuvontapäivien ajanvaraus avautuu!",
+      "sourceDate": "2025-09-07",
+      "date": "2025-09-07",
+      "sourceImage": "https://asianajotoimisto.com/application/files/3517/5724/6441/S_KESKIMAA.svg",
+      "image": "/images/uutiset--keskimaan-neuvontapaivien-ajanvaraus-avautuu/50b36fbd-S_KESKIMAA.svg",
+      "sourceBodyCharacters": 581
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/janika-ratylle-asianajajan-titteli",
+      "route": "/uutiset/janika-ratylle-asianajajan-titteli",
+      "collection": "news",
+      "id": "uutiset--janika-ratylle-asianajajan-titteli",
+      "contentFile": "src/content/news/uutiset--janika-ratylle-asianajajan-titteli.mdoc",
+      "sourceTitle": "Janika Rätylle asianajajan titteli",
+      "title": "Janika Rätylle asianajajan titteli",
+      "sourceDate": "2025-10-16",
+      "date": "2025-10-16",
+      "sourceImage": "https://asianajotoimisto.com/application/files/5517/6062/2353/Nettisivu_Janika.jpg",
+      "image": "/images/uutiset--janika-ratylle-asianajajan-titteli/a317e38d-Nettisivu_Janika.jpg",
+      "sourceBodyCharacters": 558
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/siiri-klubb",
+      "route": "/asiantuntijat/siiri-klubb",
+      "collection": "people",
+      "id": "asiantuntijat--siiri-klubb",
+      "contentFile": "src/content/people/asiantuntijat--siiri-klubb.mdoc",
+      "sourceTitle": "Siiri Klubb",
+      "title": "Siiri Klubb",
+      "sourcePhone": "0400 597 759",
+      "phone": "0400 597 759",
+      "sourceEmail": "siiri.klubb@kontturi.fi",
+      "email": "siiri.klubb@kontturi.fi",
+      "sourceRole": "Lakimies",
+      "role": "Lakimies",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7917/8575/2980/Klubb_Siiri.jpg",
+      "image": "/images/asiantuntijat--siiri-klubb/d9b44cae-Klubb_Siiri.jpg",
+      "sourceBodyCharacters": 521
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/asianajaja-janika-raty-kutsuttu-toimistomme-osakkaaksi",
+      "route": "/uutiset/asianajaja-janika-raty-kutsuttu-toimistomme-osakkaaksi",
+      "collection": "news",
+      "id": "uutiset--asianajaja-janika-raty-kutsuttu-toimistomme-osakkaaksi",
+      "contentFile": "src/content/news/uutiset--asianajaja-janika-raty-kutsuttu-toimistomme-osakkaaksi.mdoc",
+      "sourceTitle": "Asianajaja Janika Räty on kutsuttu toimistomme osakkaaksi!",
+      "title": "Asianajaja Janika Räty on kutsuttu toimistomme osakkaaksi!",
+      "sourceDate": "2026-04-02",
+      "date": "2026-04-02",
+      "sourceImage": "https://asianajotoimisto.com/application/files/8517/7512/5713/Kontturi-8.jpg",
+      "image": "/images/uutiset--asianajaja-janika-raty-kutsuttu-toimistomme-osakkaaksi/e5efb706-Kontturi-8.jpg",
+      "sourceBodyCharacters": 2057
+    },
+    {
+      "source": "https://asianajotoimisto.com/asiantuntijat/rasmus-ruokonen",
+      "route": "/asiantuntijat/rasmus-ruokonen",
+      "collection": "people",
+      "id": "asiantuntijat--rasmus-ruokonen",
+      "contentFile": "src/content/people/asiantuntijat--rasmus-ruokonen.mdoc",
+      "sourceTitle": "Rasmus Ruokonen",
+      "title": "Rasmus Ruokonen",
+      "sourcePhone": "0400 148 861",
+      "phone": "0400 148 861",
+      "sourceEmail": "rasmus.ruokonen@kontturi.fi",
+      "email": "rasmus.ruokonen@kontturi.fi",
+      "sourceRole": "Lakimies",
+      "role": "Lakimies",
+      "sourceImage": "https://asianajotoimisto.com/application/files/9517/5887/9316/Ryhmakuva_JKL_Rasmus-3-Transparent.png",
+      "image": "/images/asiantuntijat--rasmus-ruokonen/78a52d07-Ryhmakuva_JKL_Rasmus-3-Transparent.webp",
+      "sourceBodyCharacters": 660
+    },
+    {
+      "source": "https://asianajotoimisto.com/uutiset/siiri-klubb-aloittanut-toimistomme-uutena-juristina",
+      "route": "/uutiset/siiri-klubb-aloittanut-toimistomme-uutena-juristina",
+      "collection": "news",
+      "id": "uutiset--siiri-klubb-aloittanut-toimistomme-uutena-juristina",
+      "contentFile": "src/content/news/uutiset--siiri-klubb-aloittanut-toimistomme-uutena-juristina.mdoc",
+      "sourceTitle": "Siiri Klubb on aloittanut toimistomme uutena juristina",
+      "title": "Siiri Klubb on aloittanut toimistomme uutena juristina",
+      "sourceDate": "2026-08-03",
+      "date": "2026-08-03",
+      "sourceImage": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7917/8575/2980/Klubb_Siiri.jpg",
+      "image": "/images/uutiset--siiri-klubb-aloittanut-toimistomme-uutena-juristina/d9b44cae-Klubb_Siiri.jpg",
+      "sourceBodyCharacters": 680
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/ohjeita-kiinteiston-kauppaa-varten",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/ohjeita-kiinteiston-kauppaa-varten",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus--ohjeita-kiinteiston-kauppaa-varten",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus--ohjeita-kiinteiston-kauppaa-varten.mdoc",
+      "sourceTitle": "Ohjeita kiinteistön kauppaa varten",
+      "title": "Ohjeita kiinteistön kauppaa varten",
+      "image": "",
+      "sourceBodyCharacters": 4998
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto.mdoc",
+      "sourceTitle": "Tervetuloa asiakasomistajasivuille!",
+      "title": "Tietoa arjen lakiasioista",
+      "image": "",
+      "sourceBodyCharacters": 158
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/matkustajan-oikeus-peruuttaa-valmismatka",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/matkustajan-oikeus-peruuttaa-valmismatka",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus--matkustajan-oikeus-peruuttaa-valmismatka",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus--matkustajan-oikeus-peruuttaa-valmismatka.mdoc",
+      "sourceTitle": "Matkustajan oikeus peruuttaa valmismatka",
+      "title": "Matkustajan oikeus peruuttaa valmismatka",
+      "image": "",
+      "sourceBodyCharacters": 5032
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/yksinkertainen-velkomusasia",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/kauppa-ja-sopimusoikeus/yksinkertainen-velkomusasia",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus--yksinkertainen-velkomusasia",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--kauppa-ja-sopimusoikeus--yksinkertainen-velkomusasia.mdoc",
+      "sourceTitle": "Yksinkertainen velkomusasia",
+      "title": "Yksinkertainen velkomusasia",
+      "image": "",
+      "sourceBodyCharacters": 2445
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/lainantakausvastuusta",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/lainantakausvastuusta",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--lainantakausvastuusta",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--lainantakausvastuusta.mdoc",
+      "sourceTitle": "Lainantakausvastuusta",
+      "title": "Lainantakausvastuusta",
+      "image": "",
+      "sourceBodyCharacters": 2815
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ohjeita-avioehtosopimuksen-laatimista-varten",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ohjeita-avioehtosopimuksen-laatimista-varten",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--ohjeita-avioehtosopimuksen-laatimista-varten",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--ohjeita-avioehtosopimuksen-laatimista-varten.mdoc",
+      "sourceTitle": "Ohjeita avioehtosopimuksen laatimista varten",
+      "title": "Ohjeita avioehtosopimuksen laatimista varten",
+      "image": "",
+      "sourceBodyCharacters": 3495
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/menettelyohjeet-laheisen-kuolemantilanteessa",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/menettelyohjeet-laheisen-kuolemantilanteessa",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--menettelyohjeet-laheisen-kuolemantilanteessa",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--menettelyohjeet-laheisen-kuolemantilanteessa.mdoc",
+      "sourceTitle": "Menettelyohjeet läheisen kuolemantilanteessa",
+      "title": "Menettelyohjeet läheisen kuolemantilanteessa",
+      "image": "",
+      "sourceBodyCharacters": 4593
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/henkilotietojen-kasittely",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/henkilotietojen-kasittely",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--henkilotietojen-kasittely",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--henkilotietojen-kasittely.mdoc",
+      "sourceTitle": "Henkilötietojen käsittely",
+      "title": "Henkilötietojen käsittely",
+      "image": "",
+      "sourceBodyCharacters": 9171
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/isyyden-tunnustaminen",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/isyyden-tunnustaminen",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--isyyden-tunnustaminen",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--isyyden-tunnustaminen.mdoc",
+      "sourceTitle": "Isyyden tunnustaminen",
+      "title": "Isyyden tunnustaminen",
+      "image": "",
+      "sourceBodyCharacters": 4153
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ohjeita-ylivelkaantuneelle-yksityishenkilolle",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ohjeita-ylivelkaantuneelle-yksityishenkilolle",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--ohjeita-ylivelkaantuneelle-yksityishenkilolle",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--ohjeita-ylivelkaantuneelle-yksityishenkilolle.mdoc",
+      "sourceTitle": "Ohjeita ylivelkaantuneelle yksityishenkilölle",
+      "title": "Ohjeita ylivelkaantuneelle yksityishenkilölle",
+      "image": "",
+      "sourceBodyCharacters": 3885
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/hallintaoikeuden-saajan-ja-omistajan-asema",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/hallintaoikeuden-saajan-ja-omistajan-asema",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--hallintaoikeuden-saajan-ja-omistajan-asema",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--hallintaoikeuden-saajan-ja-omistajan-asema.mdoc",
+      "sourceTitle": "Hallintaoikeuden saajan ja omistajan asema",
+      "title": "Hallintaoikeuden saajan ja omistajan asema",
+      "image": "",
+      "sourceBodyCharacters": 2931
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ositus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus/ositus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--ositus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus--ositus.mdoc",
+      "sourceTitle": "Ositus",
+      "title": "Ositus",
+      "image": "",
+      "sourceBodyCharacters": 3107
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/hallintaoikeuden-arvo",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/hallintaoikeuden-arvo",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--hallintaoikeuden-arvo",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--hallintaoikeuden-arvo.mdoc",
+      "sourceTitle": "Hallintaoikeuden arvo",
+      "title": "Hallintaoikeuden arvo",
+      "image": "",
+      "sourceBodyCharacters": 2873
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/lahjoitussaannokset-ja-perintoverosuunnittelu",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/lahjoitussaannokset-ja-perintoverosuunnittelu",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--lahjoitussaannokset-ja-perintoverosuunnittelu",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--lahjoitussaannokset-ja-perintoverosuunnittelu.mdoc",
+      "sourceTitle": "Lahjoitussäännökset ja perintöverosuunnittelu",
+      "title": "Lahjoitussäännökset ja perintöverosuunnittelu",
+      "image": "",
+      "sourceBodyCharacters": 58
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/kunnian-ja-yksityiselaman-loukkaamisesta",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/kunnian-ja-yksityiselaman-loukkaamisesta",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--kunnian-ja-yksityiselaman-loukkaamisesta",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--kunnian-ja-yksityiselaman-loukkaamisesta.mdoc",
+      "sourceTitle": "Kunnian ja yksityiselämän loukkaamisesta",
+      "title": "Kunnian ja yksityiselämän loukkaamisesta",
+      "image": "",
+      "sourceBodyCharacters": 3058
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/miten-vahingot-korvataan-liikennevahingossa",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/miten-vahingot-korvataan-liikennevahingossa",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--miten-vahingot-korvataan-liikennevahingossa",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--miten-vahingot-korvataan-liikennevahingossa.mdoc",
+      "sourceTitle": "Miten vahingot korvataan liikennevahingossa",
+      "title": "Miten vahingot korvataan liikennevahingossa",
+      "image": "",
+      "sourceBodyCharacters": 3831
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/perintoverotus-ja-ennakkoratkaisu",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/perintoverotus-ja-ennakkoratkaisu",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--perintoverotus-ja-ennakkoratkaisu",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--perintoverotus-ja-ennakkoratkaisu.mdoc",
+      "sourceTitle": "Perintöverotus ja ennakkoratkaisu",
+      "title": "Perintöverotus ja ennakkoratkaisu",
+      "image": "",
+      "sourceBodyCharacters": 2742
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/lahestymiskielto",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/lahestymiskielto",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--lahestymiskielto",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--lahestymiskielto.mdoc",
+      "sourceTitle": "Lähestymiskielto",
+      "title": "Lähestymiskielto",
+      "image": "",
+      "sourceBodyCharacters": 2835
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/vastuu-kuolleen-henkilon-velasta",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus/vastuu-kuolleen-henkilon-velasta",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--vastuu-kuolleen-henkilon-velasta",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus--vastuu-kuolleen-henkilon-velasta.mdoc",
+      "sourceTitle": "Vastuu kuolleen henkilön velasta",
+      "title": "Vastuu kuolleen henkilön velasta",
+      "image": "",
+      "sourceBodyCharacters": 2786
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/ohjeita-jos-joudut-rikoksen-uhriksi",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/ohjeita-jos-joudut-rikoksen-uhriksi",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--ohjeita-jos-joudut-rikoksen-uhriksi",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--ohjeita-jos-joudut-rikoksen-uhriksi.mdoc",
+      "sourceTitle": "Ohjeita jos joudut rikoksen uhriksi",
+      "title": "Ohjeita jos joudut rikoksen uhriksi",
+      "image": "",
+      "sourceBodyCharacters": 3006
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/liikkeen-luovutus-ja-irtisanominen",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/liikkeen-luovutus-ja-irtisanominen",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--liikkeen-luovutus-ja-irtisanominen",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--liikkeen-luovutus-ja-irtisanominen.mdoc",
+      "sourceTitle": "Liikkeen luovutus ja irtisanominen",
+      "title": "Liikkeen luovutus ja irtisanominen",
+      "image": "",
+      "sourceBodyCharacters": 3877
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/syyttamatta-jattaminen",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus/syyttamatta-jattaminen",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--syyttamatta-jattaminen",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus--syyttamatta-jattaminen.mdoc",
+      "sourceTitle": "Syyttämättä jättäminen",
+      "title": "Syyttämättä jättäminen",
+      "image": "",
+      "sourceBodyCharacters": 3421
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/kilpaileva-tyosopimus-ja-kilpailukieltosopimus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/kilpaileva-tyosopimus-ja-kilpailukieltosopimus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--kilpaileva-tyosopimus-ja-kilpailukieltosopimus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--kilpaileva-tyosopimus-ja-kilpailukieltosopimus.mdoc",
+      "sourceTitle": "Kilpaileva työsopimus ja kilpailukieltosopimus",
+      "title": "Kilpaileva työsopimus ja kilpailukieltosopimus",
+      "image": "",
+      "sourceBodyCharacters": 3352
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/lomautetun-tyontekijan-asema",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/lomautetun-tyontekijan-asema",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--lomautetun-tyontekijan-asema",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--lomautetun-tyontekijan-asema.mdoc",
+      "sourceTitle": "Lomautetun työntekijän asema",
+      "title": "Lomautetun työntekijän asema",
+      "image": "",
+      "sourceBodyCharacters": 2028
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/liikehuoneiston-kayton-estyminen",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/liikehuoneiston-kayton-estyminen",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--liikehuoneiston-kayton-estyminen",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--liikehuoneiston-kayton-estyminen.mdoc",
+      "sourceTitle": "Liikehuoneiston käytön estyminen",
+      "title": "Liikehuoneiston käytön estyminen",
+      "image": "",
+      "sourceBodyCharacters": 2728
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/tyosopimus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/tyosopimus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--tyosopimus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--tyosopimus.mdoc",
+      "sourceTitle": "Työsopimus",
+      "title": "Työsopimus",
+      "image": "",
+      "sourceBodyCharacters": 2480
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/tyotodistus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus/tyotodistus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--tyotodistus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus--tyotodistus.mdoc",
+      "sourceTitle": "Työtodistus",
+      "title": "Työtodistus",
+      "image": "",
+      "sourceBodyCharacters": 2420
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/muuttopaivan-siirtaminen",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/muuttopaivan-siirtaminen",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--muuttopaivan-siirtaminen",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--muuttopaivan-siirtaminen.mdoc",
+      "sourceTitle": "Muuttopäivän siirtäminen",
+      "title": "Muuttopäivän siirtäminen",
+      "image": "",
+      "sourceBodyCharacters": 4344
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/ketka-voivat-asua-vuokraamassasi-asunnossa",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/ketka-voivat-asua-vuokraamassasi-asunnossa",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--ketka-voivat-asua-vuokraamassasi-asunnossa",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--ketka-voivat-asua-vuokraamassasi-asunnossa.mdoc",
+      "sourceTitle": "Ketkä voivat asua vuokraamassasi asunnossa?",
+      "title": "Ketkä voivat asua vuokraamassasi asunnossa?",
+      "image": "",
+      "sourceBodyCharacters": 3128
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/osakassopimus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/osakassopimus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus--osakassopimus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus--osakassopimus.mdoc",
+      "sourceTitle": "Osakassopimus",
+      "title": "Osakassopimus",
+      "image": "",
+      "sourceBodyCharacters": 3975
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/paaomalaina",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/paaomalaina",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus--paaomalaina",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus--paaomalaina.mdoc",
+      "sourceTitle": "Pääomalaina",
+      "title": "Pääomalaina",
+      "image": "",
+      "sourceBodyCharacters": 3713
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perheoikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perheoikeus.mdoc",
+      "sourceTitle": "Perheoikeus",
+      "title": "Perheoikeus",
+      "image": "",
+      "sourceBodyCharacters": 1025
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/oyn-hallituksen-jasenen-vastuu",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus/oyn-hallituksen-jasenen-vastuu",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus--oyn-hallituksen-jasenen-vastuu",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus--oyn-hallituksen-jasenen-vastuu.mdoc",
+      "sourceTitle": "Oy:n hallituksen jäsenen vastuu",
+      "title": "Oy:n hallituksen jäsenen vastuu",
+      "image": "",
+      "sourceBodyCharacters": 9364
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/vuokralaisen-ilmoittamisvelvollisuus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus/vuokralaisen-ilmoittamisvelvollisuus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--vuokralaisen-ilmoittamisvelvollisuus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus--vuokralaisen-ilmoittamisvelvollisuus.mdoc",
+      "sourceTitle": "Vuokralaisen ilmoittamisvelvollisuus",
+      "title": "Vuokralaisen ilmoittamisvelvollisuus",
+      "image": "",
+      "sourceBodyCharacters": 2020
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/yritysoikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--yritysoikeus.mdoc",
+      "sourceTitle": "Yritysoikeus",
+      "title": "Yritysoikeus",
+      "image": "",
+      "sourceBodyCharacters": 390
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/rikosoikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--rikosoikeus.mdoc",
+      "sourceTitle": "Rikosoikeus",
+      "title": "Rikosoikeus",
+      "image": "",
+      "sourceBodyCharacters": 757
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/vuokraoikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--vuokraoikeus.mdoc",
+      "sourceTitle": "Vuokraoikeus",
+      "title": "Vuokraoikeus",
+      "image": "",
+      "sourceBodyCharacters": 635
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/tyooikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--tyooikeus.mdoc",
+      "sourceTitle": "Työoikeus",
+      "title": "Työoikeus",
+      "image": "",
+      "sourceBodyCharacters": 691
+    },
+    {
+      "source": "https://asianajotoimisto.com/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus",
+      "route": "/yhteistyossa/osuuskaupan-asiakasomistaja/asiakasomistajakirjasto/perintooikeus",
+      "collection": "pages",
+      "id": "yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus",
+      "contentFile": "src/content/pages/yhteistyossa--osuuskaupan-asiakasomistaja--asiakasomistajakirjasto--perintooikeus.mdoc",
+      "sourceTitle": "Perintöoikeus",
+      "title": "Perintöoikeus",
+      "image": "",
+      "sourceBodyCharacters": 803
+    }
+  ],
+  "addedPages": [
+    {
+      "route": "/toimistot/joensuu",
+      "contentFile": "src/content/offices/joensuu.mdoc",
+      "title": "Joensuu"
+    },
+    {
+      "route": "/toimistot/jyvaskyla",
+      "contentFile": "src/content/offices/jyvaskyla.mdoc",
+      "title": "Jyväskylä"
+    },
+    {
+      "route": "/toimistot/lappeenranta",
+      "contentFile": "src/content/offices/lappeenranta.mdoc",
+      "title": "Lappeenranta"
+    },
+    {
+      "route": "/meista",
+      "contentFile": "src/content/pages/meista.mdoc",
+      "title": "Meistä"
+    }
+  ],
+  "sourceNewsPagination": [
+    "https://asianajotoimisto.com/uutiset?ccm_paging_p=2&ccm_order_by=cv.cvDatePublic&ccm_order_by_direction=desc",
+    "https://asianajotoimisto.com/uutiset?ccm_paging_p=3&ccm_order_by=cv.cvDatePublic&ccm_order_by_direction=desc",
+    "https://asianajotoimisto.com/uutiset?ccm_paging_p=4&ccm_order_by=cv.cvDatePublic&ccm_order_by_direction=desc",
+    "https://asianajotoimisto.com/uutiset?ccm_paging_p=1&ccm_order_by=cv.cvDatePublic&ccm_order_by_direction=desc"
+  ],
+  "pagination": [
+    "/uutiset/sivu/2",
+    "/uutiset/sivu/3",
+    "/uutiset/sivu/4"
+  ],
+  "sourceAssets": [
+    {
+      "source": "https://asianajotoimisto.com/application/files/5216/9563/7542/Kontturi-Valokuvat-WEB_3_of_10.jpg",
+      "originalDownloadPath": "/images/4a9a28d7-Kontturi-Valokuvat-WEB_3_of_10.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/3517/5724/6441/S_KESKIMAA.svg",
+      "originalDownloadPath": "/images/50b36fbd-S_KESKIMAA.svg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5816/9599/3141/S_PKO.jpg",
+      "originalDownloadPath": "/images/c331c410-S_PKO.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9316/9599/5034/Kontturi_Henkilosto_2022_26.png",
+      "originalDownloadPath": "/images/eee2867e-Kontturi_Henkilosto_2022_26.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2117/5724/7183/Eekoo.svg.png",
+      "originalDownloadPath": "/images/e0c58dd7-Eekoo.svg.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/6816/9599/3346/logo.png",
+      "originalDownloadPath": "/images/9b9fb7fe-logo.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/1316/9599/4916/Kontturi_Henkilosto_2022_4.png",
+      "originalDownloadPath": "/images/c29a3666-Kontturi_Henkilosto_2022_4.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/6016/9598/9255/Kontturi-Henkilostovalokuvat-UUSI-7.png",
+      "originalDownloadPath": "/images/16e79a28-Kontturi-Henkilostovalokuvat-UUSI-7.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/cache/thumbnails/dfec37333ee286893c3a2e7539307873.png",
+      "originalDownloadPath": "/images/1c3d13b5-dfec37333ee286893c3a2e7539307873.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/8216/9598/9236/Kontturi-Henkilostovalokuvat-UUSI-4.png",
+      "originalDownloadPath": "/images/c3e6fb19-Kontturi-Henkilostovalokuvat-UUSI-4.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9816/3222/7367/w_sy_pohjoiskarjala_rgb_musta.png",
+      "originalDownloadPath": "/images/dabe9cc9-w_sy_pohjoiskarjala_rgb_musta.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1216/3222/7615/okl_1.jpg",
+      "originalDownloadPath": "/images/5f24bf54-okl_1.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/6616/9599/3493/koneyrittajat.png",
+      "originalDownloadPath": "/images/f3dbac52-koneyrittajat.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/6716/3222/7774/sbl.jpeg",
+      "originalDownloadPath": "/images/884f0efe-sbl.jpeg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7516/3222/8847/kauppakamari.png",
+      "originalDownloadPath": "/images/abe06bc6-kauppakamari.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/8116/3222/8925/al-logo.png",
+      "originalDownloadPath": "/images/6dcf2535-al-logo.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/cache/thumbnails/8a5fbe84c55130f7212c30d4ad4d6fd5.png",
+      "originalDownloadPath": "/images/11f05b10-8a5fbe84c55130f7212c30d4ad4d6fd5.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/cache/thumbnails/4f17b62ad04c06c8d56ad55ed17a5c7e.jpg",
+      "originalDownloadPath": "/images/37f74403-4f17b62ad04c06c8d56ad55ed17a5c7e.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7816/3222/9036/uef_fin.jpg",
+      "originalDownloadPath": "/images/517b81bf-uef_fin.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/3016/3222/9144/Karelia_tunnusvaaka-selite_rgb_FI.jpg",
+      "originalDownloadPath": "/images/2c9c1576-Karelia_tunnusvaaka-selite_rgb_FI.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/4516/3222/9313/tieyhdistys.gif",
+      "originalDownloadPath": "/images/63f4e475-tieyhdistys.gif"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5716/3222/9227/lataa.png",
+      "originalDownloadPath": "/images/4276a61f-lataa.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/cache/thumbnails/a8701044e692ce254283e961988666ab.png",
+      "originalDownloadPath": "/images/01ea6407-a8701044e692ce254283e961988666ab.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/4416/9599/4932/Kontturi_Henkilosto_2022_7.png",
+      "originalDownloadPath": "/images/b602dbe4-Kontturi_Henkilosto_2022_7.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/1916/9598/9222/Kontturi-Henkilostovalokuvat-UUSI-2.png",
+      "originalDownloadPath": "/images/f5df3685-Kontturi-Henkilostovalokuvat-UUSI-2.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9716/9599/5030/Kontturi_Henkilosto_2022_25.png",
+      "originalDownloadPath": "/images/2c846373-Kontturi_Henkilosto_2022_25.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9316/9599/4961/Kontturi_Henkilosto_2022_12.png",
+      "originalDownloadPath": "/images/68298035-Kontturi_Henkilosto_2022_12.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/4216/9599/5010/Kontturi_Henkilosto_2022_21.png",
+      "originalDownloadPath": "/images/6cba0234-Kontturi_Henkilosto_2022_21.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1616/9563/7264/Kontturi-5.jpg",
+      "originalDownloadPath": "/images/87c3bedb-Kontturi-5.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/8116/3213/8159/palveluksessasi_yhteyslakimieheen-01.png",
+      "originalDownloadPath": "/images/b29cd90f-palveluksessasi_yhteyslakimieheen-01.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7916/9598/9216/Kontturi-Henkilostovalokuvat-UUSI-1.png",
+      "originalDownloadPath": "/images/dee78600-Kontturi-Henkilostovalokuvat-UUSI-1.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/3316/3213/9034/oikeudenkaynnit.jpg",
+      "originalDownloadPath": "/images/8abe0345-oikeudenkaynnit.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2217/0655/7651/Kontturi-Valokuvat-WEB_5_of_10.jpg",
+      "originalDownloadPath": "/images/87383562-Kontturi-Valokuvat-WEB_5_of_10.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/4916/3213/9876/sopimusoikeus.jpg",
+      "originalDownloadPath": "/images/70c7d7b8-sopimusoikeus.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2716/3213/9688/asuntokauppariidat.jpg",
+      "originalDownloadPath": "/images/a51ac7cc-asuntokauppariidat.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/6316/3213/9980/ymparisto-oikeus.jpg",
+      "originalDownloadPath": "/images/affa0eed-ymparisto-oikeus.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9716/3213/9792/tyojavirkamiesoikeus.jpg",
+      "originalDownloadPath": "/images/f555acad-tyojavirkamiesoikeus.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5116/3214/0063/immateriaalioikeus.jpg",
+      "originalDownloadPath": "/images/101c3e00-immateriaalioikeus.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7116/3214/0467/rikosoikeus.jpg",
+      "originalDownloadPath": "/images/41712eb3-rikosoikeus.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/3316/9563/9461/Kontturi-17.jpg",
+      "originalDownloadPath": "/images/f333e02b-Kontturi-17.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1016/3214/0304/julkisethankinnat.jpg",
+      "originalDownloadPath": "/images/d7d4e3f7-julkisethankinnat.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/3316/3221/3535/niina_kukkonen_1.jpg",
+      "originalDownloadPath": "/images/55fd2959-niina_kukkonen_1.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9716/3214/0387/insolvenssioikeus.jpg",
+      "originalDownloadPath": "/images/f46a0b7d-insolvenssioikeus.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/4816/3221/3681/Sovittelun_supersyksy_MUKANA_TWITTER_1024x512px_Web.png",
+      "originalDownloadPath": "/images/7a602556-Sovittelun_supersyksy_MUKANA_TWITTER_1024x512px_Web.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/6917/0636/6799/koillismaa.png",
+      "originalDownloadPath": "/images/bf3441c5-koillismaa.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2516/3221/3864/Z2A4147.jpg",
+      "originalDownloadPath": "/images/d95b82f1-Z2A4147.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9617/2646/4578/EeKoo.png",
+      "originalDownloadPath": "/images/f7e15294-EeKoo.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/4216/3221/5041/Olemme_mukana_Oikeus_jaksaa_FACEBOOK_1280x1280px_Web.png",
+      "originalDownloadPath": "/images/c1a94fe0-Olemme_mukana_Oikeus_jaksaa_FACEBOOK_1280x1280px_Web.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/4516/7143/7729/Kontturi-18.jpg",
+      "originalDownloadPath": "/images/8df8fca1-Kontturi-18.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7516/3221/4444/news-def-thumbnail.png",
+      "originalDownloadPath": "/images/2ebb6e4d-news-def-thumbnail.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/5816/9599/4956/Kontturi_Henkilosto_2022_11.png",
+      "originalDownloadPath": "/images/57968570-Kontturi_Henkilosto_2022_11.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/cache/thumbnails/80532656ea0d81b2bb21a77b5b8b2d11.jpg",
+      "originalDownloadPath": "/images/a67fcb58-80532656ea0d81b2bb21a77b5b8b2d11.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5016/9599/3777/009jpg.jpg",
+      "originalDownloadPath": "/images/94fb059f-009jpg.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1716/9563/9104/Kontturi-Valokuvat-WEB_6_of_10.jpg",
+      "originalDownloadPath": "/images/a6f48d19-Kontturi-Valokuvat-WEB_6_of_10.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2716/9599/3857/logo-gb.png",
+      "originalDownloadPath": "/images/47e79943-logo-gb.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7516/9599/3706/Kontturi_Janika-Raty_170820_003.jpg",
+      "originalDownloadPath": "/images/ddc16076-Kontturi_Janika-Raty_170820_003.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/8116/7143/7112/Nimeton_suunn.malli_2.jpg",
+      "originalDownloadPath": "/images/5f96e939-Nimeton_suunn.malli_2.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5916/7109/3823/Nimeton_suunn.malli.png",
+      "originalDownloadPath": "/images/5b4c9761-Nimeton_suunn.malli.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1416/9599/4951/Kontturi_Henkilosto_2022_10.png",
+      "originalDownloadPath": "/images/5348d864-Kontturi_Henkilosto_2022_10.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7317/0635/8214/Kontturi-Matti-WEB-NELIO.jpg",
+      "originalDownloadPath": "/images/6f99aaa9-Kontturi-Matti-WEB-NELIO.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7217/0636/0965/Kontturi-3.jpg",
+      "originalDownloadPath": "/images/e64e70cd-Kontturi-3.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1916/9599/4261/Juju-yhteistyo.jpg",
+      "originalDownloadPath": "/images/4d4a5deb-Juju-yhteistyo.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7817/0653/0796/Kontturi_Henkilosto_2022-4.png",
+      "originalDownloadPath": "/images/4a3c4ac9-Kontturi_Henkilosto_2022-4.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2216/9599/4344/003-300x300.jpg",
+      "originalDownloadPath": "/images/456d0e89-003-300x300.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/2417/1462/2095/Kontturi-Veikko-WEB-NELIO.jpg",
+      "originalDownloadPath": "/images/310316e4-Kontturi-Veikko-WEB-NELIO.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1117/0653/0795/kristiina.jpg",
+      "originalDownloadPath": "/images/85ff2f08-kristiina.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9117/0655/7811/Kontturi-Janika-WEB-NELIO.jpg",
+      "originalDownloadPath": "/images/e1f41f62-Kontturi-Janika-WEB-NELIO.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/9117/0655/7811/Kontturi-Janika-WEB-NELIO.jpg",
+      "originalDownloadPath": "/images/e1f41f62-Kontturi-Janika-WEB-NELIO.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5917/0674/1526/nimitys_matti_tolvanen.jpg",
+      "originalDownloadPath": "/images/b8b9f7a8-nimitys_matti_tolvanen.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/4917/2525/2135/ryhmakuva-banneri-UUSI-2024-Veikko.jpg",
+      "originalDownloadPath": "/images/caa0da86-ryhmakuva-banneri-UUSI-2024-Veikko.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/2417/1462/2095/Kontturi-Veikko-WEB-NELIO.jpg",
+      "originalDownloadPath": "/images/310316e4-Kontturi-Veikko-WEB-NELIO.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9817/2646/4639/eekoo_iso_logo_aok.svg",
+      "originalDownloadPath": "/images/0d36979e-eekoo_iso_logo_aok.svg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7117/1620/8014/ryhmakuva-banneri-UUSI-2024-Veikko.jpg",
+      "originalDownloadPath": "/images/15f37c92-ryhmakuva-banneri-UUSI-2024-Veikko.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9517/2621/9574/Nimeton_suunn.malli_12.jpg",
+      "originalDownloadPath": "/images/9ce21006-Nimeton_suunn.malli_12.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/5917/5096/1436/Nettisivu_Sanni.jpg",
+      "originalDownloadPath": "/images/4b7f984d-Nettisivu_Sanni.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/1316/7109/4099/Nimeton_suunn.malli_9.jpg",
+      "originalDownloadPath": "/images/6898e13d-Nimeton_suunn.malli_9.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/6817/5014/2135/s_keskimaa.svg",
+      "originalDownloadPath": "/images/7942640c-s_keskimaa.svg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7817/2649/0094/Kontturi-Henkilostovalokuvat-UUSI-3.png",
+      "originalDownloadPath": "/images/7dfd22e9-Kontturi-Henkilostovalokuvat-UUSI-3.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/thumbnails/listaus_kuva/7917/8575/2980/Klubb_Siiri.jpg",
+      "originalDownloadPath": "/images/d9b44cae-Klubb_Siiri.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/8517/7512/5713/Kontturi-8.jpg",
+      "originalDownloadPath": "/images/e5efb706-Kontturi-8.jpg"
+    },
+    {
+      "source": "https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png",
+      "originalDownloadPath": "/images/608f1f6c-1f60a.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/5517/6062/2353/Nettisivu_Janika.jpg",
+      "originalDownloadPath": "/images/a317e38d-Nettisivu_Janika.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/9517/5887/9316/Ryhmakuva_JKL_Rasmus-3-Transparent.png",
+      "originalDownloadPath": "/images/78a52d07-Ryhmakuva_JKL_Rasmus-3-Transparent.png"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/7917/8575/2980/Klubb_Siiri.jpg",
+      "originalDownloadPath": "/images/d9b44cae-Klubb_Siiri.jpg"
+    },
+    {
+      "source": "https://asianajotoimisto.com/application/files/3716/3220/7923/Kontturi_4v_28cm_logo.svg",
+      "originalDownloadPath": "/images/a6630904-Kontturi_4v_28cm_logo.svg"
+    }
+  ],
+  "sourceFailures": []
+}

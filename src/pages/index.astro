@@ -1,0 +1,14 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Icon from '../components/Icon.astro';
+import ServiceCard from '../components/ServiceCard.astro';
+import {services} from '../lib/site';
+import brand from '../data/brand.json';
+import home from '../data/home.json';
+const featured=(await services()).slice(0,3);
+---
+<Layout title="Oikeudellista apua. Ihmiseltä ihmiselle.">
+ <section class="hero"><div class="container"><div class="hero-grid"><div class="hero-copy"><span class="eyebrow">KONTTURI & CO</span><h1>{home.headline}<br/><span>{home.accent}</span></h1><p class="hero-intro">{home.introduction}</p><div class="actions"><a class="button primary" href="/ota-yhteytta">Ota yhteyttä</a><a class="button outline" href="/lakipalvelut">Tutustu palveluihin <Icon/></a></div><p class="hero-note">{home.reassurance}</p><div class="hero-locations"><a href="/toimistot/joensuu">Joensuu</a><span>·</span><a href="/toimistot/jyvaskyla">Jyväskylä</a><span>·</span><a href="/toimistot/lappeenranta">Lappeenranta</a></div></div><div class="hero-photo"><img src={brand.hero} alt="Kontturin asiantuntijat keskustelemassa saman pöydän ääressä" width="1200" height="635" fetchpriority="high"/></div></div><div class="trust-strip"><span>Osaamista Itä-Suomesta</span><span>Osa valtakunnallista <a href="https://opuslex.fi/">OpusLex</a>-verkostoa</span></div></div></section>
+ <section class="section services-section"><div class="container"><div class="section-heading center"><span class="eyebrow">LAKIPALVELUT</span><h2>Miten voimme auttaa?</h2><p>Selkeää oikeudellista apua elämäsi ja yrityksesi tärkeisiin tilanteisiin.</p></div><div class="service-grid">{featured.map(entry=><ServiceCard entry={entry} featured/>)}</div><div class="center section-action"><a class="button outline" href="/lakipalvelut">Katso kaikki lakipalvelut <Icon/></a></div></div></section>
+ <section class="why-section"><div class="container why-grid"><div class="why-intro"><span class="eyebrow">TUKENASI</span><h2>Miksi valita<br/><span>Kontturi & Co?</span></h2><p>Saat rinnallesi asiantuntijan, joka paneutuu tilanteeseesi ja auttaa eteenpäin.</p><a class="button primary" href="/ota-yhteytta">Ota yhteyttä <Icon/></a><p class="small-note">{home.reassurance}</p></div><ul class="reasons">{[['Oikea osaaminen tueksesi','Saat käyttöösi laajan joukon juridiikan erityisosaajia.'],['Asiasi hoidetaan huolella','Paneudumme tehtäväämme ammattitaitoisesti ja huolellisesti.'],['Ratkaisu sinun tilanteeseesi','Etsimme kanssasi parhaan mahdollisen tavan edetä.']].map(([title,body])=><li><div><h3>{title}</h3><p>{body}</p></div></li>)}</ul></div></section>
+</Layout>

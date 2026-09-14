@@ -1,0 +1,6 @@
+---
+import Icon from './Icon.astro';
+import {dateLabel} from '../lib/site';
+const {entry}=Astro.props;const p=entry.data;
+---
+<a class="news-card" href={p.route}>{p.image&&<div class="news-image"><img src={p.image} alt={p.imageAlt} loading="lazy" width="500" height="300"/></div>}<div class="news-body">{p.date&&<time datetime={p.date}>{dateLabel(p.date)}</time>}<h2>{p.title}</h2><p>{p.description}</p><span class="text-link">Lue uutinen <Icon/></span></div></a>

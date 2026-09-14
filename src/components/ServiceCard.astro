@@ -1,0 +1,7 @@
+---
+import Icon from './Icon.astro';
+const {entry,featured=false}=Astro.props;
+const p=entry.data;
+const Title=featured?'h3':'h2';
+---
+<a class:list={['service-card',{'featured':featured}]} href={p.route}>{p.image&&<div class="service-image"><img src={p.image} alt={p.imageAlt} loading="lazy" width="640" height="340"/></div>}<div class="service-card-body"><Title>{p.title}</Title><p>{p.description}</p><span class="text-link">Tutustu lisää <Icon/></span></div></a>

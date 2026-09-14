@@ -1,0 +1,35 @@
+---
+import Icon from './Icon.astro';
+import {offices} from '../lib/site';
+const locations=await offices();
+---
+<form class="contact-form" id="contact-form" novalidate>
+ <h2>Lähetä yhteydenottopyyntö</h2><p class="form-introduction">Kerro lyhyesti, mistä asiassa on kyse. Tähdellä merkityt kentät ovat pakollisia.</p>
+ <div class="form-grid">
+  <div class="field"><label for="name">Nimi *</label><input id="name" name="name" autocomplete="name" required maxlength="150" aria-describedby="error-name"/><span id="error-name" class="field-error"></span></div>
+  <div class="field"><label for="email">Sähköposti *</label><input id="email" name="email" type="email" autocomplete="email" required maxlength="254" aria-describedby="error-email"/><span id="error-email" class="field-error"></span></div>
+  <div class="field"><label for="phone">Puhelin</label><input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="40"/></div>
+  <div class="field"><label for="office">Toimipiste *</label><select id="office" name="office" required aria-describedby="error-office"><option value="">Valitse toimipiste</option>{locations.map(o=><option>{o.data.title}</option>)}<option>Ei väliä</option></select><span id="error-office" class="field-error"></span></div>
+  <div class="field wide"><label for="subject">Mitä yhteydenotto koskee?</label><select id="subject" name="subject"><option>Valitse aihe</option> <option>Yrityksen lakiasia</option><option>Asunto- tai kiinteistökauppa</option><option>Perhe- tai perintöasia</option><option>Työsuhdeasia</option><option>Rikosasia</option><option>Muu asia</option></select></div>
+  <div class="field wide"><label for="message">Viestisi *</label><textarea id="message" name="message" rows="6" required minlength="10" maxlength="5000" aria-describedby="error-message message-help"></textarea><span id="error-message" class="field-error"></span><p id="message-help" class="form-note">Lyhyt kuvaus riittää alkuun. Sovimme tarvittavien asiakirjojen toimittamisesta erikseen.</p></div>
+ </div>
+ <label class="checkbox-row"><input name="privacyAccepted" id="privacyAccepted" type="checkbox" required aria-describedby="error-privacyAccepted"/><span>Olen tutustunut <a href="/tietosuojaseloste" target="_blank" rel="noopener">tietosuojaselosteeseen (avautuu uuteen välilehteen)</a>. *</span></label><span id="error-privacyAccepted" class="field-error"></span>
+ <p class="form-note">Paikallinen esittely: lomakkeella ei lähetetä viestejä.</p>
+ <button class="button primary" type="submit">Lähetä yhteydenottopyyntö <Icon/></button><div class="form-result" id="form-result" role="status" aria-live="polite" tabindex="-1" hidden></div>
+</form>
+<script>
+ import {contactAdapter,validateContact,type ContactRequest} from '../lib/contact';
+ const form=document.querySelector<HTMLFormElement>('#contact-form');
+ form?.addEventListener('submit',async event=>{
+  event.preventDefault();const fields=new FormData(form);const data:ContactRequest={name:String(fields.get('name')||''),email:String(fields.get('email')||''),phone:String(fields.get('phone')||''),office:String(fields.get('office')||''),subject:String(fields.get('subject')||''),message:String(fields.get('message')||''),privacyAccepted:fields.has('privacyAccepted')};
+  form.querySelectorAll('.field-error').forEach(el=>el.textContent='');form.querySelectorAll('[aria-invalid]').forEach(el=>el.removeAttribute('aria-invalid'));
+  const result=form.querySelector<HTMLElement>('#form-result')!;result.hidden=true;const errors=validateContact(data);
+  for(const [key,message] of Object.entries(errors)){const field=form.querySelector<HTMLElement>(`#${key}`);field?.setAttribute('aria-invalid','true');form.querySelector(`#error-${key}`)!.textContent=message;}
+  const first=Object.keys(errors)[0];if(first){form.querySelector<HTMLElement>(`#${first}`)?.focus();return;}
+  const button=form.querySelector<HTMLButtonElement>('button[type="submit"]')!;button.disabled=true;
+  try {const response=await contactAdapter.submit(data);result.textContent=response.message;result.hidden=false;result.focus();}
+  catch{result.textContent='Yhteydenottopyyntöä ei voitu lähettää. Voit soittaa toimistoomme tai lähettää sähköpostia.';result.hidden=false;result.focus();}
+  finally{button.disabled=false;}
+ });
+ const selected=new URLSearchParams(location.search).get('toimisto');if(selected){const office=document.querySelector<HTMLSelectElement>('#office');if(office&&[...office.options].some(o=>o.value===selected))office.value=selected;}
+</script>

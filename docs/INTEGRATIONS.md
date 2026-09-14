@@ -1,0 +1,31 @@
+# Tuotantointegraatiot
+
+Lähdekoodin yksityinen testirepo on https://github.com/SaimaJope/kontturit-testi-2. Sivusto ja tiedostoihin tallentava Keystatic-editori käynnistyvät paikallisesti. Julkinen hosting, GitHub-kirjautumista käyttävä etäeditori ja lomakkeen viestinvälitys ovat erillisiä integraatioita.
+
+## GitHub ja julkaisu
+
+Julkaise vain `kontturi-web`-projektin sisältö. `.gitignore` sulkee pois riippuvuudet, käännöksen, kehitysvälimuistit ja ympäristötiedostot. Älä lisää ylemmän kansion sähköposteja, PDF-liitteitä tai tutkimusaineistoa.
+
+Staattinen julkaisu käyttää komentoja `npm ci`, `npm run check`, `npm test`, `npm run build` ja `npm run verify`. Julkaisukansio on `dist`. Käytä Node 24:ää. Palvelimen tulee tukea hakemistojen `index.html`-tiedostoja ja palauttaa puuttuvalle polulle `404.html` HTTP-tilalla 404.
+
+`SITE_ORIGIN` määrää kanonisen pääosoitteen ja sivukartan alkuperän. Kopioi tarvittaessa `.env.example` tiedostoksi `.env`. `PUBLIC_INDEXABLE=false` estää indeksoinnin sekä metatiedolla että robots.txt-tiedostolla. Vasta tuotannon julkaisuun asetetaan `PUBLIC_INDEXABLE=true` ja rakennetaan sivusto uudelleen. Paikallisen/staging-version asetusta ei vaihdeta vahingossa tuotantoon.
+
+Nykyinen www.kontturi.fi ohjasi inventointipäivänä asianajotoimisto.com-osoitteeseen. Lopullinen pääverkkotunnus valitaan julkaisussa. Vanhat sivupolut säilyvät manifestin mukaisesti. Vanhojen uutislistausten `ccm_paging_p=2–4` ohjaus toimii selaimessa; hostingissa on hyvä tehdä vastaava pysyvä HTTP-ohjaus `/uutiset/sivu/2–4`-osoitteisiin. Palvelukohtaiset lisäverkkotunnukset voidaan ohjata suoraan vastaavaan palvelusivuun.
+
+## GitHub-pohjainen sisällönhallinta
+
+Nykyinen Keystatic on `storage: { kind: 'local' }`. Se on tarkoitettu paikalliseen, luotettuun työasemaan ja tallentaa levylle. `/keystatic` ja `/api/keystatic` eivät sisälly staattiseen tuotantokäännökseen.
+
+Etämuokkausta varten vaihdetaan Keystaticin tallennustavaksi GitHub, määritellään oikea repository ja GitHub App sekä palvelinpuolen tunnisteet. Editorille tarvitaan erillinen autentikoitu palvelinympäristö tai palvelinrenderöinnin adapteri; pelkkä staattinen hosting ei tarjoa GitHub OAuth -callbackeja. Salaisuudet asetetaan hostingin ympäristömuuttujiin. Julkinen sivusto voi edelleen olla staattinen ja rakentua sisältöcommitista.
+
+Tarkista toteutushetkellä [Keystaticin GitHub-ohje](https://keystatic.com/docs/github-mode) ja [Astro-integraatio](https://keystatic.com/docs/installation-astro). Älä paljasta paikallisen editorin API:a verkkoon.
+
+## Yhteydenottolomake
+
+`ContactAdapter.submit(ContactRequest)` palauttaa joko `local`- tai `sent`-tuloksen. Nykyinen adapteri ei tee verkkopyyntöä eikä tallenna viestin sisältöä. Lomakkeesta näkyy tämä sekä ennen lähetystä että sen jälkeen.
+
+Tuotannossa korvaa adapteri palvelinendpointia kutsuvalla toteutuksella. Endpoint tarkistaa kentät uudelleen, rajoittaa pyyntötiheyttä, käsittelee roskapostin ja lähettää viestin sovittuun toimiston osoitteeseen. Salaiset tunnisteet kuuluvat palvelimelle. Onnistuminen näytetään vain palvelimen vahvistaman toimituksen jälkeen. Toteuta virhe- ja aikakatkaisutilat sekä toimiston hyväksymä tietojen käsittely; sen jälkeen päivitä paikallisuudesta kertova lomaketeksti. Älä testaa toimitusta oikeilla asiakastiedoilla.
+
+## Analytiikka ja tietosuoja
+
+Sivusto ei lataa ulkoisia fontteja, upotuksia tai analytiikkaa eikä aseta analytiikkaevästeitä. Julkaistun tietosuojaselosteen alkuperäinen sisältö ja päivityspäivä on säilytetty. Jos käsittely, analytiikka tai palveluntarjoajat muuttuvat, päivitä tiedot todellisen tuotantototeutuksen mukaisiksi.

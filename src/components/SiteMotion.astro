@@ -1,0 +1,41 @@
+<div class="page-loading" hidden aria-hidden="true"><span></span></div>
+<script is:inline>
+  (() => {
+    const indicator = document.querySelector('.page-loading');
+    const preference = matchMedia('(prefers-reduced-motion: reduce)');
+    if (!indicator || preference.matches) return;
+    indicator.hidden = false;
+    let finished = false;
+    const finish = () => {
+      if (finished) return;
+      finished = true;
+      indicator.classList.add('is-finished');
+      setTimeout(() => { indicator.hidden = true; }, 180);
+    };
+    if (document.readyState === 'complete') finish();
+    else window.addEventListener('load', finish, { once: true });
+    window.addEventListener('pageshow', (event) => { if (event.persisted) finish(); });
+    preference.addEventListener('change', () => { if (preference.matches) finish(); });
+    setTimeout(finish, 1200);
+  })();
+</script>
+
+<style is:global>
+  .page-loading{position:fixed;inset:0 0 auto;height:2px;z-index:90;pointer-events:none;overflow:hidden;opacity:1;transition:opacity 180ms ease;animation:loading-failsafe 0s 1.5s forwards}
+  .page-loading span{display:block;width:40%;height:100%;background:linear-gradient(90deg,transparent,#0569b5 35%,#0569b5 70%,transparent);animation:loading-sweep 850ms ease-in-out infinite}
+  .page-loading.is-finished{opacity:0}
+  @keyframes loading-sweep{from{transform:translateX(-100%)}to{transform:translateX(350%)}}
+  @keyframes loading-failsafe{to{visibility:hidden}}
+  @media(prefers-reduced-motion:no-preference){
+    .button .icon{transition:transform 180ms ease}
+    @media(hover:hover){
+      .button:hover .icon{transform:translateX(3px)}
+      .button.primary:hover{box-shadow:0 3px 10px #0569b51a}
+    }
+  }
+  @media(prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto!important}
+    *,*::before,*::after{animation:none!important;transition:none!important}
+    .page-loading{display:none!important}
+  }
+</style>
