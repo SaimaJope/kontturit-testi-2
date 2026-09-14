@@ -67,5 +67,6 @@ const pageTitle=route==='/ota-yhteytta'?'Ota yhteyttä':route==='/asiantuntijat'
 </Layout>
 <script>
  const legacyPage=new URLSearchParams(location.search).get('ccm_paging_p');
- if(location.pathname.replace(/\/$/,'')==='/uutiset'&&legacyPage&&/^[2-4]$/.test(legacyPage))location.replace(`/uutiset/sivu/${legacyPage}`);
+ const base=import.meta.env.BASE_URL.replace(/\/$/,'');
+ if(location.pathname.replace(/\/$/,'')===`${base}/uutiset`&&legacyPage&&/^[2-4]$/.test(legacyPage))location.replace(`${base}/uutiset/sivu/${legacyPage}`);
 </script>

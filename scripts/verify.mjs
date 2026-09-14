@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { load } from 'cheerio';
 const failures=[];const warnings=[];const htmlFiles=[];
+const base=(process.env.SITE_BASE_PATH||'').replace(/\/$/,'');
 async function walk(dir){for(const e of await fs.readdir(dir,{withFileTypes:true})){const p=path.join(dir,e.name);if(e.isDirectory())await walk(p);else if(e.name.endsWith('.html'))htmlFiles.push(p);}}
 await walk('dist');
 const routeOf=file=>'/'+path.relative('dist',file).replaceAll('\\','/').replace(/index\.html$/,'').replace(/\/$/,'');
@@ -22,7 +23,9 @@ for(const file of htmlFiles){
    if(visible.length>=7&&normalize(visible)!==normalize(target))warnings.push({route,problem:'Phone label/target mismatch',visible,target});
   }
   if(!value.startsWith('/'))continue;
-  const u=new URL(value,'http://local');const dest=decodeURIComponent(u.pathname);
+  const u=new URL(value,'http://local');
+  if(base && u.pathname!==base && !u.pathname.startsWith(base+'/'))failures.push({route,problem:'Destination missing deployment base',value});
+  const dest=decodeURIComponent(base && (u.pathname===base || u.pathname.startsWith(base+'/')) ? u.pathname.slice(base.length)||'/' : u.pathname);
   const valid=await exists(path.join('dist',dest))||await exists(path.join('dist',dest,'index.html'));
   if(!valid)failures.push({route,problem:'Broken local destination',value});
  }
