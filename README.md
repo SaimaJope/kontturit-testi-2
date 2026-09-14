@@ -1,6 +1,6 @@
-# Kontturi & Co — paikallinen verkkosivusto
+# Kontturi & Co — testisivusto
 
-Suomenkielinen Astro-sivusto ja tiedostoihin tallentava Keystatic-editori. Lähdekoodin GitHub-repo: https://github.com/SaimaJope/kontturit-testi-2. GitHub-repo ei itsessään julkaise sivustoa tai käynnistä editoripalvelinta.
+Suomenkielinen Astro-sivusto ja tiedostoihin tallentava Keystatic-editori. Lähdekoodin GitHub-repo: https://github.com/SaimaJope/kontturit-testi-2. Julkinen testisivusto: https://saimajope.github.io/kontturit-testi-2/. Main-haaran muutokset tarkistetaan ja julkaistaan automaattisesti GitHub Actionsilla. Paikallinen editori käynnistetään erikseen alla olevilla ohjeilla.
 
 ## Käynnistä tällä tietokoneella
 

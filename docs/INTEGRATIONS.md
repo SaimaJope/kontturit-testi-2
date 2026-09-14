@@ -1,8 +1,8 @@
 # Tuotantointegraatiot
 
-Lähdekoodin yksityinen testirepo on https://github.com/SaimaJope/kontturit-testi-2. Sivusto ja tiedostoihin tallentava Keystatic-editori käynnistyvät paikallisesti. Julkinen hosting, GitHub-kirjautumista käyttävä etäeditori ja lomakkeen viestinvälitys ovat erillisiä integraatioita.
+Julkinen testirepo on https://github.com/SaimaJope/kontturit-testi-2. Testisivusto on https://saimajope.github.io/kontturit-testi-2/. Main-haaran muutokset julkaistaan GitHub Actionsilla. Keystatic toimii vielä paikallisesti; etäeditorin käyttöönotto ja lomakkeen viestinvälitys ovat erillisiä integraatioita.
 
-## GitHub ja julkaisu
+## GitHub Pages ja julkaisu
 
 Julkaise vain `kontturi-web`-projektin sisältö. `.gitignore` sulkee pois riippuvuudet, käännöksen, kehitysvälimuistit ja ympäristötiedostot. Älä lisää ylemmän kansion sähköposteja, PDF-liitteitä tai tutkimusaineistoa.
 
@@ -29,3 +29,5 @@ Tuotannossa korvaa adapteri palvelinendpointia kutsuvalla toteutuksella. Endpoin
 ## Analytiikka ja tietosuoja
 
 Sivusto ei lataa ulkoisia fontteja, upotuksia tai analytiikkaa eikä aseta analytiikkaevästeitä. Julkaistun tietosuojaselosteen alkuperäinen sisältö ja päivityspäivä on säilytetty. Jos käsittely, analytiikka tai palveluntarjoajat muuttuvat, päivitä tiedot todellisen tuotantototeutuksen mukaisiksi.
+
+GitHub Pages -julkaisu käyttää asetuksia SITE_ORIGIN=https://saimajope.github.io ja SITE_BASE_PATH=/kontturit-testi-2. Rakennus lisää projektipolun sisäisiin linkkeihin, kuviin ja hakukonemetatietoihin muuttamatta lähdesisältöjen alkuperäisiä osoitteita. Paikallisesti SITE_BASE_PATH jätetään tyhjäksi. Testisivuston indeksointi pysyy estettynä.
