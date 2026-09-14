@@ -1,0 +1,30 @@
+---
+import CloudEditor from './CloudEditor';
+export function getStaticPaths() {
+  return [{params:{params:undefined}},{params:{params:'cloud/oauth/callback'}}];
+}
+const editorBase = import.meta.env.BASE_URL.replace(/\/$/,'')+'/keystatic';
+---
+<!doctype html>
+<html lang="fi" data-cloud-editor>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="Kontturin testisivuston sisällönhallinta. Kirjaudu muokkaamaan uutisia ja sivuston sisältöä." />
+    <title>Sisällönhallinta | Kontturi & Co</title>
+  </head>
+  <body data-editor-base={editorBase}>
+    <script is:inline>
+      const requestedPath = new URLSearchParams(location.search).get('editorPath');
+      if (requestedPath) {
+        const destination = new URL(requestedPath, location.origin);
+        if (destination.origin === location.origin && destination.pathname.startsWith(document.body.dataset.editorBase + '/')) {
+          history.replaceState(null, '', destination.pathname + destination.search + destination.hash);
+        }
+      }
+    </script>
+    <CloudEditor client:only="react" />
+    <noscript>Sisällönhallinta tarvitsee JavaScriptin. Ota JavaScript käyttöön selaimen asetuksista.</noscript>
+  </body>
+</html>

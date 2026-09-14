@@ -15,6 +15,7 @@ jobs:
       SITE_ORIGIN: https://saimajope.github.io
       SITE_BASE_PATH: /kontturit-testi-2
       PUBLIC_INDEXABLE: 'false'
+      PUBLIC_KEYSTATIC_CLOUD_PROJECT: ${{ vars.KEYSTATIC_CLOUD_PROJECT }}
       ASTRO_TELEMETRY_DISABLED: '1'
     steps:
       - uses: actions/checkout@v4

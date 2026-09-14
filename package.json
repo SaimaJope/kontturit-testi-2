@@ -9,7 +9,7 @@
     "preview": "astro preview --host 127.0.0.1",
     "check": "astro check",
     "verify": "node scripts/verify.mjs",
-    "test": "node --experimental-strip-types scripts/test-contact.mjs"
+    "test": "node --experimental-strip-types scripts/test-contact.mjs && node scripts/test-editor-base.mjs"
   },
   "dependencies": {
     "astro": "7.3.2",

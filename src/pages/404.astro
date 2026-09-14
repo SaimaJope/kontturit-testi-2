@@ -1,5 +1,11 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Icon from '../components/Icon.astro';
+const editorBase = import.meta.env.BASE_URL.replace(/\/$/,'')+'/keystatic';
 ---
+{import.meta.env.PUBLIC_KEYSTATIC_CLOUD_PROJECT && <script is:inline define:vars={{editorBase}}>
+  if (location.pathname.startsWith(editorBase + '/')) {
+    location.replace(editorBase + '/?editorPath=' + encodeURIComponent(location.pathname + location.search + location.hash));
+  }
+</script>}
 <Layout title="Sivua ei löytynyt" description="Hakemaasi sivua ei löytynyt. Palaa Kontturin etusivulle, tutustu lakipalveluihin tai ota yhteyttä." noIndex><section class="section"><div class="container"><span class="eyebrow">404 · SIVUA EI LÖYTYNYT</span><h1>Etsitään oikea suunta.</h1><p class="lead" style="margin:24px 0 30px;max-width:600px">Hakemaasi sivua ei löydy tästä osoitteesta. Löydät palvelumme etusivulta tai voit ottaa suoraan yhteyttä.</p><div class="actions"><a class="button primary" href="/">Etusivulle <Icon/></a><a class="button outline" href="/ota-yhteytta">Ota yhteyttä</a></div></div></section></Layout>

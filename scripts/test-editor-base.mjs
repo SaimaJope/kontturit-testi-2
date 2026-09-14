@@ -1,0 +1,22 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import { editorBasePlugin } from './cloud-editor.mjs';
+
+const plugin = editorBasePlugin('/kontturit-testi-2');
+plugin.buildStart();
+const folder = 'node_modules/@keystatic/core/dist';
+const routerFile = fs.readdirSync(folder).find(name => name.endsWith('.js') && fs.readFileSync(`${folder}/${name}`, 'utf8').includes('function RouterProvider('));
+assert.ok(routerFile, 'Keystatic client router must be available for compatibility checks');
+const id = `${folder}/${routerFile}`;
+const original = fs.readFileSync(id, 'utf8');
+const result = plugin.transform(original, '/project/'+id).code;
+assert.ok(result.includes('startsWith("/kontturit-testi-2/keystatic")'));
+assert.ok(result.includes('${window.location.origin}/kontturit-testi-2/keystatic/cloud/oauth/callback'));
+assert.ok(result.includes("basePath: '/kontturit-testi-2/keystatic'"));
+assert.ok(!result.includes('pathname.replace(/^\\/keystatic'));
+assert.equal(plugin.transform(original,'/project/src/unrelated.js'), undefined);
+const regexText = result.match(/pathname\.replace\((\/.*?\/), ""\)/)[1];
+const routerRegex = new Function('return '+regexText)();
+assert.equal('/kontturit-testi-2/keystatic/branch/main/collection/news'.replace(routerRegex,''),'branch/main/collection/news');
+assert.ok(result.includes('https://keystatic.cloud/'));
+console.log('Keystatic project-path and OAuth callback compatibility checks passed.');
