@@ -1,6 +1,6 @@
 # Tuotantointegraatiot
 
-Julkinen testirepo on https://github.com/SaimaJope/kontturit-testi-2. Testisivusto on https://saimajope.github.io/kontturit-testi-2/. Main-haaran muutokset julkaistaan GitHub Actionsilla. Keystatic toimii vielä paikallisesti; etäeditorin käyttöönotto ja lomakkeen viestinvälitys ovat erillisiä integraatioita.
+Julkinen testirepo on https://github.com/SaimaJope/kontturit-testi-2. Testisivusto on https://saimajope.github.io/kontturit-testi-2/. Main-haaran muutokset julkaistaan GitHub Actionsilla. Keystatic toimii paikallisesti sekä verkossa Cloud-kirjautumisella. Uutisen verkkotallennus ja automaattinen julkaisu on testattu. Lomakkeen viestinvälitys on edelleen erillinen integraatio.
 
 ## GitHub Pages ja julkaisu
 
@@ -14,9 +14,9 @@ Nykyinen www.kontturi.fi ohjasi inventointipäivänä asianajotoimisto.com-osoit
 
 ## GitHub-pohjainen sisällönhallinta
 
-Nykyinen Keystatic on `storage: { kind: 'local' }`. Se on tarkoitettu paikalliseen, luotettuun työasemaan ja tallentaa levylle. `/keystatic` ja `/api/keystatic` eivät sisälly staattiseen tuotantokäännökseen.
+Paikallinen Keystatic käyttää määritystä `storage: { kind: 'local' }`. Se on tarkoitettu paikalliseen, luotettuun työasemaan ja tallentaa levylle. `/api/keystatic` ei sisälly staattiseen tuotantokäännökseen. Julkisen `/keystatic`-editorin tallennustapa on erikseen `cloud`.
 
-Etämuokkausta varten vaihdetaan Keystaticin tallennustavaksi GitHub, määritellään oikea repository ja GitHub App sekä palvelinpuolen tunnisteet. Editorille tarvitaan erillinen autentikoitu palvelinympäristö tai palvelinrenderöinnin adapteri; pelkkä staattinen hosting ei tarjoa GitHub OAuth -callbackeja. Salaisuudet asetetaan hostingin ympäristömuuttujiin. Julkinen sivusto voi edelleen olla staattinen ja rakentua sisältöcommitista.
+Etämuokkaukseen on toteutettu erillinen Keystatic Cloud -määritys. Sen staattinen editori julkaistaan samalla GitHub Pages -sivustolla; Keystatic Cloud hoitaa kirjautumisen ja valtuutetut GitHub-tallennukset. Julkiseen sivustoon ei lisätä palvelinsalaisuuksia. Käyttöönoton tila ja julkaisumuuttuja on kuvattu tiedostossa [EDITOR-CLOUD.md](EDITOR-CLOUD.md).
 
 Tarkista toteutushetkellä [Keystaticin GitHub-ohje](https://keystatic.com/docs/github-mode) ja [Astro-integraatio](https://keystatic.com/docs/installation-astro). Älä paljasta paikallisen editorin API:a verkkoon.
 

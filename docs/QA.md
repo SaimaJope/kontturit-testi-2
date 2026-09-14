@@ -39,4 +39,14 @@
 
 `SITE_ORIGIN` ja `PUBLIC_INDEXABLE=true` testattiin erillisellä paikallisella käännöksellä. Kanoniset osoitteet, sivukartta ja robots.txt muuttuvat asetuksen mukaan; 404 pysyy indeksoinnin ulkopuolella. Luovutettava käännös rakennettiin tämän jälkeen takaisin asetuksella `PUBLIC_INDEXABLE=false`.
 
-Tuotannon viestinvälitys, hosting ja GitHub-pohjainen etämuokkaus ovat sovitusti myöhempiä integraatioita. Lähdeaineiston historialliset ja epävarmat tiedot on eroteltu tiedostoon `SOURCE-NOTES.md`.
+Tuotannon viestinvälitys on myöhempi integraatio. Testisivuston hosting ja etämuokkaus on sittemmin toteutettu alla kuvatusti. Lähdeaineiston historialliset ja epävarmat tiedot on eroteltu tiedostoon `SOURCE-NOTES.md`.
+
+## GitHub Pages ja verkkoeditori, 14.9.2026
+
+- Keystatic Cloud yhdistetty vain testirepoon. Omistajan kirjautuminen julkisessa Pages-editorissa onnistui.
+- Julkisella editorilla muutettiin Lappeenrannan toimiston avausuutisen lyhyttä kuvausta. Cloud loi commitin `56a0545c8bd8774b03bcc85f35c4000ba4c7959e`; diff sisälsi vain kuvauksen muutoksen.
+- Commit käynnisti Actions-ajon `34889733333`, jonka build ja deploy onnistuivat. CI suoritti tyyppitarkistuksen, testit, käännöksen ja staattisen sivuston tarkistuksen.
+- Julkiselta uutiselta tarkistettiin uusi kuvaus, alkuperäinen päivämäärä 2.9.2024 ja onnistuneesti latautuva alkuperäinen kuva. Päivitys tuotiin myös paikalliseen projektiin Git-päivityksellä.
+- Uutisen suora editorilinkki ladattiin uudelleen: kirjautuminen ja tallennettu kuvaus säilyivät.
+- Ensimmäisessä kirjautumistestissä löytynyt Pagesin loppuvinoviivan reititysongelma korjattiin. Automaattiset testit kattavat OAuth-paluuosoitteen kyselyparametrien säilymisen, syvän uutislinkin palautuksen ja vieraan alkuperän hylkäämisen.
+- Cloudin käyttöönotossa esiintyi väliaikaisia palvelinvirheitä ja viiveitä; lopullinen kirjautumis- ja tallennusketju onnistui. Kokeilijoiden kutsut odottavat heidän vahvistettuja sähköpostiosoitteitaan.

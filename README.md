@@ -14,6 +14,8 @@ Palvelin on sidottu vain tämän tietokoneen osoitteeseen 127.0.0.1. Verkkoyhtey
 
 ## Sisällön muokkaaminen
 
+Verkossa: [avaa sisällönhallinta](https://saimajope.github.io/kontturit-testi-2/keystatic/). Keystatic Cloud -työtilaan kutsutut käyttäjät voivat muokata sisältöä omilla tunnuksillaan. Tallennus päivittää GitHub-repon ja käynnistää sivuston julkaisun. Ohje ja asetukset: [docs/EDITOR-CLOUD.md](docs/EDITOR-CLOUD.md).
+
 1. Avaa sisällönhallinta ja valitse **Uutiset**, **Lakipalvelut**, **Asiantuntijat ja henkilökunta**, **Toimipisteet** tai **Muut sivut**.
 2. Avaa sivu. Muuta tekstiä, kuvaa tai yhteystietoja. Kuvan voi valita omalta tietokoneelta. Kuvan kuvaus kertoo kuvan sisällön ruudunlukijalle.
 3. Paina editorin **Tallentaa**-painiketta. Keystaticin suomennoksessa painikkeen nimi on tällä hetkellä tämä.
@@ -37,7 +39,7 @@ npm run verify
 npm run preview
 ```
 
-Astro 7 käynnistää kehityspalvelimen taustalle. Sen tila, lokit ja lopetus: `npx astro dev status`, `npx astro dev logs`, `npx astro dev stop`. Tarkistettu julkinen staattinen sivusto syntyy `dist`-kansioon. Editorireittejä ei rakenneta sinne. Kehitys- ja tuotantokäännöksillä on erilliset Vite-välimuistit.
+Astro 7 käynnistää kehityspalvelimen taustalle. Sen tila, lokit ja lopetus: `npx astro dev status`, `npx astro dev logs`, `npx astro dev stop`. Tarkistettu julkinen staattinen sivusto syntyy `dist`-kansioon. Paikallisen editorin API ei sisälly julkaisuun. Cloud-editorin staattiset reitit rakennetaan vain, kun `PUBLIC_KEYSTATIC_CLOUD_PROJECT` on asetettu. Kehitys- ja tuotantokäännöksillä on erilliset Vite-välimuistit.
 
 `src/content` sisältää rakenteisen sisällön, `public/images` paikalliset kuvat, `src/styles/global.css` yhteiset tyylit ja värit. `src/pages/[...path].astro` käyttää yhteisiä sivupohjia. `package-lock.json` lukitsee asennetut riippuvuudet. Sähköpostit, brändiohjeen PDF ja tutkimusaineisto ovat tämän projektin ulkopuolella.
 
