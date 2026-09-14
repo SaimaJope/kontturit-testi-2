@@ -50,3 +50,14 @@ Tuotannon viestinvälitys on myöhempi integraatio. Testisivuston hosting ja et�
 - Uutisen suora editorilinkki ladattiin uudelleen: kirjautuminen ja tallennettu kuvaus säilyivät.
 - Ensimmäisessä kirjautumistestissä löytynyt Pagesin loppuvinoviivan reititysongelma korjattiin. Automaattiset testit kattavat OAuth-paluuosoitteen kyselyparametrien säilymisen, syvän uutislinkin palautuksen ja vieraan alkuperän hylkäämisen.
 - Cloudin käyttöönotossa esiintyi väliaikaisia palvelinvirheitä ja viiveitä; lopullinen kirjautumis- ja tallennusketju onnistui. Kokeilijoiden kutsut odottavat heidän vahvistettuja sähköpostiosoitteitaan.
+
+## Kontturi-editori ja PIN-lukko, 14.9.2026
+
+- Oma Kontturi-aloitussivu, paikallinen Montserrat, aito logo ja brändin värit tarkistettu selaimessa. Uutislistan otsikot, suomalaiset päivämäärät, uusimmat ensin -järjestys ja otsikkohaku toimivat.
+- Väärä PIN näyttää virheen ja säilyttää kohdistuksen kentässä. 4444 avaa editorin. Suora uutislinkki uudessa välilehdessä kysyy myös PIN-koodin. Cloud-kirjautuminen on edelleen erillinen tallennuksen edellytys.
+- Keskeneräinen uutisen muutos säilyi Lukitse → PIN → avaus -kokeessa. Lukittu editori ei näkynyt saavutettavuuspuussa.
+- Uudistetulla lomakkeella tallennettu uutismuutos syntyi GitHubiin commitilla `dbc75112db117c71754a2d6dcd7e96aa4bb063b8`. Kuva, julkaisupäivä, lähdetieto, sisältö ja olemassa oleva URL säilyivät; metatietojen järjestys muuttui uuden kenttäjärjestyksen mukaisesti.
+- Tyhjän uuden uutisen otsikko esti julkaisun. Ääkkösotsikko muodosti `/uutiset/aakkosten-testaus-jyvaskyla`-osoitteen automaattisesti. Testiluonnos tyhjennettiin julkaisematta.
+- Uutislomake tarkistettiin 390 × 844 -näkymässä: dokumentin leveys 390 px, ei vaakaylivuotoa. Mobiilivalikko sulkeutui Escapella. Työpöytänäkymän listan sarakkeet ja lomakkeen asettelu tarkistettu.
+- Tyyppitarkistus: 32 tiedostoa, ei virheitä, varoituksia tai vihjeitä. Kontaktiadapterin, reittien, PIN-syötteiden, suomenkielisten osoitteiden ja Keystatic-sovituksen automaattiset testit läpäisty. Staattinen käännös sisältää 123 julkista sivua ja kaksi editorin sisääntulosivua.
+- Selainkonsolissa ei ollut virheitä lopullisessa testieditorissa. Keystaticin ulkoinen fonttipyyntö on poistettu; editorin Montserrat tulee paikallisesta paketista.

@@ -1,9 +1,11 @@
 ---
 import CloudEditor from './CloudEditor';
+import { getCollection } from 'astro:content';
 export function getStaticPaths() {
   return [{params:{params:undefined}},{params:{params:'cloud/oauth/callback'}}];
 }
 const editorBase = import.meta.env.BASE_URL.replace(/\/$/,'')+'/keystatic';
+const articles = (await getCollection('news')).sort((a,b) => new Date(b.data.date || 0).getTime() - new Date(a.data.date || 0).getTime()).slice(0,3).map(item => ({id: item.id, title: item.data.title, date: new Date(item.data.date || 0).toLocaleDateString('fi-FI'), image: item.data.image}));
 ---
 <!doctype html>
 <html lang="fi" data-cloud-editor>
@@ -29,7 +31,7 @@ const editorBase = import.meta.env.BASE_URL.replace(/\/$/,'')+'/keystatic';
         history.replaceState(null, '', location.pathname.replace(/\/+$/, '') + location.search + location.hash);
       }
     </script>
-    <CloudEditor client:only="react" />
+    <CloudEditor articles={articles} client:only="react" />
     <noscript>Sisällönhallinta tarvitsee JavaScriptin. Ota JavaScript käyttöön selaimen asetuksista.</noscript>
   </body>
 </html>

@@ -13,10 +13,18 @@ Muiden kokeilijoiden kutsut odottavat heidän sähköpostiosoitteitaan. Pelkkä 
 ## Uutisen muokkaaminen
 
 1. Avaa [sisällönhallinta](https://saimajope.github.io/kontturit-testi-2/keystatic/) tai sivuston alatunnisteen **Muokkaa sivustoa** -linkki.
-2. Kirjaudu omalla Keystatic Cloud -tunnuksellasi. Tunnuksen pitää kuulua Kontturi testi -työtilaan.
-3. Valitse **Uutiset** ja avaa muokattava uutinen. Muuta otsikkoa, lyhyttä kuvausta tai sisältöä. Säilytä olemassa olevan uutisen tiedoston tunniste ja sivun osoite.
-4. Tallenna **Tallentaa**-painikkeella (Keystaticin nykyinen suomennos). Muutos tallentuu GitHubiin ja käynnistää sivuston julkaisun. Sivusto näyttää muutoksen onnistuneen julkaisun jälkeen, yleensä muutamassa minuutissa.
+2. Avaa ruutulukko PIN-koodilla **4444**. Valitse aloitussivulta uutinen tai **Kirjoita uutinen**. Kirjaudu tarvittaessa omalla Keystatic Cloud -tunnuksellasi. Tunnuksen pitää kuulua Kontturi testi -työtilaan.
+3. Muuta otsikkoa, lyhyttä esittelyä, kuvaa tai sisältöä. Uutislistassa on otsikkohaku ja päivämääräjärjestys, uusimmat ensin. Uuden uutisen tunniste ja osoite muodostuvat otsikosta; olemassa olevan uutisen tunniste ja osoite säilyvät automaattisesti.
+4. Paina **Tallenna**, tai uuden uutisen kohdalla **Julkaise**. Muutos tallentuu GitHubiin ja käynnistää sivuston julkaisun. Sivusto näyttää muutoksen onnistuneen julkaisun jälkeen, yleensä muutamassa minuutissa.
 5. Avaa uutinen julkisella sivustolla ja päivitä sivu. Muutokset eivät siirry omaan paikalliseen projektikansioon automaattisesti.
+
+## PIN ja brändätty käyttöliittymä
+
+PIN **4444** on käyttäjän pyytämä selaimen ruutulukko, ei palvelinpuolen pääsynvalvonta. Julkisen Pages-julkaisun lähdekoodi on luettavissa. Varsinaiset kirjoitusoikeudet tarkistaa edelleen Keystatic Cloud; PIN ei anna oikeutta tallentaa eikä kirjautumistunnuksia jaeta.
+
+PIN avaa editorin kyseisen välilehden istunnossa. **Lukitse** palauttaa PIN-näkymän ja piilottaa editorin myös saavutettavuuspuusta. Keskeneräinen muokkaus säilyy muistissa lukitsemisen ajan. Välilehden sulkeminen päättää PIN-istunnon. Pilvikirjautumisesta voi erikseen kirjautua ulos editorin käyttäjävalikosta.
+
+Kontturi-ilme, paikallinen Montserrat-fontti, aloitussivu ja uutiskentät ovat `src/editor`-kansiossa. Uutiset näytetään ihmisille luettavilla otsikoilla. `editorUiPlugin` sovittaa lukitun Keystatic-version suomennokset, vaalean teeman, sarakkeet, otsikkohaun ja reittitapahtuman rakennusaikana. Paikallisen kehityseditorin asetukset säilyvät alkuperäisinä.
 
 ## Aktivointi
 

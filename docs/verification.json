@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-14T19:20:24.099Z",
+  "checkedAt": "2026-09-14T20:31:35.033Z",
   "pages": 123,
   "migrated": 115,
   "failures": [],
@@ -414,7 +414,7 @@
       "title": "Uutiset | Kontturi & Co",
       "description": "03.08.2026",
       "date": "2026-08-03",
-      "mainCharacters": 1930,
+      "mainCharacters": 1935,
       "images": 9
     },
     {
@@ -468,7 +468,7 @@
     {
       "route": "/uutiset/lappeenrannan-toimisto-avattu",
       "title": "Lappeenrannan toimisto on avattu | Kontturi & Co",
-      "description": "2.9.2024 – Kontturi & Co avasi toimiston Lappeenrantaan syyskuussa 2024. Toimistomme palvelee Karjalankulmassa osoitteessa Oksasenkatu 8 B.",
+      "description": "2.9.2024 – Kontturi & Co avasi Lappeenrannan toimistonsa syyskuussa 2024. Palvelemme asiakkaitamme Karjalankulmassa osoitteessa Oksasenkatu 8 B.",
       "date": "2024-09-02",
       "mainCharacters": 1834,
       "images": 4
