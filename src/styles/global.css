@@ -36,3 +36,12 @@
  @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
  @media print{.site-header,.site-footer,.contact-band,.skip-link,.actions{display:none}.container{width:100%}body{font-size:11pt}a{text-decoration:underline}.section,.content-section{padding:12pt 0}}
 }
+@layer components {
+ .site-footer{background:var(--ink)}
+ .footer-duty,.footer-bottom{border-color:#ffffff44}
+ .footer-links{font-size:.8rem}
+ .site-footer .footer-name{max-width:540px}
+}
+
+.service-list{display:flex;flex-direction:column;gap:18px}.service-row{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:center;border:1px solid var(--line);border-radius:var(--radius);background:var(--pale);padding:26px 30px}.service-row h2{font-size:clamp(1.25rem,2vw,1.7rem);letter-spacing:-.04em;margin-bottom:10px}.service-row h2 a:hover{color:var(--blue)}.service-row p{line-height:1.55;margin-bottom:14px}.service-row-people{display:flex;flex-wrap:wrap;gap:10px;align-items:center}.service-row-label{flex-basis:100%;font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.person-chip{display:inline-flex;align-items:center;gap:10px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:5px 16px 5px 5px;font-size:.92rem}.person-chip img{width:40px;height:40px;border-radius:50%;object-fit:cover;object-position:top}.person-chip:hover{border-color:var(--blue);color:var(--blue)}@media(max-width:900px){.service-row{grid-template-columns:1fr;gap:18px;padding:22px}}
+.service-row>*{min-width:0}.person-chip{max-width:100%}
